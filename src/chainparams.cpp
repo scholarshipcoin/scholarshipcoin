@@ -123,9 +123,9 @@ public:
         vSeeds.emplace_back("149.248.56.238");
         vSeeds.emplace_back("155.138.159.214");
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63); // S
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,63); // S
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,63);// S
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,125); // s
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,100); // h
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,63); // S
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
@@ -217,9 +217,9 @@ public:
         vSeeds.emplace_back("155.138.159.214");
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,125); // s
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,125); // s
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,125);// s
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,87);  // c
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,117); // p
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,125);// t
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
