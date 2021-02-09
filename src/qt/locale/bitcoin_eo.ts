@@ -30,10 +30,6 @@
         <translation>Forigi la elektitan adreson el la listo</translation>
     </message>
     <message>
-        <source>Enter address or label to search</source>
-        <translation>Tajpu adreson aŭ etikedon por serĉi</translation>
-    </message>
-    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Eksporti la datumojn el la aktuala langeto al dosiero</translation>
     </message>
@@ -66,12 +62,12 @@
         <translation>Ricevaj adresoj</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Jen viaj Scholarship-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Jen viaj Scholarshipcoin-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Jen viaj scholarshipj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Jen viaj scholarshipcoinj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,10 +132,6 @@
         <translation>Ripetu la novan pasfrazon</translation>
     </message>
     <message>
-        <source>Show password</source>
-        <translation>Montru pasvorton</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Enigu novan pasfrazon por la monujo.&lt;br/&gt;Bonvolu uzi pasfrazon kun &lt;b&gt;almenaŭ 10 hazardaj signoj&lt;/b&gt;, aŭ &lt;b&gt;almenaŭ ok aŭ pli vortoj&lt;/b&gt;.</translation>
     </message>
@@ -172,11 +164,7 @@
         <translation>Tajpu la malnovan pasvorton kaj la novan pasvorton por la monujo.</translation>
     </message>
     <message>
-        <source>Confirm wallet encryption</source>
-        <translation>Konfirmo de ĉifrado de la monujo</translation>
-    </message>
-    <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
         <translation>Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA BITMONO&lt;b&gt;!</translation>
     </message>
     <message>
@@ -188,6 +176,10 @@
         <translation>La monujo estas ĉifrita</translation>
     </message>
     <message>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarshipcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 nun fermiĝos por fini la ĉifradon. Memoru, ke eĉ ĉifrado ne protektas kontraŭ ĉiu atako, ekz. se viruso infektus vian komputilon.</translation>
+    </message>
+    <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>GRAVE: antaŭaj sekur-kopioj de via monujo-dosiero estas forigindaj kiam vi havas nove kreitan ĉifritan monujo-dosieron. Pro sekureco, antaŭaj kopioj de la neĉifrita dosiero ne plu funkcios tuj kiam vi ekuzos la novan ĉifritan dosieron.</translation>
     </message>
@@ -195,35 +187,7 @@
         <source>Wallet encryption failed</source>
         <translation>Ĉifrado de la monujo fiaskis</translation>
     </message>
-    <message>
-        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Ĉifrado de monujo fiaskis pro interna eraro. Via monujo ne estas ĉifrita.</translation>
-    </message>
-    <message>
-        <source>The supplied passphrases do not match.</source>
-        <translation>La pasfrazoj entajpitaj ne samas.</translation>
-    </message>
-    <message>
-        <source>Wallet unlock failed</source>
-        <translation>Malŝloso de la monujo fiaskis</translation>
-    </message>
-    <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La pasfrazo enigita por ĉifrado de monujo ne ĝustas.</translation>
-    </message>
-    <message>
-        <source>Wallet decryption failed</source>
-        <translation>Malĉifrado de la monujo fiaskis</translation>
-    </message>
-    <message>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>Vi sukcese ŝanĝis la pasfrazon de la monujo.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Atentu: la majuskla baskulo estas ŝaltita!</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>BanTableModel</name>
     </context>
@@ -240,6 +204,10 @@
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Superrigardo</translation>
+    </message>
+    <message>
+        <source>Node</source>
+        <translation>Nodo</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -260,10 +228,6 @@
     <message>
         <source>Quit application</source>
         <translation>Eliri la aplikaĵon</translation>
-    </message>
-    <message>
-        <source>&amp;About %1</source>
-        <translation>&amp;Pri %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -290,6 +254,14 @@
         <translation>Ŝanĝi &amp;Pasfrazon...</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Sendaj adresoj...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Ricevaj adresoj...</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>Malfermi &amp;URI-on...</translation>
     </message>
@@ -298,8 +270,8 @@
         <translation>Reindeksado de blokoj sur disko...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Sendi monon al Scholarship-adreso</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>Sendi monon al Scholarshipcoin-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -322,8 +294,12 @@
         <translation>&amp;Kontroli mesaĝon...</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Monujo</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -346,12 +322,12 @@
         <translation>Ĉifri la privatajn ŝlosilojn de via monujo</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per via Scholarship-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
+        <translation>Subskribi mesaĝojn per via Scholarshipcoin-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Scholarship-adresoj</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Scholarshipcoin-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -370,8 +346,8 @@
         <translation>Langeto-breto</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso scholarship:)</translation>
+        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso scholarshipcoin:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -382,8 +358,8 @@
         <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
     </message>
     <message>
-        <source>Open a scholarship: URI or payment request</source>
-        <translation>Malfermi scholarship:-URI-on aŭ pagpeton</translation>
+        <source>Open a scholarshipcoin: URI or payment request</source>
+        <translation>Malfermi scholarshipcoin:-URI-on aŭ pagpeton</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -416,10 +392,6 @@
     <message>
         <source>Up to date</source>
         <translation>Ĝisdata</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Fenestro</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -599,7 +571,19 @@
         <source>Command-line options</source>
         <translation>Komandliniaj agordaĵoj</translation>
     </message>
-</context>
+    <message>
+        <source>Usage:</source>
+        <translation>Uzado:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>komandliniaj agordaĵoj</translation>
+    </message>
+    <message>
+        <source>UI Options:</source>
+        <translation>Uzantinterfaco ebloj:</translation>
+    </message>
+    </context>
 <context>
     <name>Intro</name>
     <message>
@@ -615,8 +599,8 @@
         <translation>Uzi alian dosierujon por datumoj:</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -672,6 +656,10 @@
         <translation>Dosiergrando de &amp;datumbasa kaŝmemoro</translation>
     </message>
     <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
         <source>Reset all client options to default.</source>
         <translation>Reagordi ĉion al defaŭlataj valoroj.</translation>
     </message>
@@ -692,8 +680,8 @@
         <translation>Fakulo</translation>
     </message>
     <message>
-        <source>Automatically open the Scholarship client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Scholarship. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <source>Automatically open the Scholarshipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi la kursilan pordon por Scholarshipcoin. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -749,7 +737,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elekti la defaŭltan manieron por montri scholarshipjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
+        <translation>Elekti la defaŭltan manieron por montri scholarshipcoinjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -791,8 +779,8 @@
         <translation>Formularo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarship network after a connection is established, but this process has not completed yet.</source>
-        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la scholarship reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarshipcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la scholarshipcoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1111,10 +1099,6 @@
         <translation>Mesaĝo</translation>
     </message>
     <message>
-        <source>Wallet</source>
-        <translation>Monujo</translation>
-    </message>
-    <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>La rezultanta URI estas tro longa. Provu malplilongigi la tekston de la etikedo / mesaĝo.</translation>
     </message>
@@ -1150,7 +1134,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Scholarshipn</translation>
+        <translation>Sendi Scholarshipcoinn</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1261,12 +1245,16 @@
         <translation>Ĉu vi certas, ke vi volas sendi?</translation>
     </message>
     <message>
-        <source>or</source>
-        <translation>aŭ</translation>
+        <source>added as transaction fee</source>
+        <translation>aldonita kiel krompago</translation>
     </message>
     <message>
-        <source>Transaction fee</source>
-        <translation>Krompago</translation>
+        <source>Total Amount %1</source>
+        <translation>Totala sumo %1</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>aŭ</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -1289,8 +1277,8 @@
         <translation>Kreo de transakcio fiaskis!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Scholarship address</source>
-        <translation>Averto: Nevalida Scholarship-adreso</translation>
+        <source>Warning: Invalid Scholarshipcoin address</source>
+        <translation>Averto: Nevalida Scholarshipcoin-adreso</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1405,8 +1393,8 @@
         <translation>Kopii la aktualan subskribon al la tondejo</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Scholarship address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Scholarship-adreso</translation>
+        <source>Sign the message to prove you own this Scholarshipcoin address</source>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Scholarshipcoin-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1425,8 +1413,8 @@
         <translation>&amp;Kontroli Mesaĝon</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Scholarship address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Scholarship-adreso</translation>
+        <source>Verify the message to ensure it was signed with the specified Scholarshipcoin address</source>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Scholarshipcoin-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1510,6 +1498,10 @@
         <translation>Malferma ĝis %1</translation>
     </message>
     <message>
+        <source>%1/offline</source>
+        <translation>%1/senkonekte</translation>
+    </message>
+    <message>
         <source>%1/unconfirmed</source>
         <translation>%1/nekonfirmite</translation>
     </message>
@@ -1520,6 +1512,10 @@
     <message>
         <source>Status</source>
         <translation>Stato</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ankoraŭ ne elsendita sukcese</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1644,12 +1640,20 @@
         <translation>Malferma ĝis %1</translation>
     </message>
     <message>
+        <source>Offline</source>
+        <translation>Senkonekte</translation>
+    </message>
+    <message>
         <source>Unconfirmed</source>
         <translation>Nekonfirmita</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Konfirmita (%1 konfirmoj)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Tiun ĉi blokon ne ricevis ajna alia nodo, kaj ĝi verŝajne ne akceptiĝos!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -1823,16 +1827,13 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Scholarshipn</translation>
+        <translation>Sendi Scholarshipcoinn</translation>
     </message>
     </context>
 <context>
@@ -1865,8 +1866,40 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+        <source>Options:</source>
+        <translation>Agordoj:</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Specifi dosieron por datumoj</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Konekti al nodo por ricevi adresojn de samtavolanoj, kaj malkonekti</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Specifi vian propran publikan adreson</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Akcepti komandojn JSON-RPC kaj el komandlinio</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
+    </message>
+    <message>
         <source>Scholarship Core</source>
-        <translation>Kerno de Scholarship</translation>
+        <translation>Kerno de Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Bindi al donita adreso kaj ĉiam aŭskulti per ĝi. Uzu la formaton [gastigo]:pordo por IPv6</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Plenumi komandon kiam monuja transakcio ŝanĝiĝas (%s en cmd anstataŭiĝas per TxID)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
@@ -1879,6 +1912,18 @@
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Averto: ŝajne ni ne tute konsentas kun niaj samtavolanoj! Eble vi devas ĝisdatigi vian klienton, aŭ eble aliaj nodoj faru same.</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; povas esti:</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Akcepti konektojn el ekstere (defaŭlte: 1 se ne estas -proxy nek -connect)</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Blok-kreaj agordaĵoj:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -1921,12 +1966,32 @@
         <translation>Nesufiĉa nombro de dosierpriskribiloj disponeblas.</translation>
     </message>
     <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Specifi monujan dosieron (ene de dosierujo por datumoj)</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
         <translation>Kontrolado de blokoj...</translation>
     </message>
     <message>
+        <source>Wallet options:</source>
+        <translation>Monujaj opcioj:</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Plenumi komandon kiam rilata alerto riceviĝas, aŭ kiam ni vidas tre longan forkon (%s en cms anstataŭiĝas per mesaĝo)</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Informoj</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Sendi spurajn/sencimigajn informojn al la konzolo anstataŭ al dosiero debug.log</translation>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Malpligrandigi la sencimigan protokol-dosieron kiam kliento lanĉiĝas (defaŭlte: 1 kiam mankas -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -1945,8 +2010,28 @@
         <translation>Transakcio estas tro granda</translation>
     </message>
     <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Salutnomo por konektoj JSON-RPC</translation>
+    </message>
+    <message>
         <source>Warning</source>
         <translation>Averto</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Vi devas rekontrui la datumbazon kun -reindex por ŝanĝi -txindex</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Pasvorto por konektoj JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Plenumi komandon kiam plej bona bloko ŝanĝiĝas (%s en cmd anstataŭiĝas per bloka haketaĵo)</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permesi DNS-elserĉojn por -addnote, -seednote kaj -connect</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>

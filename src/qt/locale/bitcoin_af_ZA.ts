@@ -62,12 +62,12 @@
         <translation>Ontvang adresse</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit is jou Scholarship-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat u munte stuur.</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit is jou Scholarshipcoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat u munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit is jou Scholarship-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat jy munte stuur.</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit is jou Scholarshipcoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat jy munte stuur.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Bevestig beursie enkripsie.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
-        <translation>Waarskuwing: As jy jou beursie enkripteer en jou wagwoord verloor, sal jy &lt;b&gt;AL JOU SCHOLARSHIPS VERLOOR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <translation>Waarskuwing: As jy jou beursie enkripteer en jou wagwoord verloor, sal jy &lt;b&gt;AL JOU SCHOLARSHIPCOINS VERLOOR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -181,15 +181,15 @@
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Beursie enkriptasie voltooi</translation>
+        <translation>Beursie Enkripteer</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>BELANGRIK: Enige vorige rugsteune wat u gemaak het van u beursie-lêer moet vervang word met die nuut-gegenereerde, versleutelde beursie-lêer. Vir sekuriteitsredes sal vorige rugsteune van die onversleutelde beursie-lêer onbruikbaar word sodra u die nuwe, versleutelde beursie begin gebruik.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarshipcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 gaan nou toe maak om die enkripsie proses klaar te maak. Onthou dat jou scholarshipcoins nie ten volle beskerm kan word deur die beursie te enkrip teen "malware" wat jou rekenaar besmet.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Beursie enkriptasie het misluk</translation>
+        <translation>Die beursie kon nie bewaak word nie</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -223,10 +223,6 @@
 <context>
     <name>BanTableModel</name>
     <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Netmasker</translation>
-    </message>
-    <message>
         <source>Banned Until</source>
         <translation>Verban Tot</translation>
     </message>
@@ -244,6 +240,10 @@
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Oorsig</translation>
+    </message>
+    <message>
+        <source>Node</source>
+        <translation>Node</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -264,10 +264,6 @@
     <message>
         <source>Quit application</source>
         <translation>Sluit af</translation>
-    </message>
-    <message>
-        <source>&amp;About %1</source>
-        <translation>&amp;Oor %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
@@ -294,64 +290,32 @@
         <translation>&amp;Enkripteer Beursie...</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Rugsteun Beursie...</translation>
-    </message>
-    <message>
         <source>&amp;Change Passphrase...</source>
         <translation>Verander wagwoord frase...</translation>
+    </message>
+    <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>Uitstuur adresse...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
         <translation>Maak &amp;URI oop...</translation>
     </message>
     <message>
-        <source>Click to disable network activity.</source>
-        <translation>Klik om netwerk aktiwiteit af te skakel.</translation>
-    </message>
-    <message>
         <source>Network activity disabled.</source>
         <translation>Netwerk aktiwiteid afgeskakel.</translation>
-    </message>
-    <message>
-        <source>Click to enable network activity again.</source>
-        <translation>Klik om netwerk aktiwiteit weer aan te skakel.</translation>
-    </message>
-    <message>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>Sinkroniseer tans Hoofde (%1%)...</translation>
-    </message>
-    <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>Herindekseer blokke op skyf...</translation>
-    </message>
-    <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Stuur muntstukke na 'n Scholarship adres</translation>
-    </message>
-    <message>
-        <source>Backup wallet to another location</source>
-        <translation>Rugsteun beursie na 'n ander plek</translation>
-    </message>
-    <message>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>Verander die wagwoordfrase wat vir beursie-versleuteling gebruik word</translation>
-    </message>
-    <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Ontfoutvenster</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Open ontfouting en diagnostiese konsole</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Beursie</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -360,26 +324,6 @@
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Ontvang</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Wys / Versteek</translation>
-    </message>
-    <message>
-        <source>Show or hide the main Window</source>
-        <translation>Wys of versteek die hoof Venster</translation>
-    </message>
-    <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Versleutel die private sleutels wat aan u beursie behoort</translation>
-    </message>
-    <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Teken boodskappe met u Scholarship adresse om te bewys dat u hul besit</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Bevestig boodskappe om te verseker dat hulle geteken was met gespesifiseerde Scholarship adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -398,32 +342,8 @@
         <translation>Blad nutsbalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Versoek betalings (genereer QR kodes en scholarship: URIs)</translation>
-    </message>
-    <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>Wys die lys van gebruikte stuur adresse en etikette</translation>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>Wys die lys van gebruikte ontvangsadresse en etikette</translation>
-    </message>
-    <message>
-        <source>Open a scholarship: URI or payment request</source>
-        <translation>Open 'n scholarship: URI of betalingsversoek</translation>
-    </message>
-    <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opdrag lys opsies</translation>
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Indekseer tans blokke op skyf...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Prosesseer tans blokke op skyf...</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -432,10 +352,6 @@
     <message>
         <source>Last received block was generated %1 ago.</source>
         <translation>Ontvangs van laaste blok is %1 terug.</translation>
-    </message>
-    <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaksies hierna sal nog nie sigbaar wees nie.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -454,20 +370,8 @@
         <translation>Op datum</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Scholarship command-line options</source>
-        <translation>Wys die %1 hulpboodskap om 'n lys met moontlike Scholarship bevel-lyn opsies te verkry</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Venster</translation>
-    </message>
-    <message>
         <source>%1 client</source>
         <translation>%1 klient</translation>
-    </message>
-    <message>
-        <source>Connecting to peers...</source>
-        <translation>Verbind tans aan eweknieë...</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -492,20 +396,10 @@
 </translation>
     </message>
     <message>
-        <source>Label: %1
-</source>
-        <translation>Etiket: %1
-</translation>
-    </message>
-    <message>
         <source>Address: %1
 </source>
         <translation>Adres: %1
 </translation>
-    </message>
-    <message>
-        <source>Sent transaction</source>
-        <translation>Transaksie gestuur</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
@@ -527,11 +421,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Beursie is &lt;b&gt;versleutel&lt;/b&gt; en is tans &lt;b&gt;gesluit&lt;/b&gt;</translation>
     </message>
-    <message>
-        <source>A fatal error occurred. Scholarship can no longer continue safely and will quit.</source>
-        <translation>'n Noodlottige fout het voorgekom. Scholarship kan nie langer voortgaan nie en sal afsluit.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -559,16 +449,8 @@
         <translation>Stof:</translation>
     </message>
     <message>
-        <source>After Fee:</source>
-        <translation>Na Fooi:</translation>
-    </message>
-    <message>
         <source>Change:</source>
         <translation>Verander:</translation>
-    </message>
-    <message>
-        <source>(un)select all</source>
-        <translation>(on)selekteer alles</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -663,14 +545,6 @@
         <translation>nee</translation>
     </message>
     <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Hierdie etiket verander na rooi as enige ontvanger 'n bedrag kleiner as die huidige stof drempelwaarde ontvang.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Kan wissel met +/- %1 satoshi(s) per inset.</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(geen etiket)</translation>
     </message>
@@ -694,16 +568,12 @@
         <translation>&amp;Etiket</translation>
     </message>
     <message>
-        <source>The label associated with this address list entry</source>
-        <translation>Die etiket geassosieer met hierdie adreslys inskrywing</translation>
-    </message>
-    <message>
-        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Die adres geassosieer met hierdie adreslys inskrywing. Dié kan slegs gewysig word vir stuur-adresse.</translation>
-    </message>
-    <message>
         <source>&amp;Address</source>
         <translation>&amp;Adres</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Nuwe ontvangende adres</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -716,10 +586,6 @@
     <message>
         <source>Edit sending address</source>
         <translation>Wysig stuurende adres</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is not a valid Scholarship address.</source>
-        <translation>Die ingeskrewe adres "%1" is nie 'n geldige Scholarship adres nie.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -745,10 +611,6 @@
         <translation>Lêer bestaan reeds. Voeg %1 indien u van plan is om n nuwe lêer hier te skep.</translation>
     </message>
     <message>
-        <source>Path already exists, and is not a directory.</source>
-        <translation>Pad bestaan reeds en is nie 'n lêergids nie.</translation>
-    </message>
-    <message>
         <source>Cannot create data directory here.</source>
         <translation>Kan nie data gids hier skep nie.</translation>
     </message>
@@ -771,7 +633,27 @@
         <source>Command-line options</source>
         <translation>Opdrag lys opsies</translation>
     </message>
-</context>
+    <message>
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>opdrag lys opsies</translation>
+    </message>
+    <message>
+        <source>UI Options:</source>
+        <translation>Gebruikerskoppelvlak Opsies:</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Kies data gids op aanvang (standaard: %u)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Begin verminderd</translation>
+    </message>
+    </context>
 <context>
     <name>Intro</name>
     <message>
@@ -783,8 +665,8 @@
         <translation>Welkom by %1.</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -990,10 +872,6 @@
         <source>Message</source>
         <translation>Boodskap</translation>
     </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Beursie</translation>
-    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -1039,10 +917,6 @@
     <message>
         <source>Fee:</source>
         <translation>Fooi:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Na Fooi:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -1107,10 +981,6 @@
     <message>
         <source>or</source>
         <translation>of</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Transaksie fooi</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1395,9 +1265,6 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -1420,6 +1287,10 @@
     </context>
 <context>
     <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Opsies:</translation>
+    </message>
     <message>
         <source>Error: Disk space is low!</source>
         <translation>Fout: Hardeskyf spasie is baie laag!</translation>

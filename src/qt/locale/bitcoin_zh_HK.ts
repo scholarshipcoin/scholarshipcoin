@@ -62,12 +62,12 @@
         <translation>收款地址</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這些是你要付款過去的 Scholarship 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這些是你要付款過去的 Scholarshipcoin 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這些是你用來收款的 Scholarship 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這些是你用來收款的 Scholarshipcoin 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
-        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Scholarship 了&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Scholarshipcoin 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -178,6 +178,10 @@
     <message>
         <source>Wallet encrypted</source>
         <translation>錢包已加密</translation>
+    </message>
+    <message>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarshipcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 現在要關閉來完成加密程序。請記得將錢包加密不能完全防止你的 Scholarshipcoins 經被入侵電腦的惡意程式偷取。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,6 +246,10 @@
         <translation>總覽 &amp;O</translation>
     </message>
     <message>
+        <source>Node</source>
+        <translation>節點</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>顯示錢包一般總覽</translation>
     </message>
@@ -298,6 +306,14 @@
         <translation>改變密碼... &amp;C</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>付款位址... &amp;S</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>收款位址... &amp;R</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>開啓網址... &amp;U</translation>
     </message>
@@ -306,8 +322,8 @@
         <translation>正在為磁碟區塊重建索引...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>付款至一個 Scholarship 位址</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>付款至一個 Scholarshipcoin 位址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -330,8 +346,12 @@
         <translation>驗證訊息... &amp;V</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>錢包</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -362,8 +382,8 @@
         <translation>說明 &amp;H</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>要求付款 (產生QR碼 scholarship: URIs)</translation>
+        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
+        <translation>要求付款 (產生QR碼 scholarshipcoin: URIs)</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -407,8 +427,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -448,8 +468,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Scholarship address (e.g. %1)</source>
-        <translation>輸入一個 Scholarship 位址 (例如 %1)</translation>
+        <source>Enter a Scholarshipcoin address (e.g. %1)</source>
+        <translation>輸入一個 Scholarshipcoin 位址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -566,10 +586,6 @@
         <source>Label</source>
         <translation>標記</translation>
     </message>
-    <message>
-        <source>Wallet</source>
-        <translation>錢包</translation>
-    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -653,9 +669,6 @@
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletController</name>
     </context>
 <context>
     <name>WalletFrame</name>

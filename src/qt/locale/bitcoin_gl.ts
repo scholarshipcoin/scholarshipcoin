@@ -26,10 +26,6 @@
         <translation>Borrar a dirección actualmente seleccionada da listaxe</translation>
     </message>
     <message>
-        <source>Enter address or label to search</source>
-        <translation>Introduce dirección ou etiqueta para buscar</translation>
-    </message>
-    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Exportar os datos da pestaña actual a un arquivo.</translation>
     </message>
@@ -126,12 +122,16 @@
         <translation>&amp;Cambiar contrasinal...</translation>
     </message>
     <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Direccións para recibir</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexando bloques no disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Enviar moedas a unha dirección Scholarship</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>Enviar moedas a unha dirección Scholarshipcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -154,8 +154,12 @@
         <translation>&amp;Verificar mensaxe...</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Moedeiro</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -178,12 +182,12 @@
         <translation>Encriptar as claves privadas que pertencen ao teu moedeiro</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Asina mensaxes coas túas direccións Scholarship para probar que te pertencen</translation>
+        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
+        <translation>Asina mensaxes coas túas direccións Scholarshipcoin para probar que te pertencen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Scholarship dadas.</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
+        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Scholarshipcoin dadas.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -202,8 +206,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Solicitar pagos (xenera códigos QR e scholarship: URIs)</translation>
+        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
+        <translation>Solicitar pagos (xenera códigos QR e scholarshipcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -214,8 +218,8 @@
         <translation>Amosar a listaxe de etiquetas e direccións para recibir empregadas</translation>
     </message>
     <message>
-        <source>Open a scholarship: URI or payment request</source>
-        <translation>Abrir un scholarship: URI ou solicitude de pago</translation>
+        <source>Open a scholarshipcoin: URI or payment request</source>
+        <translation>Abrir un scholarshipcoin: URI ou solicitude de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -248,10 +252,6 @@
     <message>
         <source>Up to date</source>
         <translation>Actualizado</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Xanela</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -381,7 +381,15 @@
         <source>Command-line options</source>
         <translation>Opcións da liña de comandos</translation>
     </message>
-</context>
+    <message>
+        <source>Usage:</source>
+        <translation>Emprego:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>opcións da liña de comandos</translation>
+    </message>
+    </context>
 <context>
     <name>Intro</name>
     <message>
@@ -397,8 +405,8 @@
         <translation>Empregar un directorio de datos personalizado</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -462,8 +470,8 @@
         <translation>Moedeiro</translation>
     </message>
     <message>
-        <source>Automatically open the Scholarship client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente o porto do cliente Scholarship no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+        <source>Automatically open the Scholarshipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente o porto do cliente Scholarshipcoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -545,8 +553,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarship network after a connection is established, but this process has not completed yet.</source>
-        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Scholarship despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarshipcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Scholarshipcoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -744,10 +752,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Gardar Imaxe...</translation>
     </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Moedeiro</translation>
-    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -813,10 +817,6 @@
     <message>
         <source>S&amp;end</source>
         <translation>&amp;Enviar</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Tarifa de transacción</translation>
     </message>
     </context>
 <context>
@@ -919,8 +919,8 @@
         <translation>Copiar a sinatura actual ao portapapeis do sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Scholarship address</source>
-        <translation>Asina a mensaxe para probar que posees esta dirección Scholarship</translation>
+        <source>Sign the message to prove you own this Scholarshipcoin address</source>
+        <translation>Asina a mensaxe para probar que posees esta dirección Scholarshipcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -939,8 +939,8 @@
         <translation>&amp;Verificar Mensaxe</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Scholarship address</source>
-        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Scholarship especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified Scholarshipcoin address</source>
+        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Scholarshipcoin especificada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -985,9 +985,6 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -999,8 +996,52 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+        <source>Options:</source>
+        <translation>Opcións:</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Especificar directorio de datos</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Conectar a nodo para recuperar direccións de pares, e desconectar</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Especificar a túa propia dirección pública</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Aceptar liña de comandos e comandos JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Executar no fondo como un demo e aceptar comandos</translation>
+    </message>
+    <message>
         <source>Scholarship Core</source>
-        <translation>Core de Scholarship</translation>
+        <translation>Core de Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Enlazar a unha dirección dada e escoitar sempre nela. Emprega a notación [host]:post para IPv6</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Executar comando cando unha transacción do moedeiro cambia (%s no comando é substituído por TxID)</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;categoría&gt; pode ser:</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Aceptar conexións de fóra (por defecto: 1 se non -proxy ou -connect)</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Opcións de creación de bloque:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -1043,12 +1084,28 @@
         <translation>Non hai suficientes descritores de arquivo dispoñibles.</translation>
     </message>
     <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Especificar arquivo do moedeiro (dentro do directorio de datos)</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
         <translation>Verificando bloques...</translation>
     </message>
     <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Executar comando cando se recibe unha alerta relevante ou vemos un fork realmente longo (%s no cmd é substituído pola mensaxe)</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Información</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Enviar traza/información de depuración á consola en lugar de ao arquivo debug.log</translation>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Recortar o arquivo debug.log ao arrancar o cliente (por defecto: 1 cando no-debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -1063,8 +1120,28 @@
         <translation>A transacción é demasiado grande</translation>
     </message>
     <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Nome de usuario para conexións JSON-RPC</translation>
+    </message>
+    <message>
         <source>Warning</source>
         <translation>Precaución</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Precisas reconstruír a base de datos empregando -reindex para cambiar -txindex</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Contrasinal para conexións JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Executar comando cando o mellor bloque cambie (%s no comando é sustituído polo hash do bloque)</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permitir lookup de DNS para -addnote, -seednote e -connect</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>

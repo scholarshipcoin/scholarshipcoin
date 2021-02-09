@@ -361,9 +361,6 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -378,6 +375,10 @@
     </context>
 <context>
     <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>هەڵبژاردنەکان:</translation>
+    </message>
     <message>
         <source>Information</source>
         <translation>زانیاری</translation>

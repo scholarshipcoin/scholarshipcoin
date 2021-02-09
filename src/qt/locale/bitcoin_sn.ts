@@ -86,12 +86,24 @@
         <translation>Taridza ruzivo rwe Qt</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Makero ekutumira nawo</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Makero ekutambira nawo</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>Vhura &amp;URI</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Chikwama</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -153,8 +165,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     </context>
 <context>
@@ -182,8 +194,8 @@
         <translation>Marii </translation>
     </message>
     <message>
-        <source>Enter a Scholarship address (e.g. %1)</source>
-        <translation>Nyora kero ye Scholarship (sekuti %1)</translation>
+        <source>Enter a Scholarshipcoin address (e.g. %1)</source>
+        <translation>Nyora kero ye Scholarshipcoin (sekuti %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -239,10 +251,6 @@
     <message>
         <source>Label</source>
         <translation>Zita</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Chikwama</translation>
     </message>
     </context>
 <context>
@@ -331,9 +339,6 @@
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletController</name>
     </context>
 <context>
     <name>WalletFrame</name>

@@ -30,10 +30,6 @@
         <translation>Hapus alamat yang dipilih dari daftar</translation>
     </message>
     <message>
-        <source>Enter address or label to search</source>
-        <translation>Masukkan alamat atau label untuk mencari</translation>
-    </message>
-    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Ekspor data dalam tab saat ini ke file</translation>
     </message>
@@ -66,12 +62,12 @@
         <translation>Alamat menerima</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ini adalah alamat Scholarship anda untuk mengirim pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirim koin</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ini adalah alamat Scholarshipcoin anda untuk mengirim pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirim koin</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ini adalah alamat Scholarship anda untuk menerima pembayaran. Disarankan untuk menggunakan alamat penerimaan baru untuk setiap transaksi</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ini adalah alamat Scholarshipcoin anda untuk menerima pembayaran. Disarankan untuk menggunakan alamat penerimaan baru untuk setiap transaksi</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +172,8 @@
         <translation>Konfirmasi proses enkripsi wallet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
-        <translation>Peringatan:  Jika anda mengenkripsi wallet anda dan lupa/hilang passphrase anda, anda akan ‭&lt;b&gt; KEHILANGAN SEMUA SCHOLARSHIP ANDA &lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <translation>Peringatan:  Jika anda mengenkripsi wallet anda dan lupa/hilang passphrase anda, anda akan ‭&lt;b&gt; KEHILANGAN SEMUA SCHOLARSHIPCOIN ANDA &lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +184,8 @@
         <translation>Wallet terenkripsi</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your scholarships from being stolen by malware infecting your computer.</source>
-        <translation>Wallet anda sekarang sudah terenkripsi. Perlu diingat bahwa enkripsi wallet anda tidak dapat sepenuhnya melindungi scholarship dari pencurian melalui malware yang menginfeksi komputer anda. </translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarshipcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 akan ditutup sekarang untuk menyelesaikan proses enkripsi. Ingat bahwa mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi scholarshipcoin Anda dari pencurian oleh malware yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -254,6 +250,10 @@
         <translation>&amp;Overview</translation>
     </message>
     <message>
+        <source>Node</source>
+        <translation>Node</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Tampilkan gambaran umum dompet</translation>
     </message>
@@ -310,12 +310,16 @@
         <translation>&amp;Ganti Passphrase...</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Buka &amp;URI...</translation>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Mengirim alamat</translation>
     </message>
     <message>
-        <source>Wallet:</source>
-        <translation>Dompet:</translation>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Menerima alamat...</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Buka &amp;URI...</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
@@ -330,20 +334,8 @@
         <translation>Klik untuk mengaktifkan kembali network</translation>
     </message>
     <message>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>Singkronisasi Header (%1%)...</translation>
-    </message>
-    <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>Reindex block pada disk...</translation>
-    </message>
-    <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Proxy &lt;b&gt;aktif&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Kirim koin ke alamat Scholarship</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>Kirim koin ke alamat Scholarshipcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +358,12 @@
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Wallet</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -390,12 +386,12 @@
         <translation>Enkripsi private keys wallet anda</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Tambahkan pesan di alamat Scholarship untuk membuktikan bahwa anda pemiliknya</translation>
+        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
+        <translation>Tambahkan pesan di alamat Scholarshipcoin untuk membuktikan bahwa anda pemiliknya</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Verifikasi pesan untuk memastikan bahwa telah ditanda tangani dengan alamat Scholarship tertentu</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa telah ditanda tangani dengan alamat Scholarshipcoin tertentu</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,52 +410,8 @@
         <translation>Toolbar Tabs</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Meminta pembayaran (generate kode QR dan scholarship: URIs)</translation>
-    </message>
-    <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Tampilkan daftar alamat kirim yg telah digunakan dan label</translation>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>Perlihatkan daftar address penerima dan labelnya</translation>
-    </message>
-    <message>
-        <source>Open a scholarship: URI or payment request</source>
-        <translation>Buka scholarship: URI atau permintaan pembayaran</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>opsi &amp;Command-line</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Scholarship network</source>
-        <translation><numerusform>%n koneksi aktif pada jaringan Scholarship</numerusform></translation>
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Proses index block pada disk...</translation>
-    </message>
-    <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Memproses block pada disk...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Memproses %n block dari riwayat transaksi.</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 behind</source>
-        <translation>%1 kebelakang</translation>
-    </message>
-    <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>Block terakhir yang diterima telah digenerate %1 lalu.</translation>
-    </message>
-    <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaksi setelah ini msih belum terlihat.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -476,38 +428,6 @@
     <message>
         <source>Up to date</source>
         <translation>Terkini</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses</source>
-        <translation>Address &amp;Pengirim</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>Address &amp;Penerima</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Scholarship command-line options</source>
-        <translation>Perlihatkan %1 pesan yang didapat dari daftar dengan opsi command-line Scholarship yang memungkinkan</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Jendela</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>Minimalkan</translation>
-    </message>
-    <message>
-        <source>Zoom</source>
-        <translation>Zoom</translation>
-    </message>
-    <message>
-        <source>Restore</source>
-        <translation>Pulihkan</translation>
-    </message>
-    <message>
-        <source>Main Window</source>
-        <translation>Jendela Utama</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -531,12 +451,6 @@
         <source>Amount: %1
 </source>
         <translation>Jumlah: %1
-</translation>
-    </message>
-    <message>
-        <source>Wallet: %1
-</source>
-        <translation>Wallet: %1
 </translation>
     </message>
     <message>
@@ -572,14 +486,6 @@
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
         <translation>Pembuatan kunci HD &lt;b&gt;dinonaktifkan&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Private key &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>Private key &lt;b&gt;non aktif&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Wallet &lt;b&gt;terenkripsi&lt;/b&gt; dan saat ini &lt;b&gt;tidak terkunci&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -732,6 +638,10 @@
         <translation>&amp;Label</translation>
     </message>
     <message>
+        <source>New receiving address</source>
+        <translation>Alamat penerima baru</translation>
+    </message>
+    <message>
         <source>New sending address</source>
         <translation>Alamat pengirim baru</translation>
     </message>
@@ -773,12 +683,16 @@
         <source>About %1</source>
         <translation>Tentang %1</translation>
     </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Pemakaian:</translation>
+    </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -787,10 +701,6 @@
     </context>
 <context>
     <name>ModalOverlay</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulir</translation>
-    </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -798,28 +708,12 @@
 <context>
     <name>OptionsDialog</name>
     <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Jendela</translation>
-    </message>
-    <message>
-        <source>Configuration options</source>
-        <translation>opsi konfigurasi</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Error</translation>
-    </message>
-    <message>
-        <source>The configuration file could not be opened.</source>
-        <translation>file konfigurasi tidak dapan dibuka</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulir</translation>
-    </message>
     </context>
 <context>
     <name>PaymentServer</name>
@@ -867,10 +761,6 @@
     <message>
         <source>Label</source>
         <translation>Label</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Wallet</translation>
     </message>
     </context>
 <context>
@@ -949,14 +839,6 @@
 </context>
 <context>
     <name>SendCoinsEntry</name>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
@@ -966,18 +848,6 @@
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Signature</source>
-        <translation>Tanda Tangan</translation>
-    </message>
     </context>
 <context>
     <name>SplashScreen</name>
@@ -1059,9 +929,6 @@
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletController</name>
     </context>
 <context>
     <name>WalletFrame</name>

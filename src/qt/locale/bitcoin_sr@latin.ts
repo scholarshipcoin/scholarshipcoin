@@ -62,12 +62,12 @@
         <translation>Adresa na koju se prima</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su Vaše Scholarship adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića.</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su Vaše Scholarshipcoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića.</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su Vaše Scholarship adrese za primanje uplata. Preporučuje se upotreba nove adrese za svaku transakciju.</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su Vaše Scholarshipcoin adrese za primanje uplata. Preporučuje se upotreba nove adrese za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Potvrdite šifrovanje novčanika</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrujete svoj novčanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE SCHOOINE&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrujete svoj novčanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE BITKOINE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -178,6 +178,10 @@
     <message>
         <source>Wallet encrypted</source>
         <translation>Novčanik je šifrovan</translation>
+    </message>
+    <message>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarshipcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 će se ugasiti da bi dovršio proces enkriptovanja. Imajte u vidu da enkripcija novčanika ne garantuje potpunu zaštitu scholarshipcoina od krađe od strane nekog virusa koji bi zarazio vaš kompjuter.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,6 +246,10 @@
         <translation>&amp;Pregled</translation>
     </message>
     <message>
+        <source>Node</source>
+        <translation>Čvor</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Prikaži opšti pregled novčanika</translation>
     </message>
@@ -298,6 +306,14 @@
         <translation>&amp;Izmeni pristupnu frazu...</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Slanje adresa...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Primanje adresa...</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>Otvori &amp;URI...</translation>
     </message>
@@ -322,8 +338,8 @@
         <translation>Ponovo obeležavam blokove na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Pošalji novčiće na Scholarship adresu</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>Pošalji novčiće na Scholarshipcoin adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -346,8 +362,12 @@
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Novčanik</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -370,12 +390,12 @@
         <translation>Enkriptuj privatne ključeve novčanika</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Potpišite poruke sa svojim Scholarship adresama da biste dokazali njihovo vlasništvo</translation>
+        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
+        <translation>Potpišite poruke sa svojim Scholarshipcoin adresama da biste dokazali njihovo vlasništvo</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Proverite poruke da biste utvrdili sa kojim Scholarship adresama su potpisane</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
+        <translation>Proverite poruke da biste utvrdili sa kojim Scholarshipcoin adresama su potpisane</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -394,8 +414,8 @@
         <translation>Alatke za tabove</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Zatražite plaćanje (generiše QR kodove i scholarship: URI-e)</translation>
+        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
+        <translation>Zatražite plaćanje (generiše QR kodove i scholarshipcoin: URI-e)</translation>
     </message>
     <message>
         <source>Error</source>
@@ -499,8 +519,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -562,10 +582,6 @@
         <source>Label</source>
         <translation>Oznaka</translation>
     </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Novčanik</translation>
-    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -595,10 +611,6 @@
     <message>
         <source>After Fee:</source>
         <translation>Nakon Naknade:</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Taksa transakcije</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -661,9 +673,6 @@
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletController</name>
     </context>
 <context>
     <name>WalletFrame</name>

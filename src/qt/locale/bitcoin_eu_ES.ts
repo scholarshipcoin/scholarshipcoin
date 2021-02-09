@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Klikatu eskuinarekin helbidea edo etiketa aldatzeko</translation>
+        <translation>Klikatu eskuinean helbidea edo etiketa aldatzeko</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -28,10 +28,6 @@
     <message>
         <source>Delete the currently selected address from the list</source>
         <translation>Ezabatu aukeratutako helbideak listatik</translation>
-    </message>
-    <message>
-        <source>Enter address or label to search</source>
-        <translation>Bilatzeko, helbide edo etiketa sartu</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -66,12 +62,12 @@
         <translation>Helbideak jasotzen</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hauek dira zuk dirua jaso dezaketen Scholarship helbideak. Egiaztatu beti diru-kopurua eta dirua jasoko duen helbidea zuzen egon daitezen, txanponak bidali baino lehen.</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hauek dira zuk dirua jaso dezaketen Scholarshipcoin helbideak. Egiaztatu beti diru-kopurua eta dirua jasoko duen helbidea zuzen egon daitezen, txanponak bidali baino lehen.</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hauek dira zure dirua jasotzeko Scholarship helbideak. Gomendagarria da, operazio bakoitza helbide berri batekin egitea.</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hauek dira zure dirua jasotzeko Scholarshipcoin helbideak. Gomendagarria da, operazio bakoitza helbide berri batekin egitea.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,14 +132,6 @@
         <translation>Pasahitz berria errepiikatu</translation>
     </message>
     <message>
-        <source>Show password</source>
-        <translation>Erakutsi pasahitza</translation>
-    </message>
-    <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Sartu pasaesaldi bat diru-zorrorako. Mesedez erabili ausazko hamar edo gehiago karaktere edo zortzi edo gehiago hitz.</translation>
-    </message>
-    <message>
         <source>Encrypt wallet</source>
         <translation>Diruzorroa enkriptatu</translation>
     </message>
@@ -172,8 +160,8 @@
         <translation>Diruorroaren enkriptazioa berretsi</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
-        <translation>Abisua: Diruzorroa enkriptatzen baduzu eta zure pasahitza galtzen baduzu, &lt;b&gt;SCHOLARSHIP GUZTIAK GALDUKO DITUZU&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <translation>Abisua: Diruzorroa enkriptatzen baduzu eta zure pasahitza galtzen baduzu, &lt;b&gt;SCHOLARSHIPCOIN GUZTIAK GALDUKO DITUZU&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -258,6 +246,10 @@
         <translation>&amp;Aukerak...</translation>
     </message>
     <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Helbideak jasotzen...</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Diruzorroa enkriptatzeko erabilitako pasahitza aldatu</translation>
     </message>
@@ -276,10 +268,6 @@
     <message>
         <source>Tabs toolbar</source>
         <translation>Fitxen tresna-barra</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Akatsa</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -348,6 +336,10 @@
         <translation>&amp;Helbidea</translation>
     </message>
     <message>
+        <source>New receiving address</source>
+        <translation>Jasotzeko helbide berria</translation>
+    </message>
+    <message>
         <source>New sending address</source>
         <translation>Bidaltzeko helbide berria</translation>
     </message>
@@ -358,6 +350,10 @@
     <message>
         <source>Edit sending address</source>
         <translation>Bidaltzeko helbidea editatu</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Sartu berri den helbidea, "%1", helbide-liburuan dago jadanik.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -376,10 +372,6 @@
     </context>
 <context>
     <name>Intro</name>
-    <message>
-        <source>Error</source>
-        <translation>Akatsa</translation>
-    </message>
     </context>
 <context>
     <name>ModalOverlay</name>
@@ -396,10 +388,6 @@
     <message>
         <source>Options</source>
         <translation>Aukerak</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Akatsa</translation>
     </message>
     </context>
 <context>
@@ -616,6 +604,10 @@
         <translation>%1 konfirmazio</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ez da oraindik arrakastaz igorri</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -664,6 +656,10 @@
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Konfirmatuta (%1 konfirmazio)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Bloke hau ez du beste inongo nodok jaso, eta seguruenik ez da onartuko!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -801,9 +797,6 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -827,8 +820,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Loading wallet...</source>
-        <translation>Diru-zorroa kargatzen</translation>
+        <source>Options:</source>
+        <translation>Aukerak:</translation>
     </message>
     <message>
         <source>Rescanning...</source>
@@ -838,9 +831,5 @@
         <source>Done loading</source>
         <translation>Zamaketa amaitua</translation>
     </message>
-    <message>
-        <source>Error</source>
-        <translation>Akatsa</translation>
-    </message>
-</context>
+    </context>
 </TS>

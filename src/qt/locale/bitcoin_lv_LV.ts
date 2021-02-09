@@ -26,10 +26,6 @@
         <translation>Izdzēst iezīmētās adreses no saraksta</translation>
     </message>
     <message>
-        <source>Enter address or label to search</source>
-        <translation>Ierakstiet meklējamo nosaukumu vai adresi</translation>
-    </message>
-    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Datus no tekošā ieliktņa eksportēt uz failu</translation>
     </message>
@@ -43,19 +39,15 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izvēlies adresi uz kuru sūtīt scholarships</translation>
+        <translation>Izvēlies adresi uz kuru sūtīt scholarshipcoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izvēlies adresi ar kuru saņemt scholarships</translation>
+        <translation>Izvēlies adresi ar kuru saņemt scholarshipcoins</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopēt adresi</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Label</source>
-        <translation>Kopēt &amp;Marķējumu</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -104,10 +96,6 @@
         <translation>Jaunā parole vēlreiz</translation>
     </message>
     <message>
-        <source>Show password</source>
-        <translation>Rādīt paroli</translation>
-    </message>
-    <message>
         <source>Encrypt wallet</source>
         <translation>Šifrēt maciņu</translation>
     </message>
@@ -148,6 +136,10 @@
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Pārskats</translation>
+    </message>
+    <message>
+        <source>Node</source>
+        <translation>Node</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -194,6 +186,14 @@
         <translation>Mainīt &amp;Paroli...</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Sūtīšanas adreses...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Saņemšanas &amp;adreses...</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>Atvērt &amp;URI...</translation>
     </message>
@@ -202,8 +202,8 @@
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Nosūtīt SCHOoinus uz Scholarship adresi</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>Nosūtīt bitkoinus uz Scholarshipcoin adresi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -226,8 +226,12 @@
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Maciņš</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -250,12 +254,12 @@
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām Scholarship adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām Scholarshipcoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Scholarship adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Scholarshipcoin adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -274,12 +278,12 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un scholarship: URIs)</translation>
+        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un scholarshipcoin: URIs)</translation>
     </message>
     <message>
-        <source>Open a scholarship: URI or payment request</source>
-        <translation>Atvērt scholarship URI vai maksājuma pieprasījumu</translation>
+        <source>Open a scholarshipcoin: URI or payment request</source>
+        <translation>Atvērt scholarshipcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -308,10 +312,6 @@
     <message>
         <source>Up to date</source>
         <translation>Sinhronizēts</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Logs</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -441,7 +441,15 @@
         <source>Command-line options</source>
         <translation>Komandrindas iespējas</translation>
     </message>
-</context>
+    <message>
+        <source>Usage:</source>
+        <translation>Lietojums:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>komandrindas izvēles</translation>
+    </message>
+    </context>
 <context>
     <name>Intro</name>
     <message>
@@ -457,8 +465,8 @@
         <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -510,6 +518,10 @@
         <translation>&amp;Datubāzes kešatmiņas izmērs</translation>
     </message>
     <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
         <source>Number of script &amp;verification threads</source>
         <translation>Skriptu &amp;pārbaudes pavedienu skaits</translation>
     </message>
@@ -520,6 +532,10 @@
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation>Minimizēt nevis aizvērt aplikāciju, kad logs tiek aizvērts. Kad šī iespēja ir ieslēgta, aplikācija tiks aizvērta, izvēloties Aizvērt izvēlnē.</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Aktīvās komandrindas opcijas, kuras pārspēko šos iestatījumus:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -543,15 +559,15 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt scholarship &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt scholarshipcoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the Scholarship client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt Scholarship klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the Scholarshipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt Scholarshipcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -599,11 +615,11 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot SCHOoinus.</translation>
+        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot bitkoinus.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rādīt Scholarship kontroles funkcijas vai nē.</translation>
+        <translation>Vai rādīt Scholarshipcoin kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -641,8 +657,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarship network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Scholarship tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarshipcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Scholarshipcoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -884,10 +900,6 @@
         <source>Label</source>
         <translation>Nosaukums</translation>
     </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Maciņš</translation>
-    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -904,11 +916,11 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt SCHOoinus</translation>
+        <translation>Sūtīt Bitkoinus</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Scholarship Kontroles Funkcijas</translation>
+        <translation>Scholarshipcoin Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -981,10 +993,6 @@
     <message>
         <source>S&amp;end</source>
         <translation>&amp;Sūtīt</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Transakcijas maksa</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1091,8 +1099,8 @@
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Scholarship address</source>
-        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Scholarship adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this Scholarshipcoin address</source>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Scholarshipcoin adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1173,9 +1181,6 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -1187,8 +1192,48 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+        <source>Options:</source>
+        <translation>Iespējas:</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Norādiet datu direktoriju</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Pievienoties mezglam, lai iegūtu citu mezglu adreses, un atvienoties</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Norādiet savu publisko adresi</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Pieņemt komandrindas un JSON-RPC komandas</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
+    </message>
+    <message>
         <source>Scholarship Core</source>
         <translation>Scholarship Core</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; var būt:</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Bloka izveidošanas iestatījumi:</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>Savienojuma iestatījumi:</translation>
+    </message>
+    <message>
+        <source>Debugging/Testing options:</source>
+        <translation>Atkļūdošanas/Testēšanas iestatījumi:</translation>
     </message>
     <message>
         <source>Error loading block database</source>
@@ -1207,8 +1252,20 @@
         <translation>Pārbauda blokus...</translation>
     </message>
     <message>
+        <source>Wallet options:</source>
+        <translation>Maciņa iespējas:</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Informācija</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>RPC servera iestatījumi:</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Debug/trace informāciju izvadīt konsolē, nevis debug.log failā</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -1223,8 +1280,24 @@
         <translation>Transakcija ir pārāk liela</translation>
     </message>
     <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>JSON-RPC savienojumu lietotājvārds</translation>
+    </message>
+    <message>
         <source>Warning</source>
         <translation>Brīdinājums</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC savienojumu parole</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Izpildīt komandu, kad labāk atbilstošais bloks izmainās (%s cmd aizvieto ar bloka hešu)</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Atļaut DNS uzmeklēšanu priekš -addnode, -seednode un -connect</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -1232,7 +1305,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nepietiek SCHOoinu</translation>
+        <translation>Nepietiek bitkoinu</translation>
     </message>
     <message>
         <source>Loading block index...</source>

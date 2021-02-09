@@ -1,7 +1,7 @@
 Description
 ------------
 
-This directory contains data-driven tests for various aspects of Scholarship.
+This directory contains data-driven tests for various aspects of Scholarshipcoin.
 
 License
 --------

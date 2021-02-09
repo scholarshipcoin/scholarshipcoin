@@ -3,60 +3,57 @@ Scholarship Core
 
 Setup
 ---------------------
-Scholarship Core is the original Scholarship client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Scholarship transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Scholarship Core is the original Scholarshipcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Scholarshipcoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Scholarship Core, visit [scholarshipcoin.org](https://scholarshipcoin.org/).
+To download Scholarship Core, visit [scholarshipcoin.org](https://scholarshipcoin.org).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Scholarship Core on your native platform.
+The following are some helpful notes on how to run Scholarshipcoin on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/scholarship-qt` (GUI) or
-- `bin/scholarshipd` (headless)
+- `bin/scholarshipcoin-qt` (GUI) or
+- `bin/scholarshipcoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run scholarship-qt.exe.
+Unpack the files into a directory, and then run scholarshipcoin-qt.exe.
 
-### macOS
+### OS X
 
-Drag Scholarship Core to your applications folder, and then run Scholarship Core.
+Drag Scholarshipcoin-Core to your applications folder, and then run Scholarshipcoin-Core.
 
 ### Need Help?
 
-* See the documentation at the [Scholarship Wiki](https://scholarship.info/)
+* See the documentation at the [Scholarshipcoin Wiki](https://scholarshipcoin.info/)
 for help and more information.
-* Ask for help on [#scholarship](http://webchat.freenode.net?channels=scholarship) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=scholarship).
-* Ask for help on the [ScholarshipTalk](https://scholarshiptalk.io/) forums, in the [Technical Support section](https://scholarshiptalk.io/c/technical-support).
+* Ask for help on [#scholarshipcoin](http://webchat.freenode.net?channels=scholarshipcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=scholarshipcoin).
+* Ask for help on the [ScholarshipcoinTalk](https://scholarshipcointalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Scholarship Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Scholarshipcoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
-- [macOS Build Notes](build-osx.md)
+- [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
 - [Windows Build Notes](build-windows.md)
-- [FreeBSD Build Notes](build-freebsd.md)
 - [OpenBSD Build Notes](build-openbsd.md)
-- [NetBSD Build Notes](build-netbsd.md)
-- [Gitian Building Guide (External Link)](https://github.com/bitcoin-core/docs/blob/master/gitian-building.md)
+- [Gitian Building Guide](gitian-building.md)
 
 Development
 ---------------------
-The Scholarship repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Scholarshipcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
-- [Productivity Notes](productivity.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
 - [Translation Process](translation_process.md)
 - [Translation Strings Policy](translation_strings_policy.md)
-- [JSON-RPC Interface](JSON-RPC-interface.md)
+- [Travis CI](travis-ci.md)
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Shared Libraries](shared-libraries.md)
 - [BIPS](bips.md)
@@ -64,19 +61,17 @@ The Scholarship repo's [root README](/README.md) contains relevant information o
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [ScholarshipTalk](https://scholarshiptalk.io/) forums.
-* Discuss general Scholarship development on #scholarship-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=scholarship-dev.
+* Discuss on the [ScholarshipcoinTalk](https://scholarshipcointalk.io/) forums.
+* Discuss general Scholarshipcoin development on #scholarshipcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=scholarshipcoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
-- [bitcoin.conf Configuration File](bitcoin-conf.md)
 - [Files](files.md)
 - [Fuzz-testing](fuzzing.md)
 - [Reduce Traffic](reduce-traffic.md)
 - [Tor Support](tor.md)
 - [Init Scripts (systemd/upstart/openrc)](init.md)
 - [ZMQ](zmq.md)
-- [PSBT support](psbt.md)
 
 License
 ---------------------

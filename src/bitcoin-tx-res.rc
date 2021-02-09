@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Scholarship"
-            VALUE "FileDescription",    "scholarship-tx (CLI Scholarship transaction editor utility)"
+            VALUE "CompanyName",        "Scholarshipcoin"
+            VALUE "FileDescription",    "scholarshipcoin-tx (CLI Scholarshipcoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "scholarship-tx"
+            VALUE "InternalName",       "scholarshipcoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "scholarship-tx.exe"
-            VALUE "ProductName",        "scholarship-tx"
+            VALUE "OriginalFilename",   "scholarshipcoin-tx.exe"
+            VALUE "ProductName",        "scholarshipcoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

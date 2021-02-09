@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2018 The Bitcoin Core developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers
+// Copyright (c) 2021 The Scholarship Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -88,14 +89,14 @@ public:
     CBlock(const CBlockHeader &header)
     {
         SetNull();
-        *(static_cast<CBlockHeader*>(this)) = header;
+        *((CBlockHeader*)this) = header;
     }
 
     ADD_SERIALIZE_METHODS;
 
     template <typename Stream, typename Operation>
     inline void SerializationOp(Stream& s, Operation ser_action) {
-        READWRITEAS(CBlockHeader, *this);
+        READWRITE(*(CBlockHeader*)this);
         READWRITE(vtx);
     }
 

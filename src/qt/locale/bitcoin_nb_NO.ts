@@ -30,10 +30,6 @@
         <translation>Slett den valgte adressen fra listen</translation>
     </message>
     <message>
-        <source>Enter address or label to search</source>
-        <translation>Oppgi adresse, eller stikkord, for å søke</translation>
-    </message>
-    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Eksporter data i den valgte fliken til en fil</translation>
     </message>
@@ -66,12 +62,12 @@
         <translation>Mottager adresser</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dette er dine Scholarship adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dette er dine Scholarshipcoin adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Scholarship adresse for å motta betalinger. Det er anbefalt å bruke en ny mottager adresse for hver transaksjon.</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine Scholarshipcoin adresse for å motta betalinger. Det er anbefalt å bruke en ny mottager adresse for hver transaksjon.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,10 +132,6 @@
         <translation>Repeter passorsetningen</translation>
     </message>
     <message>
-        <source>Show password</source>
-        <translation>Vis passord</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Oppgi passordsetningen for lommeboken. &lt;br/&gt;Vennligst bruk en passordsetninge med &lt;b&gt;ti, eller flere tilfeldige tegn &lt;/b&gt;, eller &lt;b&gt;åtte, eller flere ord&lt;/b&gt;.</translation>
     </message>
@@ -176,8 +168,8 @@
         <translation>Bekreft kryptering av lommeboken</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
-        <translation>Advarsel: Dersom du krypterer lommeboken og mister passordsetningen vil du &lt;b&gt;MISTE ALLE DINE SCHOLARSHIP&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <translation>Advarsel: Dersom du krypterer lommeboken og mister passordsetningen vil du &lt;b&gt;MISTE ALLE DINE SCHOLARSHIPCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +180,8 @@
         <translation>Lommeboken er kryptert</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your scholarships from being stolen by malware infecting your computer.</source>
-        <translation>Lommeboken din er nå kryptert. Husk at kryptering ikke er tilstrekkelig for å beskytte dine scholarship i lommeboken fra å bli stjålet av skadelig programvare som har infisert maskinen din.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarshipcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 vil nå lukkes for å fullføre krypteringsprosessen. Husk at å kryptere lommeboken ikke kan beskytte dine scholarshipcoin fullstendig fra å bli stjålet av skadelig programvare som har infisert datamaskinen din.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -254,6 +246,10 @@
         <translation>&amp;Oversikt</translation>
     </message>
     <message>
+        <source>Node</source>
+        <translation>Node</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Vis generell oversikt over lommeboken</translation>
     </message>
@@ -310,12 +306,16 @@
         <translation>&amp;Endre passordsetning</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Åpne &amp;URI</translation>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Avsender adresser</translation>
     </message>
     <message>
-        <source>Wallet:</source>
-        <translation>Lommebok:</translation>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Mottager adresser</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Åpne &amp;URI</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
@@ -338,12 +338,8 @@
         <translation>Reindekserer blokker på disken</translation>
     </message>
     <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Proxy er &lt;b&gt;slått på&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Send mynter til en Scholarship adresse</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>Send mynter til en Scholarshipcoin adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +362,12 @@
         <translation>&amp;Verifiser meldingen...</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Lommebok</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -390,12 +390,12 @@
         <translation>Krypter de private nøklene som tilhører lommeboken din</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Signer meldingene med Scholarship adresse for å bevise at diu eier dem</translation>
+        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
+        <translation>Signer meldingene med Scholarshipcoin adresse for å bevise at diu eier dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Verifiser meldinger for å sikre at de ble signert med en angitt Scholarship adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
+        <translation>Verifiser meldinger for å sikre at de ble signert med en angitt Scholarshipcoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Hjelpelinje for fliker</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Be om betalinger (genererer QR-koder og scholarship-URIer)</translation>
+        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
+        <translation>Be om betalinger (genererer QR-koder og scholarshipcoin-URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,28 +426,16 @@
         <translation>Vis lista over brukte mottakeradresser og merkelapper</translation>
     </message>
     <message>
-        <source>Open a scholarship: URI or payment request</source>
-        <translation>Åpne en scholarship: URI eller betalingsforespørsel</translation>
+        <source>Open a scholarshipcoin: URI or payment request</source>
+        <translation>Åpne en scholarshipcoin: URI eller betalingsforespørsel</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandolinjealternativer</translation>
     </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Scholarship network</source>
-        <translation><numerusform>%n aktiv tilkobling til Scholarship nettverket</numerusform><numerusform>%n aktive tilkoblinger til Scholarship nettverket</numerusform></translation>
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Indekserer blokker på disken...</translation>
-    </message>
     <message>
         <source>Processing blocks on disk...</source>
         <translation>Behandler blokker på disken…</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Har prosessert %n blokk av transaksjonshistorien</numerusform><numerusform>Har prosessert %n blokker av transaksjonshistorien</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -478,44 +466,12 @@
         <translation>Oppdatert</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses</source>
-        <translation>&amp;Avsender adresser</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>&amp;Mottaker adresser</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Scholarship command-line options</source>
-        <translation>Vis %1-hjelpemeldingen for å få en liste over mulige Scholarship-kommandolinjealternativer</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Vindu</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>Minimer</translation>
-    </message>
-    <message>
-        <source>Zoom</source>
-        <translation>Zoom</translation>
-    </message>
-    <message>
-        <source>Restore</source>
-        <translation>Gjenopprett</translation>
-    </message>
-    <message>
-        <source>Main Window</source>
-        <translation>Hovedvindu</translation>
+        <source>Show the %1 help message to get a list with possible Scholarshipcoin command-line options</source>
+        <translation>Vis %1-hjelpemeldingen for å få en liste over mulige Scholarshipcoin-kommandolinjealternativer</translation>
     </message>
     <message>
         <source>%1 client</source>
         <translation>%1-klient</translation>
-    </message>
-    <message>
-        <source>Connecting to peers...</source>
-        <translation>Kobler til peers...</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -531,12 +487,6 @@
         <source>Amount: %1
 </source>
         <translation>Mengde: %1
-</translation>
-    </message>
-    <message>
-        <source>Wallet: %1
-</source>
-        <translation>Lommeboik: %1
 </translation>
     </message>
     <message>
@@ -565,14 +515,6 @@
         <source>Incoming transaction</source>
         <translation>Innkommende transaksjon</translation>
     </message>
-    <message>
-        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD nøkkel generering er &lt;b&gt;slått på&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD nøkkel generering er &lt;b&gt;slått av&lt;/b&gt;</translation>
-    </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
@@ -593,8 +535,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -609,10 +551,6 @@
     </context>
 <context>
     <name>OptionsDialog</name>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Vindu</translation>
-    </message>
     <message>
         <source>Error</source>
         <translation>Feilmelding</translation>
@@ -651,10 +589,6 @@
     <message>
         <source>Label</source>
         <translation>Beskrivelse</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Lommebok</translation>
     </message>
     </context>
 <context>
@@ -731,9 +665,6 @@
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletController</name>
     </context>
 <context>
     <name>WalletFrame</name>

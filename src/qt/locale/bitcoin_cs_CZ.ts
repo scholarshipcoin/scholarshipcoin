@@ -22,10 +22,6 @@
         <translation>&amp;Kopírovat</translation>
     </message>
     <message>
-        <source>C&amp;lose</source>
-        <translation>Z&amp;avřít</translation>
-    </message>
-    <message>
         <source>Delete the currently selected address from the list</source>
         <translation>Odstraní aktuálně vybrané adresy ze seznamu</translation>
     </message>
@@ -40,18 +36,6 @@
     <message>
         <source>&amp;Delete</source>
         <translation>&amp;Odstranit</translation>
-    </message>
-    <message>
-        <source>C&amp;hoose</source>
-        <translation>V&amp;ybrat</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Kopírovat adresu</translation>
-    </message>
-    <message>
-        <source>&amp;Edit</source>
-        <translation>&amp;Upravit</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -86,10 +70,6 @@
     <message>
         <source>Repeat new passphrase</source>
         <translation>Zopakujte nové heslo</translation>
-    </message>
-    <message>
-        <source>Show password</source>
-        <translation>Zobrazit heslo</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -186,8 +166,8 @@
         <translation>Změnit heslo k šifrování peněženky</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -276,6 +256,10 @@
         <translation>&amp;Adresa</translation>
     </message>
     <message>
+        <source>New receiving address</source>
+        <translation>Nová adresa pro příjem</translation>
+    </message>
+    <message>
         <source>New sending address</source>
         <translation>Nová adresa k odeslání</translation>
     </message>
@@ -286,6 +270,10 @@
     <message>
         <source>Edit sending address</source>
         <translation>Upravit adresu k odeslání</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Zadaná adresa "%1" se již v seznamu adres nachází.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -301,12 +289,16 @@
     </context>
 <context>
     <name>HelpMessageDialog</name>
+    <message>
+        <source>Usage:</source>
+        <translation>Použití:</translation>
+    </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     </context>
 <context>
@@ -395,10 +387,6 @@
     <message>
         <source>Message</source>
         <translation>Zpráva</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Peněženka</translation>
     </message>
     </context>
 <context>
@@ -524,6 +512,10 @@
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Potvrzeno (%1 potvrzení)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Tento blok nebyl přijat žádným dalším uzlem a pravděpodobně nebude akceptován!</translation>
     </message>
     <message>
         <source>Received with</source>
@@ -653,9 +645,6 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -674,6 +663,10 @@
     </context>
 <context>
     <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Možnosti:</translation>
+    </message>
     <message>
         <source>Loading wallet...</source>
         <translation>Načítání peněženky...</translation>

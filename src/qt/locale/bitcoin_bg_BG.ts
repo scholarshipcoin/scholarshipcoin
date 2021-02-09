@@ -62,12 +62,12 @@
         <translation>Адрес за получаване</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тези са вашите Scholarship адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Тези са вашите Scholarshipcoin адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Scholarship адреси за получаване на монети. Препоръчително е да ползвате нов адрес на всяка транзакция.</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите Scholarshipcoin адреси за получаване на монети. Препоръчително е да ползвате нов адрес на всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -202,6 +202,10 @@
         <translation>Преглед</translation>
     </message>
     <message>
+        <source>Node</source>
+        <translation>Възел</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Покажи общ преглед на портфейла</translation>
     </message>
@@ -258,12 +262,24 @@
         <translation>Промени паролата...</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>Адреси за пращане...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Адреси за получаване...</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>Отвори URI</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Повторно индексиране на блоковете на диска...</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>портфейл</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -424,6 +440,10 @@
     <message>
         <source>Edit Address</source>
         <translation>Редактирайте адреса</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Нов адрес за получаване</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -658,10 +678,6 @@
         <source>Label</source>
         <translation>Етикет</translation>
     </message>
-    <message>
-        <source>Wallet</source>
-        <translation>портфейл</translation>
-    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -859,9 +875,6 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -882,7 +895,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Scholarship Core</source>
-        <translation>Scholarship ядро</translation>
+        <translation>Scholarshipcoin ядро</translation>
     </message>
     <message>
         <source>Information</source>

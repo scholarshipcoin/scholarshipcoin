@@ -30,10 +30,6 @@
         <translation>Kiválasztott cím törlése a listából</translation>
     </message>
     <message>
-        <source>Enter address or label to search</source>
-        <translation>Írja be a keresendő címet vagy címkét</translation>
-    </message>
-    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Jelenlegi nézet exportálása fájlba</translation>
     </message>
@@ -66,12 +62,12 @@
         <translation>Fogadási cím</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ezek a Scholarship címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ezek a Scholarshipcoin címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ezek a Scholarship címeid kifizetések fogadásához. Ajánlott új címet használni minden új fogadáshoz.</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezek a Scholarshipcoin címeid kifizetések fogadásához. Ajánlott új címet használni minden új fogadáshoz.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -132,10 +128,6 @@
         <translation>Új jelszó újra</translation>
     </message>
     <message>
-        <source>Show password</source>
-        <translation>Jelszó megjelenítése</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Gépelje be az új kulcsmondatot a pénztárcához.&lt;br/&gt;
 Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű karaktert &lt;/b&gt;, vagy &lt;b&gt; nyolc vagy több szót &lt;/b&gt;.</translation>
@@ -173,8 +165,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tárca titkosításának megerősítése</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha titkosítja a tárcáját és elveszíti a jelszavát, akkor &lt;b&gt;AZ ÖSSZES SCHOLARSHIPJA ELVESZIK&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <translation>Figyelem: Ha titkosítja a tárcáját és elveszíti a jelszavát, akkor &lt;b&gt;AZ ÖSSZES SCHOLARSHIPCOINJA ELVESZIK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -183,6 +175,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Wallet encrypted</source>
         <translation>Tárca titkosítva</translation>
+    </message>
+    <message>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarshipcoins from being stolen by malware infecting your computer.</source>
+        <translation>A %1 most bezár, hogy befejezze a titkosítást. Ne feledje, hogy a tárca titkosítása nem nyújt teljes védelmet azzal szemben, hogy kártékony programok megfertőzzék a számítógépét és ellopják a scholarshipcoinjait.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -247,6 +243,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Áttekintés</translation>
     </message>
     <message>
+        <source>Node</source>
+        <translation>Csomópont</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Tárca általános áttekintése</translation>
     </message>
@@ -303,6 +303,14 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Jelszó &amp;megváltoztatása...</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Küldési címek...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Fogadó címek...</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>&amp;URI azonosító megnyitása...</translation>
     </message>
@@ -327,8 +335,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Scholarship küldése megadott címre</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>Scholarshipcoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -351,8 +359,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Tárca</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -375,12 +387,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Scholarship-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a Scholarshipcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Scholarship-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Scholarshipcoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -399,8 +411,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "scholarship:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "scholarshipcoin:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,16 +423,16 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a scholarship: URI or payment request</source>
-        <translation>"scholarship:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a scholarshipcoin: URI or payment request</source>
+        <translation>"scholarshipcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Scholarship network</source>
-        <translation><numerusform>%n aktív kapcsolat a Scholarship hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Scholarship hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to Scholarshipcoin network</source>
+        <translation><numerusform>%n aktív kapcsolat a Scholarshipcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Scholarshipcoin hálózathoz</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -463,16 +475,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Naprakész</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Scholarship command-line options</source>
-        <translation>A %1 súgó megjelenítése a Scholarship lehetséges parancssori kapcsolóinak listájával</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Ablak</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>Kicsinyítés</translation>
+        <source>Show the %1 help message to get a list with possible Scholarshipcoin command-line options</source>
+        <translation>A %1 súgó megjelenítése a Scholarshipcoin lehetséges parancssori kapcsolóinak listájával</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -541,8 +545,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Scholarship can no longer continue safely and will quit.</source>
-        <translation>Végzetes hiba történt. A Scholarship működése nem biztonságos és hamarosan leáll.</translation>
+        <source>A fatal error occurred. Scholarshipcoin can no longer continue safely and will quit.</source>
+        <translation>Végzetes hiba történt. A Scholarshipcoin működése nem biztonságos és hamarosan leáll.</translation>
     </message>
 </context>
 <context>
@@ -719,6 +723,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Cím</translation>
     </message>
     <message>
+        <source>New receiving address</source>
+        <translation>Új fogadó cím</translation>
+    </message>
+    <message>
         <source>New sending address</source>
         <translation>Új küldő cím</translation>
     </message>
@@ -731,8 +739,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Küldő cím szerkesztése</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Scholarship address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Scholarship-cím.</translation>
+        <source>The entered address "%1" is not a valid Scholarshipcoin address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes Scholarshipcoin-cím.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>A megadott "%1" cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -780,6 +792,42 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>Command-line options</source>
         <translation>Parancssoros opciók</translation>
     </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Használat:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>parancssoros opciók</translation>
+    </message>
+    <message>
+        <source>UI Options:</source>
+        <translation>Kezelőfelület beállításai:</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Adatkönyvtár kiválasztása induláskor (alapértelmezett:  %u)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Nyelvbeállítás, például "de_DE" (alapértelmezett: rendszer nyelve)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Indítás lekicsinyítve</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>SLL gyökér-igazolások megadása fizetési kérelmekhez (alapértelmezett: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Indítóképernyő mutatása induláskor (alapértelmezett:  %u)</translation>
+    </message>
+    <message>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>A grafikus felület összes megváltoztatott beállításának a visszaállítása</translation>
+    </message>
 </context>
 <context>
     <name>Intro</name>
@@ -816,8 +864,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -828,8 +876,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Hozzávetőlegesen %1 GB adatot fogunk ebben a könyvtárban tárolni.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Scholarship block chain.</source>
-        <translation>%1 le fog töltődni és a Scholarship blokk lánc egy másolatát fogja tárolni.</translation>
+        <source>%1 will download and store a copy of the Scholarshipcoin block chain.</source>
+        <translation>%1 le fog töltődni és a Scholarshipcoin blokk lánc egy másolatát fogja tárolni.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -855,12 +903,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the scholarship network, as detailed below.</source>
-        <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a scholarship hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the scholarshipcoin network, as detailed below.</source>
+        <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a scholarshipcoin hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
     </message>
     <message>
-        <source>Attempting to spend scholarships that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>A hálózat nem fogadja el azoknak a scholarshipoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
+        <source>Attempting to spend scholarshipcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>A hálózat nem fogadja el azoknak a scholarshipcoinoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -894,7 +942,11 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>Hide</source>
         <translation>Elrejtés</translation>
     </message>
-    </context>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>Ismeretlen. Fejlécek szinkronizálása (%1)...</translation>
+    </message>
+</context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -941,6 +993,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A&amp;datbázis gyorsítótár mérete</translation>
     </message>
     <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
         <source>Number of script &amp;verification threads</source>
         <translation>A szkript &amp;igazolási szálak száma</translation>
     </message>
@@ -953,16 +1009,16 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Megmutatja, hogy az alapértelmezett SOCKS5 proxy van-e használatban, hogy elérje a párokat ennél a hálózati típusnál.</translation>
     </message>
     <message>
-        <source>Hide the icon from the system tray.</source>
-        <translation>Ikon elrejtése a tálcáról.</translation>
-    </message>
-    <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation>Az alkalmazásból való kilépés helyett az eszköztárba kicsinyíti az alkalmazást az ablak bezárásakor. Ez esetben az alkalmazás csak a Kilépés menüponttal zárható be.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>Harmadik féltől származó URL-ek (pl. egy blokk felfedező) amelyek a tranzakciós fülön jelennek meg mint a környezetérzékeny menü tételei. %s az URL-ben helyettesítve a tranzakciós hash-el. Több URL esetén, függőleges vonal választja el őket.</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Aktív parancssori beállítások, melyek felülírják a fenti beállításokat:</translation>
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
@@ -1009,24 +1065,16 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Költése a a jóváhagyatlan visszajárónak</translation>
     </message>
     <message>
-        <source>Automatically open the Scholarship client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Scholarship-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Scholarshipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Scholarshipcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Accept connections from outside.</source>
-        <translation>Külső csatlakozások elfogadása.</translation>
-    </message>
-    <message>
-        <source>Allow incomin&amp;g connections</source>
-        <translation>Bejövő kapcsolatok engedélyezése.</translation>
-    </message>
-    <message>
-        <source>Connect to the Scholarship network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Scholarship hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the Scholarshipcoin network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a Scholarshipcoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1061,8 +1109,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Scholarship network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Csatlakozás a Scholarship hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
+        <source>Connect to the Scholarshipcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Csatlakozás a Scholarshipcoin hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1103,10 +1151,6 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Whether to show coin control features or not.</source>
         <translation>Mutassa a pénzküldés beállításait vagy ne.</translation>
-    </message>
-    <message>
-        <source>&amp;Third party transaction URLs</source>
-        <translation>&amp;Harmadik féltől származó tranzakció URL-ek</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1168,8 +1212,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarship network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Scholarship hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarshipcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Scholarshipcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1243,8 +1287,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Hiba történt a fizetési kérelem során</translation>
     </message>
     <message>
-        <source>Cannot start scholarship: click-to-pay handler</source>
-        <translation>A scholarship nem tud elindulni: click-to-pay kezelő</translation>
+        <source>Cannot start scholarshipcoin: click-to-pay handler</source>
+        <translation>A scholarshipcoin nem tud elindulni: click-to-pay kezelő</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1255,8 +1299,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Érvénytelen fizetési cím %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Scholarship address or malformed URI parameters.</source>
-        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Scholarship cím, vagy rossz URI paraméterezés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Scholarshipcoin address or malformed URI parameters.</source>
+        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Scholarshipcoin cím, vagy rossz URI paraméterezés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1353,8 +1397,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Scholarship address (e.g. %1)</source>
-        <translation>Ad meg egy Scholarship címet (pl: %1)</translation>
+        <source>Enter a Scholarshipcoin address (e.g. %1)</source>
+        <translation>Ad meg egy Scholarshipcoin címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1706,10 +1750,6 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Használja a fel és le nyilakat az előzményekben való navigáláshoz, és %1 -et a képernyő törlésére.</translation>
     </message>
     <message>
-        <source>For more information on using this console type %1.</source>
-        <translation>Több információért használja a konzolban a %1 parancsot.</translation>
-    </message>
-    <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
         <translation>FIGYELEM: Csalók megpróbálnak felhasználókat rávenni, hogy parancsokat írjanak be ide, és ellopják a tárca tartalmát. Ne használja ezt a konzolt anélkül, hogy teljesen megértené egy parancs kiadásának a következményeit.</translation>
     </message>
@@ -1765,8 +1805,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Üzenet:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Scholarship network.</source>
-        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Scholarship hálózaton keresztül.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Scholarshipcoin network.</source>
+        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Scholarshipcoin hálózaton keresztül.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1787,14 +1827,6 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Clear</source>
         <translation>Törlés</translation>
-    </message>
-    <message>
-        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
-        <translation>Segwit címek (Bech32 vagy BIP-173) csökkentik a tranzakciók díját és jobb védelmet biztosítanak gépelési hibával szemben, de a régi pénztárcák nem támogatják. Ha nincs aktiválva, egy régi pénztárcával is kompatibilis cím lesz létrehozva.</translation>
-    </message>
-    <message>
-        <source>Generate native segwit (Bech32) address</source>
-        <translation>Segwit cím (Bech32) létrehozása</translation>
     </message>
     <message>
         <source>Requested payments history</source>
@@ -1882,10 +1914,6 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Message</source>
         <translation>Üzenet</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Tárca</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
@@ -2010,6 +2038,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Elrejtés</translation>
     </message>
     <message>
+        <source>(read the tooltip)</source>
+        <translation>(olvasd el a gyorstippet)</translation>
+    </message>
+    <message>
         <source>Recommended:</source>
         <translation>Ajánlott:</translation>
     </message>
@@ -2032,14 +2064,6 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Dust:</source>
         <translation>Por-határ:</translation>
-    </message>
-    <message>
-        <source>Confirmation time target:</source>
-        <translation>Várható megerősítési idő:</translation>
-    </message>
-    <message>
-        <source>Enable Replace-By-Fee</source>
-        <translation>Replace-By-Fee bekapcsolása</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2090,16 +2114,16 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Biztosan el akarja küldeni?</translation>
     </message>
     <message>
+        <source>added as transaction fee</source>
+        <translation>hozzáadva, mint tranzakciós díj</translation>
+    </message>
+    <message>
+        <source>Total Amount %1</source>
+        <translation>Teljes Összeg %1</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>vagy</translation>
-    </message>
-    <message>
-        <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
-        <translation>Később növelheti a tranzakció díját (lásd Replace-By-Fee, BIP-125).</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Tranzakciós díj</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -2142,8 +2166,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A fizetési kérelem lejárt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Scholarship address</source>
-        <translation>Figyelmeztetés: Érvénytelen Scholarship cím</translation>
+        <source>Pay only the required fee of %1</source>
+        <translation>Csak a szükséges %1 díj fizetése</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Scholarshipcoin address</source>
+        <translation>Figyelmeztetés: Érvénytelen Scholarshipcoin cím</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2185,8 +2213,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Ez normál fizetés.</translation>
     </message>
     <message>
-        <source>The Scholarship address to send the payment to</source>
-        <translation>Erre a Scholarship címre küldje az összeget</translation>
+        <source>The Scholarshipcoin address to send the payment to</source>
+        <translation>Erre a Scholarshipcoin címre küldje az összeget</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2209,20 +2237,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Vonja le a díjat az összegből</translation>
     </message>
     <message>
-        <source>Use available balance</source>
-        <translation>Elérhető egyenleg használata</translation>
-    </message>
-    <message>
         <source>Message:</source>
         <translation>Üzenet:</translation>
-    </message>
-    <message>
-        <source>This is an unauthenticated payment request.</source>
-        <translation>Ez egy nem hitelesített fizetési kérelem.</translation>
-    </message>
-    <message>
-        <source>This is an authenticated payment request.</source>
-        <translation>Ez egy hitelesített fizetési kérelem.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -2270,8 +2286,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet aláírása...</translation>
     </message>
     <message>
-        <source>The Scholarship address to sign the message with</source>
-        <translation>Scholarship cím, amivel alá kívánja írni az üzenetet</translation>
+        <source>The Scholarshipcoin address to sign the message with</source>
+        <translation>Scholarshipcoin cím, amivel alá kívánja írni az üzenetet</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2302,7 +2318,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Scholarship address</source>
+        <source>Sign the message to prove you own this Scholarshipcoin address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -2318,12 +2334,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
-        <source>The Scholarship address the message was signed with</source>
-        <translation>Scholarship cím, amivel aláírta az üzenetet</translation>
+        <source>The Scholarshipcoin address the message was signed with</source>
+        <translation>Scholarshipcoin cím, amivel aláírta az üzenetet</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Scholarship address</source>
-        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Scholarship címmel van-e aláírva</translation>
+        <source>Verify the message to ensure it was signed with the specified Scholarshipcoin address</source>
+        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Scholarshipcoin címmel van-e aláírva</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2395,6 +2411,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>%1 -ig megnyitva</translation>
     </message>
     <message>
+        <source>%1/offline</source>
+        <translation>%1/offline</translation>
+    </message>
+    <message>
         <source>0/unconfirmed, %1</source>
         <translation>0/megerősítetlen, %1</translation>
     </message>
@@ -2421,6 +2441,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Status</source>
         <translation>Állapot</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, még nem sikerült közvetíteni</translation>
     </message>
     <message>
         <source>Date</source>
@@ -2553,6 +2577,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>%1 -ig megnyitva</translation>
     </message>
     <message>
+        <source>Offline</source>
+        <translation>Offline</translation>
+    </message>
+    <message>
         <source>Unconfirmed</source>
         <translation>Megerősítetlen</translation>
     </message>
@@ -2575,6 +2603,10 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
         <translation>Éretlen (%1 megerősítés, %2 után lesz elérhető)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Ezt a blokkot egyetlen másik csomópont sem kapta meg, így valószínűleg nem lesz elfogadva!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -2780,9 +2812,6 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
@@ -2808,20 +2837,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Jelenlegi díj:</translation>
     </message>
     <message>
-        <source>Increase:</source>
-        <translation>Növekedés:</translation>
-    </message>
-    <message>
         <source>New fee:</source>
         <translation>Új díj:</translation>
     </message>
     <message>
         <source>Can't sign transaction.</source>
         <translation>Tranzakció aláírása sikertelen.</translation>
-    </message>
-    <message>
-        <source>Could not commit transaction</source>
-        <translation>A tranzakciót nem lehet elküldeni</translation>
     </message>
     </context>
 <context>
@@ -2854,9 +2875,32 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <source>The wallet data was successfully saved to %1.</source>
         <translation>A tárca adatai sikeresen elmentve %1.</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Opciók
+</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Adatkönyvtár
+</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Kapcsolódás egy csomóponthoz a peerek címeinek megszerzése miatt, majd szétkapcsolás</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Adja meg az Ön saját nyilvános címét</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Parancssoros és JSON-RPC parancsok elfogadása
+</translation>
+    </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
         <translation>MIT szoftver licenc alapján terjesztve, tekintse meg a hozzátartozó fájlt %s or %s</translation>
@@ -2866,8 +2910,9 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Hiba: Fatális belső hiba történt, nézze meg a debug.log -ot a részletekért</translation>
     </message>
     <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>HTTP szerver indítása sikertelen. A részleteket lásd: debug log.</translation>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Háttérben futtatás daemonként és parancsok elfogadása
+</translation>
     </message>
     <message>
         <source>Scholarship Core</source>
@@ -2878,20 +2923,20 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A %s fejlesztők</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Ez egy kiadás előtt álló, teszt verzió - csak saját felelősségre - ne használja bányászatra vagy kereskedéshez.</translation>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Parancs, amit akkor hajt végre, amikor egy tárca-tranzakció megváltozik  (%s a parancsban lecserélődik a blokk TxID-re)</translation>
     </message>
     <message>
-        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Figyelem: A hálózat úgy tűnik nem teljesen egyezik! Néhány bányász problémákat tapasztalhat.</translation>
+        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
+        <translation>UPnP használata porttovábbításra (alapértelmezett: 1, amikor kiszolgál és nem használt a -proxy)</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool legalább %d MB kell legyen.</translation>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; lehet:</translation>
     </message>
     <message>
-        <source>Copyright (C) %i-%i</source>
-        <translation>Szerzői jog (C) fenntartva %i-%i</translation>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Kívülről érkező kapcsolatok elfogadása (alapértelmezett: 1, ha nem használt a -proxy vagy a -connect)</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -2910,18 +2955,6 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A tárca-adatbázis inicializálása nem sikerült: %s!</translation>
     </message>
     <message>
-        <source>Error loading %s</source>
-        <translation>Hiba a(z) %s betöltése közben</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet corrupted</source>
-        <translation>Hiba a(z) %s betöltése közben: A tárca hibás.</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Hiba a(z) %s betöltése közben: A tárcához %s újabb verziója szükséges.</translation>
-    </message>
-    <message>
         <source>Error loading block database</source>
         <translation>Hiba a blokk adatbázis betöltése közben.</translation>
     </message>
@@ -2938,20 +2971,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Egyik hálózati porton sem sikerül hallgatni. Használja a -listen=0 kapcsolót, ha ezt szeretné.</translation>
     </message>
     <message>
-        <source>Failed to rescan the wallet during initialization</source>
-        <translation>A tárca átvizsgálása közben hiba történt.</translation>
-    </message>
-    <message>
         <source>Importing...</source>
         <translation>Importálás</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Helytelen vagy nemlétező genézis blokk. Helytelen hálózati adatkönyvtár?</translation>
-    </message>
-    <message>
-        <source>Loading P2P addresses...</source>
-        <translation>P2P címek betöltése...</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
@@ -2962,44 +2987,44 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Nincs elég fájlleíró. </translation>
     </message>
     <message>
-        <source>Replaying blocks...</source>
-        <translation>Blokkok újrajátszása...</translation>
-    </message>
-    <message>
-        <source>Rewinding blocks...</source>
-        <translation>Blokkok visszapörgetése...</translation>
-    </message>
-    <message>
-        <source>The source code is available from %s.</source>
-        <translation>A forráskód elérhető: %s.</translation>
-    </message>
-    <message>
         <source>Transaction fee and change calculation failed</source>
         <translation>A tranzakciós díj és a visszajáró kiszámítása nem sikerült</translation>
-    </message>
-    <message>
-        <source>Upgrading UTXO database</source>
-        <translation>Blokk adatbázis frissítése</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
         <translation>Blokkok ellenőrzése...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>A Tárca újraírása szükséges: Indítsa újra a %s-t.</translation>
+        <source>Wallet options:</source>
+        <translation>Tárca beállítások:</translation>
+    </message>
+    <message>
+        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
+        <translation>Saját IP-cím felfedezése (alapértelmezett: 1, amikor kiszolgál és nem használt a -externalip)</translation>
+    </message>
+    <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>A fehérlistán szereplő felek nem lesznek automatikusan kitiltva és a tranzakcióik is mindig továbbítva lesznek, akkor is ha már a megerősítésre váró listán (mempool) vannak. Hasznos például összekötő csomópontokon (gateway).</translation>
+    </message>
+    <message>
+        <source>(default: %u)</source>
+        <translation>(alapértelmezett: %u)</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Hiba az adatbázis olvasásakor, leállítás</translation>
     </message>
     <message>
-        <source>Error upgrading chainstate database</source>
-        <translation>Hiba a blokk adatbázis betöltése közben</translation>
-    </message>
-    <message>
         <source>Information</source>
         <translation>Információ</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>RPC szerver opciók:</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>trace/debug információ küldése a konzolra a debog.log fájl helyett</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -3018,16 +3043,82 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Túl nagy tranzakció</translation>
     </message>
     <message>
-        <source>Verifying wallet(s)...</source>
-        <translation>Tárcák ellenőrzése...</translation>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Felhasználói név JSON-RPC csatlakozásokhoz
+</translation>
     </message>
     <message>
         <source>Warning</source>
         <translation>Figyelem</translation>
     </message>
     <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Az adatbázist újra kell építeni -reindex használatával, hogy a -tindex-et módosítsd.</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Jelszó JSON-RPC csatlakozásokhoz
+</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Parancs, amit akkor hajt végre, amikor a legjobb blokk megváltozik (%s a cmd-ban lecserélődik a blokk hash-re)</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>DNS-kikeresés engedélyezése az addnode-nál és a connect-nél</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <translation>Figyelem: Ismeretlen blokkokat bányásznak! Lehetséges, hogy ismeretlen szabályok érvényesek.</translation>
+    </message>
+    <message>
         <source>%s is set very high!</source>
         <translation>%s étéke nagyon magas!</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(alapértelmezett: %s)</translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
+        <translation>Hiba a tárca betöltése közben %s. Érvénytelen karakterek a -tárca fájlnevében.</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Hány blokkot ellenőrizzen induláskor (alapértelmezett: %u, 0 = mindet)</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>IP-címek megjelenítése a naplóban (alapértelmezett: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Kapcsolatonkénti maximum fogadó buffer, &lt;n&gt;*1000 byte (alapértelmezett: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Kapcsolatonkénti maximum küldő buffer, &lt;n&gt;*1000 byte (alapértelmezett: %u)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Kulcshalmaz méretének a beállítása &lt;n&gt;(alapértelmezett: %u) </translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Konfigurációs fájl megadása (alapértelmezett: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Csatlakozás időtúllépése milliszekundumban (minimum: 1, alapértelmezett: %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Pid-fájl megadása (alapértelmezett: %s)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Tranzakciók küldésekor a jóváhagyatlan visszajáró elköltése (alapértelmezés: %u)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
@@ -3055,7 +3146,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég scholarshipod.</translation>
+        <translation>Nincs elég scholarshipcoinod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

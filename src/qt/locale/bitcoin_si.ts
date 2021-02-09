@@ -134,6 +134,10 @@
 <context>
     <name>OptionsDialog</name>
     <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
@@ -291,9 +295,6 @@
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletController</name>
     </context>
 <context>
     <name>WalletFrame</name>

@@ -13,7 +13,7 @@ Construct a linear, no-fork, best version of the blockchain.
 
 ### [Qos](/contrib/qos) ###
 
-A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Scholarship network. This means one can have an always-on scholarshipd instance running, and another local scholarshipd/scholarship-qt instance which connects to this node and receives blocks from it.
+A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Scholarshipcoin network. This means one can have an always-on scholarshipcoind instance running, and another local scholarshipcoind/scholarshipcoin-qt instance which connects to this node and receives blocks from it.
 
 ### [Seeds](/contrib/seeds) ###
 Utility to generate the pnSeed[] array that is compiled into the client.
@@ -21,10 +21,9 @@ Utility to generate the pnSeed[] array that is compiled into the client.
 Build Tools and Keys
 ---------------------
 
-### Packaging ###
-The [Debian](/contrib/debian) subfolder contains the copyright file.
-
-All other packaging related files can be found in the [bitcoin-core/packaging](https://github.com/bitcoin-core/packaging) repository.
+### [Debian](/contrib/debian) ###
+Contains files used to package scholarshipcoind/scholarshipcoin-qt
+for Debian-based Linux systems. If you compile scholarshipcoind/scholarshipcoin-qt yourself, there are some useful files here.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
 Files used during the gitian build process. For more information about gitian, see the [the Bitcoin Core documentation repository](https://github.com/bitcoin-core/docs).
@@ -35,14 +34,17 @@ PGP keys used for signing Scholarship Core [Gitian release](/doc/release-process
 ### [MacDeploy](/contrib/macdeploy) ###
 Scripts and notes for Mac builds. 
 
-### [Gitian-build](/contrib/gitian-build.py) ###
+### [RPM](/contrib/rpm) ###
+RPM spec file for building bscholarshipcoin-core on RPM based distributions.
+
+### [Gitian-build](/contrib/gitian-build.sh) ###
 Script for running full Gitian builds.
 
 Test and Verify Tools 
 ---------------------
 
 ### [TestGen](/contrib/testgen) ###
-Utilities to generate test vectors for the data-driven Scholarship tests.
+Utilities to generate test vectors for the data-driven Scholarshipcoin tests.
 
 ### [Verify Binaries](/contrib/verifybinaries) ###
 This script attempts to download and verify the signature file SHA256SUMS.asc from scholarshipcoin.org.

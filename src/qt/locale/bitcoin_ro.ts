@@ -62,12 +62,12 @@
         <translation>Adresele de primire</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Acestea sunt adresele tale Scholarship pentru trimiterea plății. Verifică mereu suma și adresa de primire înainte de trimiterea monedelor.</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Acestea sunt adresele tale Scholarshipcoin pentru trimiterea plății. Verifică mereu suma și adresa de primire înainte de trimiterea monedelor.</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Acestea sunt adresele tale Scholarship pentru primirea plăților. Este recomandată folosirea de noi adrese de primire pentru fiecare tranzacție.</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Acestea sunt adresele tale Scholarshipcoin pentru primirea plăților. Este recomandată folosirea de noi adrese de primire pentru fiecare tranzacție.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Criptează portofelul</translation>
+        <translation>Incripteaza portofelul</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
@@ -164,8 +164,8 @@
         <translation>Confirmă criptarea portofelului</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
-        <translation>Atenție: Dacă îți criptezi portofelul și uiți parola, îți vei &lt;b&gt; PIERDE TOȚI SCHOLARSHIPS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <translation>Atenție: Dacă îți criptezi portofelul și uiți parola, îți vei &lt;b&gt; PIERDE TOȚI SCHOLARSHIPCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,16 +176,8 @@
         <translation>Portofel criptat</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANT: Fiecare backup anterior pe care l-ai facut portofelului tău virtual trebuie înlocuit cu cel nou. Din motive de securitate, backup-urile anteroiare făcute portofelului tău, care nu sunt criptate vor deveni inutilizabile și inutile când vei începe să utilizezi portofelul criptat.</translation>
-    </message>
-    <message>
         <source>Wallet encryption failed</source>
         <translation>Criptarea portofelului a eșuat</translation>
-    </message>
-    <message>
-        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Criptarea portofelului a eșuat din cauza unei erori interne. Portofelul tău nu a fost criptat.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -194,10 +186,6 @@
     <message>
         <source>Wallet unlock failed</source>
         <translation>Deblocarea portofelului a eșuat</translation>
-    </message>
-    <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Parola pe care ai introdus-o pentru decripatrea portofelului nu este corectă.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -227,7 +215,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Semnează și trimite...</translation>
+        <translation>Semnează &amp;mesajul...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -236,6 +224,10 @@
     <message>
         <source>&amp;Overview</source>
         <translation>Vizualizare de ansamblu</translation>
+    </message>
+    <message>
+        <source>Node</source>
+        <translation>Nod</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -250,20 +242,8 @@
         <translation>Navighează în istoricul tranzacțiilor</translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
-        <translation>Ieși din...</translation>
-    </message>
-    <message>
         <source>Quit application</source>
         <translation>Părăsește aplicația</translation>
-    </message>
-    <message>
-        <source>&amp;About %1</source>
-        <translation>&amp;Despre %1</translation>
-    </message>
-    <message>
-        <source>Show information about %1</source>
-        <translation>Arată informații despre %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -290,6 +270,14 @@
         <translation>&amp;Schimbă parola...</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Trimite adresele...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Primește adresele...</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>Deschide &amp;URI...</translation>
     </message>
@@ -298,8 +286,8 @@
         <translation>Click pentru a permite, din nou, activitate rețelei.</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Trimite monedele către o adresă Scholarship</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>Trimite monedele către o adresă Scholarshipcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -322,8 +310,12 @@
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Portofel</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -346,12 +338,12 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de Scholarship pentru a face dovada că îți aparțin.</translation>
+        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de Scholarshipcoin pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Scholarship specificată.</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Scholarshipcoin specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -366,8 +358,8 @@
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Cerere plată (generează coduri QR și scholarship: URIs)</translation>
+        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și scholarshipcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -378,8 +370,8 @@
         <translation>Afișează lista adreselor de primire utilizate și etichetele.</translation>
     </message>
     <message>
-        <source>Open a scholarship: URI or payment request</source>
-        <translation>Deschide un scholarship: URI sau cerere de plată</translation>
+        <source>Open a scholarshipcoin: URI or payment request</source>
+        <translation>Deschide un scholarshipcoin: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -408,10 +400,6 @@
     <message>
         <source>Up to date</source>
         <translation>Actual</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Fereastra</translation>
     </message>
     <message>
         <source>Date: %1
@@ -485,10 +473,6 @@
         <translation>Schimbă:</translation>
     </message>
     <message>
-        <source>(un)select all</source>
-        <translation>(de)selectează tot</translation>
-    </message>
-    <message>
         <source>Tree mode</source>
         <translation>Mod arbore</translation>
     </message>
@@ -560,6 +544,10 @@
         <translation>&amp;Adresa</translation>
     </message>
     <message>
+        <source>New receiving address</source>
+        <translation>Adresă de primire nouă</translation>
+    </message>
+    <message>
         <source>New sending address</source>
         <translation>Adresă nouă de livrare</translation>
     </message>
@@ -597,7 +585,19 @@
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
-    </context>
+    <message>
+        <source>Usage:</source>
+        <translation>Utilizare:</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Pornește minimalizat</translation>
+    </message>
+    <message>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>Resetează toate setările modificate în Interfața Grafică.</translation>
+    </message>
+</context>
 <context>
     <name>Intro</name>
     <message>
@@ -613,8 +613,8 @@
         <translation>Alege un folder/director personalizat</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -644,8 +644,8 @@
         <translation>formular</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the scholarship network, as detailed below.</source>
-        <translation>Posibil ca tranzacțiile recente să nu fie vizibile, încă, astfel bilanțul portofelului tău poate fi incorect. Aceste informații vor fi corecte o dată ce portofelul tău a încheiat sincronizarea cu rețeaua scholarship, conform descrierii de mai jos.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the scholarshipcoin network, as detailed below.</source>
+        <translation>Posibil ca tranzacțiile recente să nu fie vizibile, încă, astfel bilanțul portofelului tău poate fi incorect. Aceste informații vor fi corecte o dată ce portofelul tău a încheiat sincronizarea cu rețeaua scholarshipcoin, conform descrierii de mai jos.</translation>
     </message>
     <message>
         <source>Unknown...</source>
@@ -676,6 +676,10 @@
     <message>
         <source>Options</source>
         <translation>Opțiuni</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -996,10 +1000,6 @@
         <source>Message</source>
         <translation>Mesaj</translation>
     </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Portofel</translation>
-    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -1253,9 +1253,6 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -1270,6 +1267,10 @@
     </context>
 <context>
     <name>bitcoin-core</name>
+    <message>
+        <source>Options:</source>
+        <translation>Optiuni:</translation>
+    </message>
     <message>
         <source>Scholarship Core</source>
         <translation>Scholarship Core</translation>

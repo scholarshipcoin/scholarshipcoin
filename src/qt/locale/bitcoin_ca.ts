@@ -30,10 +30,6 @@
         <translation>Elimina l'adreça sel·leccionada actualment de la llista</translation>
     </message>
     <message>
-        <source>Enter address or label to search</source>
-        <translation>Introduïu una adreça o una etiqueta per cercar</translation>
-    </message>
-    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Exporta les dades de la pestanya actual a un fitxer</translation>
     </message>
@@ -66,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les vostres adreces de Scholarship per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
+        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les vostres adreces de Scholarshipcoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
     </message>
     <message>
-        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les vostres adreces Scholarship per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
+        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les vostres adreces Scholarshipcoin per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +172,8 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
-        <translation>Avís: si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES SCHOLARSHIPS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <translation>Avís: si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES SCHOLARSHIPCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -186,6 +182,10 @@
     <message>
         <source>Wallet encrypted</source>
         <translation>Moneder encriptat</translation>
+    </message>
+    <message>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarshipcoins from being stolen by malware infecting your computer.</source>
+        <translation>Ara es tancarà el %1 per finalitzar el procés d'encriptació. Recordeu que encriptar el vostre moneder no garanteix que les vostres scholarshipcoins no puguin ser robades per programari maliciós que infecti l'ordinador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -250,6 +250,10 @@
         <translation>&amp;Panorama general</translation>
     </message>
     <message>
+        <source>Node</source>
+        <translation>Node</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Mostra el panorama general del moneder</translation>
     </message>
@@ -306,12 +310,16 @@
         <translation>&amp;Canvia la contrasenya...</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Obre un &amp;URI...</translation>
+        <source>&amp;Sending addresses...</source>
+        <translation>Adreces d'e&amp;nviament...</translation>
     </message>
     <message>
-        <source>Wallet:</source>
-        <translation>Moneder:</translation>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Adreces de &amp;recepció...</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Obre un &amp;URI...</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
@@ -334,12 +342,8 @@
         <translation>S'estan reindexant els blocs al disc...</translation>
     </message>
     <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>El servidor proxy està &lt;b&gt;activat&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Scholarship address</source>
-        <translation>Envia monedes a una adreça Scholarship</translation>
+        <source>Send coins to a Scholarshipcoin address</source>
+        <translation>Envia monedes a una adreça Scholarshipcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +366,12 @@
         <translation>&amp;Verifica el missatge...</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Moneder</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -386,12 +394,12 @@
         <translation>Encripta les claus privades pertanyents al moneder</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarship addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de Scholarship per provar que les poseeixes</translation>
+        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de Scholarshipcoin per provar que les poseeixes</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
-        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Scholarship específica.</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
+        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Scholarshipcoin específica.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -410,8 +418,8 @@
         <translation>Barra d'eines de les pestanyes</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarship: URIs)</source>
-        <translation>Sol·licita pagaments (genera codis QR i scholarship: URI)</translation>
+        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
+        <translation>Sol·licita pagaments (genera codis QR i scholarshipcoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,12 +430,16 @@
         <translation>Mostra la llista d'adreces de recepció i etiquetes utilitzades</translation>
     </message>
     <message>
-        <source>Open a scholarship: URI or payment request</source>
-        <translation>Obre una scholarship: sol·licitud d'URI o pagament</translation>
+        <source>Open a scholarshipcoin: URI or payment request</source>
+        <translation>Obre una scholarshipcoin: sol·licitud d'URI o pagament</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcions de la &amp;línia d'ordres</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Scholarshipcoin network</source>
+        <translation><numerusform>%n connexions actives a la xarxa Scholarshipcoin</numerusform><numerusform>%n connexions actives a la xarxa Scholarshipcoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -436,6 +448,10 @@
     <message>
         <source>Processing blocks on disk...</source>
         <translation>S'estan processant els blocs al disc...</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>S'han processat %n blocs de l'historial de transacció.</numerusform><numerusform>S'han processat %n blocs de l'historial de transacció.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -466,20 +482,8 @@
         <translation>Al dia</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Scholarship command-line options</source>
-        <translation>Mostra el missatge d'ajuda del %1 per obtenir una llista amb les possibles opcions de línia d'ordres de Scholarship</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>moneder per defecte</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Finestra</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>Minimitza</translation>
+        <source>Show the %1 help message to get a list with possible Scholarshipcoin command-line options</source>
+        <translation>Mostra el missatge d'ajuda del %1 per obtenir una llista amb les possibles opcions de línia d'ordres de Scholarshipcoin</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -503,12 +507,6 @@
         <source>Amount: %1
 </source>
         <translation>Import: %1
-</translation>
-    </message>
-    <message>
-        <source>Wallet: %1
-</source>
-        <translation>Mondeder: %1
 </translation>
     </message>
     <message>
@@ -554,8 +552,8 @@
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;bloquejat&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Scholarship can no longer continue safely and will quit.</source>
-        <translation>S'ha produït un error fatal. Scholarship no pot continuar amb seguretat i finalitzarà.</translation>
+        <source>A fatal error occurred. Scholarshipcoin can no longer continue safely and will quit.</source>
+        <translation>S'ha produït un error fatal. Scholarshipcoin no pot continuar amb seguretat i finalitzarà.</translation>
     </message>
 </context>
 <context>
@@ -732,6 +730,10 @@
         <translation>&amp;Adreça</translation>
     </message>
     <message>
+        <source>New receiving address</source>
+        <translation>Nova adreça de recepció</translation>
+    </message>
+    <message>
         <source>New sending address</source>
         <translation>Nova adreça d'enviament</translation>
     </message>
@@ -744,16 +746,12 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Scholarship address.</source>
-        <translation>L'adreça introduïda «%1» no és una adreça de Scholarship vàlida.</translation>
+        <source>The entered address "%1" is not a valid Scholarshipcoin address.</source>
+        <translation>L'adreça introduïda «%1» no és una adreça de Scholarshipcoin vàlida.</translation>
     </message>
     <message>
-        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
-        <translation>L'adreça "%1" ja existeix com una adreça per rebre amb l'etiqueta "%2" i per tant no pot ésser afegida com adreça per enviar.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book with label "%2".</source>
-        <translation>L'adreça introduïda "%1" ja existeix al directori d'adreces amb l'etiqueta "%2".</translation>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>L'adreça introduïda «%1» ja és present a la llibreta d'adreces.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -805,6 +803,42 @@
         <source>Command-line options</source>
         <translation>Opcions de línia d'ordres</translation>
     </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Ús:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>Opcions de la línia d'ordres</translation>
+    </message>
+    <message>
+        <source>UI Options:</source>
+        <translation>Opcions d'interfície d'usuari:</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Trieu el directori de dades a l'inici (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Defineix la llengua, per exemple «de_DE» (per defecte: la definida pel sistema)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Inicia minimitzat</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Defineix els certificats arrel SSL per a la sol·licitud de pagament (per defecte: els del sistema)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Mostra la pantalla de benvinguda a l'inici (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>Reinicialitza tots els canvis de configuració fets des de la interfície gràfica</translation>
+    </message>
 </context>
 <context>
     <name>Intro</name>
@@ -841,8 +875,8 @@
         <translation>Utilitza un directori de dades personalitzat:</translation>
     </message>
     <message>
-        <source>Scholarship</source>
-        <translation>Scholarship</translation>
+        <source>Scholarshipcoin</source>
+        <translation>Scholarshipcoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -853,8 +887,8 @@
         <translation>Aproximadament %1 GB de dades s'emmagatzemaran en aquest directori.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Scholarship block chain.</source>
-        <translation>%1 descarregarà i emmagatzemarà una còpia de la cadena de blocs Scholarship.</translation>
+        <source>%1 will download and store a copy of the Scholarshipcoin block chain.</source>
+        <translation>%1 descarregarà i emmagatzemarà una còpia de la cadena de blocs Scholarshipcoin.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -868,7 +902,15 @@
         <source>Error</source>
         <translation>Error</translation>
     </message>
-    </context>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB d'espai lliure disponible</numerusform><numerusform>%n GB d'espai lliure disponible</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(de %n GB necessaris)</numerusform><numerusform>(de %n GB necessaris)</numerusform></translation>
+    </message>
+</context>
 <context>
     <name>ModalOverlay</name>
     <message>
@@ -876,12 +918,12 @@
         <translation>Formulari</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the scholarship network, as detailed below.</source>
-        <translation>És possible que les transaccions recents encara no siguin visibles i, per tant, el saldo del vostre moneder podria ser incorrecte. Aquesta informació serà correcta una vegada que el vostre moneder hagi finalitzat la sincronització amb la xarxa scholarship, tal com es detalla més avall.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the scholarshipcoin network, as detailed below.</source>
+        <translation>És possible que les transaccions recents encara no siguin visibles i, per tant, el saldo del vostre moneder podria ser incorrecte. Aquesta informació serà correcta una vegada que el vostre moneder hagi finalitzat la sincronització amb la xarxa scholarshipcoin, tal com es detalla més avall.</translation>
     </message>
     <message>
-        <source>Attempting to spend scholarships that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Els intents de gastar scholarships que es veuen afectats per les transaccions que encara no s'hagin mostrat no seran acceptats per la xarxa.</translation>
+        <source>Attempting to spend scholarshipcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Els intents de gastar scholarshipcoins que es veuen afectats per les transaccions que encara no s'hagin mostrat no seran acceptats per la xarxa.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -915,7 +957,11 @@
         <source>Hide</source>
         <translation>Amaga</translation>
     </message>
-    </context>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>Desconegut. Sincronització de les capçaleres (%1)...</translation>
+    </message>
+</context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -962,6 +1008,10 @@
         <translation>Mida de la memòria cau de la base de &amp;dades</translation>
     </message>
     <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
         <source>Number of script &amp;verification threads</source>
         <translation>Nombre de fils de &amp;verificació d'scripts</translation>
     </message>
@@ -972,10 +1022,6 @@
     <message>
         <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
         <translation>Mostra si el proxy SOCKS5 predeterminat subministrat s'utilitza per arribar a altres nodes a través d'aquest tipus de xarxa.</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Usi un proxy SOCKS&amp;5 separat per connectar amb nodes a través dels serveis ocults de Tor:</translation>
     </message>
     <message>
         <source>Hide the icon from the system tray.</source>
@@ -992,6 +1038,10 @@
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>URL de terceres parts (p. ex. explorador de blocs) que apareix en la pestanya de transaccions com elements del menú contextual. %s en l'URL es reemplaçat pel resum de la transacció. Diferents URL estan separades per una barra vertical |.</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Opcions de línies d'ordre active que sobreescriuen les opcions de dalt:</translation>
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
@@ -1012,22 +1062,6 @@
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Xarxa</translation>
-    </message>
-    <message>
-        <source>Disables some advanced features but all blocks will still be fully validated. Reverting this setting requires re-downloading the entire blockchain. Actual disk usage may be somewhat higher.</source>
-        <translation>Deshabilita unes característiques avançades però tots els blocs encara seran validats completament. Revertir aquesta configuració requereix tornar a descarregar la cadena de blocs sencera un altre cop. L'espai en ús del disc és possible que augmenti.</translation>
-    </message>
-    <message>
-        <source>Prune &amp;block storage to</source>
-        <translation>Prunar emmagatzemament de &amp;block a</translation>
-    </message>
-    <message>
-        <source>GB</source>
-        <translation>GB</translation>
-    </message>
-    <message>
-        <source>Reverting this setting requires re-downloading the entire blockchain.</source>
-        <translation>Revertir aquesta configuració requereix tornar a descarregar la cadena de blocs sencera un altre cop.</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1054,8 +1088,8 @@
         <translation>&amp;Gasta el canvi sense confirmar</translation>
     </message>
     <message>
-        <source>Automatically open the Scholarship client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obre el port del client de Scholarship al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
+        <source>Automatically open the Scholarshipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obre el port del client de Scholarshipcoin al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1070,8 +1104,8 @@
         <translation>Permet connexions entrants</translation>
     </message>
     <message>
-        <source>Connect to the Scholarship network through a SOCKS5 proxy.</source>
-        <translation>Connecta a la xarxa Scholarship a través d'un proxy SOCKS5.</translation>
+        <source>Connect to the Scholarshipcoin network through a SOCKS5 proxy.</source>
+        <translation>Connecta a la xarxa Scholarshipcoin a través d'un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1106,8 +1140,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Scholarship network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectar a la red de Scholarship a través de un proxy SOCKS5 per als serveis ocults de Tor</translation>
+        <source>Connect to the Scholarshipcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Conectar a la red de Scholarshipcoin a través de un proxy SOCKS5 per als serveis ocults de Tor</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1213,8 +1247,8 @@
         <translation>Formulari</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarship network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Scholarship un cop s'ha establert connexió, però aquest proces no s'ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarshipcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Scholarshipcoin un cop s'ha establert connexió, però aquest proces no s'ha completat encara.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1288,16 +1322,12 @@
         <translation>Error de la sol·licitud de pagament</translation>
     </message>
     <message>
-        <source>Cannot start scholarship: click-to-pay handler</source>
-        <translation>No es pot iniciar scholarship: controlador click-to-pay</translation>
+        <source>Cannot start scholarshipcoin: click-to-pay handler</source>
+        <translation>No es pot iniciar scholarshipcoin: controlador click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Gestió d'URI</translation>
-    </message>
-    <message>
-        <source>'scholarship://' is not a valid URI. Use 'scholarship:' instead.</source>
-        <translation>'scholarship://' no és una URI vàlida. Usi 'scholarship:' en lloc seu.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1308,8 +1338,8 @@
         <translation>Adreça de pagament no vàlida %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Scholarship address or malformed URI parameters.</source>
-        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Scholarship no vàlida o per paràmetres URI amb mal format.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Scholarshipcoin address or malformed URI parameters.</source>
+        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Scholarshipcoin no vàlida o per paràmetres URI amb mal format.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1410,8 +1440,8 @@
         <translation>Import</translation>
     </message>
     <message>
-        <source>Enter a Scholarship address (e.g. %1)</source>
-        <translation>Introduïu una adreça de Scholarship (p. ex. %1)</translation>
+        <source>Enter a Scholarshipcoin address (e.g. %1)</source>
+        <translation>Introduïu una adreça de Scholarshipcoin (p. ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1441,9 +1471,33 @@
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n segons</numerusform><numerusform>%n segons</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n minuts</numerusform><numerusform>%n minuts</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hores</numerusform><numerusform>%n hores</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dies</numerusform><numerusform>%n dies</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n setmanes</numerusform><numerusform>%n setmanes</numerusform></translation>
+    </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 i %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n anys</numerusform><numerusform>%n anys</numerusform></translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1473,16 +1527,12 @@
 <context>
     <name>QObject::QObject</name>
     <message>
-        <source>Error parsing command line arguments: %1.</source>
-        <translation>Error interpretant els arguments de la línia de comandes: %1.</translation>
-    </message>
-    <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
         <translation>Error: El directori de dades especificat «%1» no existeix.</translation>
     </message>
     <message>
-        <source>Error: Cannot parse configuration file: %1.</source>
-        <translation>Error: No es pot interpretar el fitxer de configuració: %1.</translation>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Error: no es pot analitzar el fitxer de configuració: %1. Feu servir només la sintaxi clau=valor.</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -1573,14 +1623,6 @@
     <message>
         <source>Memory usage</source>
         <translation>Us de memoria</translation>
-    </message>
-    <message>
-        <source>Wallet: </source>
-        <translation>Moneder:</translation>
-    </message>
-    <message>
-        <source>(none)</source>
-        <translation>(cap)</translation>
     </message>
     <message>
         <source>&amp;Reset</source>
@@ -1759,28 +1801,12 @@
         <translation>Utilitzeu les fletxes amunt i avall per navegar per l'historial i %1 per netejar la pantalla.</translation>
     </message>
     <message>
-        <source>Type %1 for an overview of available commands.</source>
-        <translation>Escriu %1 per veure un sumari de les comandes disponibles.</translation>
-    </message>
-    <message>
-        <source>For more information on using this console type %1.</source>
-        <translation>Per més informació per usar aquesta consola de comandes, escriu %1.</translation>
-    </message>
-    <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
         <translation>ADVERTIMENT: Els estafadors han estat actius, dient als usuaris que escriguin comandaments aquí, robant els contingut dels seus moneders. No utilitzeu aquesta consola sense comprendre completament les ramificacions d'un comandament.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
         <translation>Activitat de xarxa inhabilitada</translation>
-    </message>
-    <message>
-        <source>Executing command without any wallet</source>
-        <translation>Executant comanda sense cap moneder</translation>
-    </message>
-    <message>
-        <source>Executing command using "%1" wallet</source>
-        <translation>Executant comanda usant el moneder "%1"</translation>
     </message>
     <message>
         <source>(node id: %1)</source>
@@ -1830,8 +1856,8 @@
         <translation>&amp;Missatge:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Scholarship network.</source>
-        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'obri la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Scholarship.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Scholarshipcoin network.</source>
+        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'obri la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Scholarshipcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1852,14 +1878,6 @@
     <message>
         <source>Clear</source>
         <translation>Neteja</translation>
-    </message>
-    <message>
-        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
-        <translation>Les adreces segwit natives (més conegudes com Bech32 o BIP-173) redueixen les vostres comisions de les transaccions i ofereixen millor protecció contra errades tipogràfiques, però els moneders antics no les suporten. Quan desmarqui la casella, es generarà una adreça compatible amb moneders antics.</translation>
-    </message>
-    <message>
-        <source>Generate native segwit (Bech32) address</source>
-        <translation>Generar una adreça segwit nativa (Bech32)</translation>
     </message>
     <message>
         <source>Requested payments history</source>
@@ -1947,10 +1965,6 @@
     <message>
         <source>Message</source>
         <translation>Missatge</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Moneder</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
@@ -2067,20 +2081,24 @@
         <translation>redueix els paràmetres de comissió</translation>
     </message>
     <message>
-        <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
-
-Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
-        <translation>Especifiqui una comissió personalitzada per kB (1.000 bytes) de la mida virtual de la transacció.
-
-Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "100 satoshis per cada kB" per una transacció de mida 500 bytes (la meitat de 1 kB) comportaria finalment una comissió de la transacció de només 50 satoshis.</translation>
-    </message>
-    <message>
         <source>per kilobyte</source>
         <translation>per kilobyte</translation>
     </message>
     <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comissió personalitzada es defineix a 1000 satoshis i la transacció és de només 250 bytes, llavors «per kilobyte» només es paguen 250 satoshis en una comissió, mentre que amb la de «total com a mínim» es pagarien 1000 satoshis. Per a transaccions superiors al kilobyte, en tots dos casos es paga per kilobyte.</translation>
+    </message>
+    <message>
         <source>Hide</source>
         <translation>Amaga</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for scholarshipcoin transactions than the network can process.</source>
+        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi hagi menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirmi una vegada hi hagi més demanda de transaccions de scholarshipcoins que la xarxa pugui processar.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(llegiu l'indicador de funció)</translation>
     </message>
     <message>
         <source>Recommended:</source>
@@ -2113,14 +2131,6 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
     <message>
         <source>Confirmation time target:</source>
         <translation>Temps de confirmació objectiu:</translation>
-    </message>
-    <message>
-        <source>Enable Replace-By-Fee</source>
-        <translation>Habilita Replace-By-Fee: substitució per comissió</translation>
-    </message>
-    <message>
-        <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
-        <translation>Amb la substitució per comissió o Replace-By-Fee (BIP-125) pot incrementar la comissió de la transacció després d'enviar-la. Sense això, seria recomenable una comissió més alta per compensar el risc d'increment del retard de la transacció.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2179,16 +2189,16 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Esteu segur que ho voleu enviar?</translation>
     </message>
     <message>
+        <source>added as transaction fee</source>
+        <translation>S'ha afegit una taxa de transacció</translation>
+    </message>
+    <message>
+        <source>Total Amount %1</source>
+        <translation>Import total %1</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>o</translation>
-    </message>
-    <message>
-        <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
-        <translation>Pot incrementar la comissió més tard (senyala Replace-By-Fee o substitució per comissió, BIP-125).</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Comissió de transacció</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -2231,8 +2241,12 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>La sol·licitud de pagament ha vençut.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Scholarship address</source>
-        <translation>Avís: adreça Scholarship no vàlida</translation>
+        <source>Pay only the required fee of %1</source>
+        <translation>Paga només la comissió necessària de %1</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Scholarshipcoin address</source>
+        <translation>Avís: adreça Scholarshipcoin no vàlida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2274,8 +2288,8 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Això és un pagament normal.</translation>
     </message>
     <message>
-        <source>The Scholarship address to send the payment to</source>
-        <translation>L'adreça Scholarship on enviar el pagament</translation>
+        <source>The Scholarshipcoin address to send the payment to</source>
+        <translation>L'adreça Scholarshipcoin on enviar el pagament</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2294,8 +2308,8 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Elimina aquesta entrada</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less scholarships than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La comissió es deduirà de l'import que s'enviarà. El destinatari rebrà menys scholarships que les que introduïu al camp d'import. Si se seleccionen múltiples destinataris, la comissió es dividirà per igual.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less scholarshipcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>La comissió es deduirà de l'import que s'enviarà. El destinatari rebrà menys scholarshipcoins que les que introduïu al camp d'import. Si se seleccionen múltiples destinataris, la comissió es dividirà per igual.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2318,8 +2332,8 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Introduïu una etiqueta per a aquesta adreça per afegir-la a la llista d'adreces utilitzades</translation>
     </message>
     <message>
-        <source>A message that was attached to the scholarship: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Scholarship network.</source>
-        <translation>Un missatge que s'ha adjuntat al scholarship: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Scholarship.</translation>
+        <source>A message that was attached to the scholarshipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Scholarshipcoin network.</source>
+        <translation>Un missatge que s'ha adjuntat al scholarshipcoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Scholarshipcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2363,12 +2377,12 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>&amp;Signa el missatge</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive scholarships sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les scholarships que s'hi envien. Aneu amb compte no signar res que sigui vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive scholarshipcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les scholarshipcoins que s'hi envien. Aneu amb compte no signar res que sigui vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
     </message>
     <message>
-        <source>The Scholarship address to sign the message with</source>
-        <translation>L'adreça Scholarship amb què signar el missatge</translation>
+        <source>The Scholarshipcoin address to sign the message with</source>
+        <translation>L'adreça Scholarshipcoin amb què signar el missatge</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2399,8 +2413,8 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Copia la signatura actual al porta-retalls del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Scholarship address</source>
-        <translation>Signa el missatge per provar que ets propietari d'aquesta adreça Scholarship</translation>
+        <source>Sign the message to prove you own this Scholarshipcoin address</source>
+        <translation>Signa el missatge per provar que ets propietari d'aquesta adreça Scholarshipcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2423,12 +2437,12 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Introduïu l'adreça del receptor, el missatge (assegureu-vos de copiar els salts de línia, espais, tabuladors, etc. exactament) i signatura de sota per verificar el missatge. Tingueu cura de no llegir més en la signatura del que està al missatge signat, per evitar ser enganyat per un atac d'home-en-el-mig. Tingueu en compte que això només demostra que la part que signa rep amb l'adreça, i no es pot provar l'enviament de qualsevol transacció!</translation>
     </message>
     <message>
-        <source>The Scholarship address the message was signed with</source>
-        <translation>L'adreça Scholarship amb què va ser signat el missatge</translation>
+        <source>The Scholarshipcoin address the message was signed with</source>
+        <translation>L'adreça Scholarshipcoin amb què va ser signat el missatge</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Scholarship address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Scholarship específica</translation>
+        <source>Verify the message to ensure it was signed with the specified Scholarshipcoin address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Scholarshipcoin específica</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2516,6 +2530,10 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>produït un conflicte amb una transacció amb %1 confirmacions</translation>
     </message>
     <message>
+        <source>%1/offline</source>
+        <translation>%1/fora de línia</translation>
+    </message>
+    <message>
         <source>0/unconfirmed, %1</source>
         <translation>0/no confirmades, %1</translation>
     </message>
@@ -2542,6 +2560,10 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
     <message>
         <source>Status</source>
         <translation>Estat</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, encara no ha estat emès correctement</translation>
     </message>
     <message>
         <source>Date</source>
@@ -2690,6 +2712,10 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Obert fins %1</translation>
     </message>
     <message>
+        <source>Offline</source>
+        <translation>Fora de línia</translation>
+    </message>
+    <message>
         <source>Unconfirmed</source>
         <translation>Sense confirmar</translation>
     </message>
@@ -2712,6 +2738,10 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
         <translation>Immadur (%1 confirmacions, serà disponible després de %2)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Aquest bloc no ha estat rebut per cap altre node i probablement no serà acceptat!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -2937,9 +2967,6 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
     </message>
 </context>
 <context>
-    <name>WalletController</name>
-    </context>
-<context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
@@ -2988,10 +3015,6 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <source>Could not commit transaction</source>
         <translation>No s'ha pogut confirmar la transacció</translation>
     </message>
-    <message>
-        <source>default wallet</source>
-        <translation>moneder per defecte</translation>
-    </message>
 </context>
 <context>
     <name>WalletView</name>
@@ -3027,12 +3050,36 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <source>The wallet data was successfully saved to %1.</source>
         <translation>S'han desat les dades del moneder correctament a %1.</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>bitcoin-core</name>
     <message>
+        <source>Options:</source>
+        <translation>Opcions:</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Especifica el directori de dades</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Connecta al node per obtenir les adreces de les connexions, i desconnecta</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Especifiqueu la vostra adreça pública</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Accepta la línia d'ordres i ordres JSON-RPC </translation>
+    </message>
+    <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
         <translation>Distribuït sota la llicència del programari MIT, consulteu el fitxer d'acompanyament %s o %s</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
+        <translation>Si no es proporciona &lt;category&gt; o si &lt;category&gt; = 1, treu a la sortida tota la informació de depuració.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
@@ -3051,8 +3098,16 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Error: s'ha produït un error intern fatal. Vegeu debug.log per a més detalls</translation>
     </message>
     <message>
+        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comissió (en %s/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
+    </message>
+    <message>
         <source>Pruning blockstore...</source>
         <translation>S'està podant la cadena de blocs...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Executa en segon pla com a programa dimoni i accepta ordres</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
@@ -3067,12 +3122,52 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Els desenvolupadors %s</translation>
     </message>
     <message>
+        <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
+        <translation>Una taxa de tarifes (en %s / kB) que s'utilitzarà quan l'estimació de tarifes no tingui prou dades (per defecte: %s)</translation>
+    </message>
+    <message>
+        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
+        <translation>Acceptar les transaccions retransmeses rebudes de nodes de llista blanca, fins i tot quan no es retransmetin transaccions (per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Vincula a una adreça específica i sempre escolta-hi. Utilitza la notació [host]:port per IPv6</translation>
+    </message>
+    <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
         <translation>No es pot obtenir un bloqueig al directori de dades %s. %s probablement ja s'estigui executant.</translation>
     </message>
     <message>
+        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
+        <translation>Elimina totes les transaccions del moneder i només recupera aquelles de la cadena de blocs a través de -rescan a l'inici</translation>
+    </message>
+    <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>S'ha produït un error en llegir %s. Totes les claus es llegeixen correctament, però les dades de la transacció o les entrades de la llibreta d'adreces podrien faltar o ser incorrectes.</translation>
+    </message>
+    <message>
+        <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
+        <translation>Excloeu la informació de depuració d'una categoria. Pot ser usat juntament amb -debug = 1 per generar registres de depuració per a totes les categories, excepte una o més categories especificades.</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Executa una ordre quan una transacció del moneder canviï (%s en cmd es canvia per TxID)</translation>
+    </message>
+    <message>
+        <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
+        <translation>Transaccions addicionals a conservar en memòria per a les reconstruccions de blocs compactes (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
+        <translation>Si aquest bloc es troba a la cadena, suposa que ell i els seus avantpassats són vàlids i que es pot saltar la seva verificació d'script (0 per verificar-ho tot, per defecte: %s, testnet: %s)</translation>
+    </message>
+    <message>
+        <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
+        <translation>Màxim ajust mitjà permès per desplaçament del temps d'iguals. La perspectiva local del temps pot estar influenciada per iguals avançats o endarrerits per aquesta quantitat. (per defecte: %u segons)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
+        <translation>Tarifes totals màximes (en %s) per utilitzar-les en una sola transacció de monedes o transaccions en brut; establir-lo massa baix pot cancel·lar grans transaccions (per defecte: %s)</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
@@ -3081,6 +3176,18 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
         <translation>Contribueix si trobes %s útil. Visita %s per obtenir més informació sobre el programari.</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
+        <translation>Consulta adreces d'iguals a través de la cerca del DNS, si tens poques adreces (per defecte: 1, tret que s'utilitzi la connexió)</translation>
+    </message>
+    <message>
+        <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
+        <translation>Redueix els requisits d'emmagatzematge permetent la poda (supressió) dels blocs antics. Això permet executar la crida RPC prunblockclass per eliminar blocs específics i permet la poda automàtica de blocs antics si es proporciona una mida de destinació en MiB. Aquest mode és incompatible amb -txindex i -rescan. Advertència: si torna a iniciar aquesta configuració, cal que torneu a baixar la cadena de blocs completa. (per defecte: 0 = desactivar poda de blocs, 1 = permetre la poda manual a través de RPC,&gt;%u = poda automàticament els fitxers de bloc per quedar sota la mida de destinació especificada en MiB)</translation>
+    </message>
+    <message>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation>Defineix el nombre de fils de verificació d'scripts (%u a %d, 0 = auto, &lt;0 = deixa tants nuclis lliures, per defecte: %d)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
@@ -3103,12 +3210,28 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>No es pot rebobinar la base de dades a un estat de pre-bifurcament. Haureu de tornar a descarregar la cadena de blocks</translation>
     </message>
     <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
+        <translation>Utilitzeu UPnP per mapejar el port d'escolta (per defecte: 1 quan s'escolta i no -proxy)</translation>
+    </message>
+    <message>
+        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
+        <translation>Nom d'usuari i contrasenya resumida per a les connexions JSON-RPC. El camp &lt;userpw&gt; ve en el format: &lt;USERNAME&gt; : &lt;SALT&gt; $ &lt;HASH&gt; . Un script canònic python està inclòs a share / rpcuser. El client es connecta normalment utilitzant rpcuser =&lt;USERNAME&gt;/ rpcpassword =&lt;PASSWORD&gt; com a parell d'arguments. Aquesta opció es pot especificar diverses vegades</translation>
+    </message>
+    <message>
+        <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
+        <translation>El moneder no crearà transaccions que infringeixin els límits de la cadena mempool (per defecte: %u)</translation>
+    </message>
+    <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Avís: la xarxa no sembla que hi estigui plenament d'acord. Alguns miners sembla que estan experimentant problemes.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Avís: sembla que no estem plenament d'acord amb els nostres iguals! Podria caler que actualitzar l'aplicació, o potser que ho facin altres nodes.</translation>
+    </message>
+    <message>
+        <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
+        <translation>Si es guarda el mempool quan s'apaga i es carrega quan es reinicia (per defecte: %u)</translation>
     </message>
     <message>
         <source>%d of last 100 blocks have unexpected version</source>
@@ -3123,12 +3246,40 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>-maxmempool ha de tenir almenys %d MB</translation>
     </message>
     <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; pot ser:</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Accepta connexions de fora (per defecte: 1 si no -proxy o -connect)</translation>
+    </message>
+    <message>
+        <source>Append comment to the user agent string</source>
+        <translation>Afegiu un comentari a la cadena de l'agent d'usuari</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet on startup</source>
+        <translation>Intent de recuperació de claus privades d'una cartera malmesa a l'inici</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Opcions de la creació de blocs:</translation>
+    </message>
+    <message>
         <source>Cannot resolve -%s address: '%s'</source>
         <translation>No es pot resoldre -%s adreça: '%s'</translation>
     </message>
     <message>
+        <source>Chain selection options:</source>
+        <translation>Opcions de selecció de cadenes:</translation>
+    </message>
+    <message>
         <source>Change index out of range</source>
         <translation>Canvieu l'índex fora de l'abast</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>Opcions de connexió:</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
@@ -3139,8 +3290,36 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>S'ha detectat una base de dades de blocs corrupta</translation>
     </message>
     <message>
+        <source>Debugging/Testing options:</source>
+        <translation>Opcions de depuració/proves:</translation>
+    </message>
+    <message>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>No carreguis el moneder i inhabilita les crides RPC del moneder</translation>
+    </message>
+    <message>
         <source>Do you want to rebuild the block database now?</source>
         <translation>Voleu reconstruir la base de dades de blocs ara?</translation>
+    </message>
+    <message>
+        <source>Enable publish hash block in &lt;address&gt;</source>
+        <translation>Habiliteu publicar el bloc de hash a &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction in &lt;address&gt;</source>
+        <translation>Habilita la publicació de la transacció hash a &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw block in &lt;address&gt;</source>
+        <translation>Habiliteu publicar el bloc cru a &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction in &lt;address&gt;</source>
+        <translation>Habiliteu publicar transaccions en cru a &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable transaction replacement in the memory pool (default: %u)</source>
+        <translation>Activa el reemplaçament de transaccions al grup de memòria (per defecte: %u)</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -3203,6 +3382,10 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Import invàlid per -fallbackfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
+        <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Manteniu el grup de memòria de la transacció per sota de &lt;n&gt; megabytes (per defecte: %u)</translation>
+    </message>
+    <message>
         <source>Loading P2P addresses...</source>
         <translation>S'estan carregant les adreces P2P ...</translation>
     </message>
@@ -3211,8 +3394,24 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Carregant banlist ...</translation>
     </message>
     <message>
+        <source>Location of the auth cookie (default: data dir)</source>
+        <translation>Ubicació de la cookie auth (per defecte: directori de dades)</translation>
+    </message>
+    <message>
         <source>Not enough file descriptors available.</source>
         <translation>No hi ha suficient descriptors de fitxers disponibles.</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>Només connecta als nodes de la xarxa &lt;net&gt; (ipv4, ipv6 o onion)</translation>
+    </message>
+    <message>
+        <source>Print this help message and exit</source>
+        <translation>Imprimiu aquest missatge d'ajuda i sortiu</translation>
+    </message>
+    <message>
+        <source>Print version and exit</source>
+        <translation>Imprimir versió i sortir</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
@@ -3223,12 +3422,28 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>El mode de poda és incompatible amb -txindex.</translation>
     </message>
     <message>
+        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
+        <translation>Reconstrueix l'estat de la cadena i l'índex de blocs des dels fitxers blk*.dat del disc</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state from the currently indexed blocks</source>
+        <translation>Reconstrueix l'estat de cadena dels blocs actualment indexats</translation>
+    </message>
+    <message>
         <source>Replaying blocks...</source>
         <translation>Reproduïnt blocs ...</translation>
     </message>
     <message>
         <source>Rewinding blocks...</source>
         <translation>Rebobinant blocs...</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>Defineix la mida de la memòria cau de la base de dades en megabytes (%d a %d, per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Especifica un fitxer de moneder (dins del directori de dades)</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
@@ -3243,12 +3458,32 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>No es pot enllaçar a %s en aquest ordinador. %s probablement ja s'estigui executant.</translation>
     </message>
     <message>
+        <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>S'ha ignorat l'argument no admès -benchmark , feu servir -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>S'ha ignorat l'argument no admès -debugnet, feu servir -debug=net.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -tor found, use -onion.</source>
+        <translation>S'ha trobat un argument -tor no acceptat. Feu servir -onion.</translation>
+    </message>
+    <message>
         <source>Unsupported logging category %s=%s.</source>
         <translation>Categoria de registre no admesa %s=%s.</translation>
     </message>
     <message>
         <source>Upgrading UTXO database</source>
         <translation>Actualització de la base de dades UTXO</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Utilitza UPnP per a mapejar el port d'escolta (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Use the test chain</source>
+        <translation>Utilitza la cadena de proves</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
@@ -3259,24 +3494,92 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>S'estan verificant els blocs...</translation>
     </message>
     <message>
+        <source>Wallet debugging/testing options:</source>
+        <translation>Opcions de depuració/proves del moneder:</translation>
+    </message>
+    <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
         <translation>Cal reescriure el moneder: reinicieu %s per a completar-ho</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Opcions de moneder:</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Permet les connexions JSON-RPC d'una font específica. Vàlid per a &lt;ip&gt; són una IP individual (p. ex., 1.2.3.4), una xarxa / màscara de xarxa (p. ex., 1.2.3.4/255.255.255.0) o una xarxa/CIDR (p. ex., 1.2.3.4/24). Es pot especificar aquesta opció moltes vegades</translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>Vincula l'adreça donada i posa a la llista blanca els iguals que s'hi connectin. Feu servir la notació [host]:port per a IPv6</translation>
+    </message>
+    <message>
+        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
+        <translation>Crea fitxers nous amb els permisos per defecte del sistema, en comptes de l'umask 077 (només efectiu amb la funcionalitat de moneder inhabilitada)</translation>
+    </message>
+    <message>
+        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
+        <translation>Descobreix l'adreça IP pròpia (per defecte: 1 quan s'escolta i no -externalip o -proxy)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Error: ha fallat escoltar les connexions entrants (l'escoltament ha retornat l'error %s)</translation>
     </message>
     <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Executa l'ordre quan es rebi un avís rellevant o veiem una forquilla molt llarga (%s en cmd és reemplaçat per un missatge)</translation>
+    </message>
+    <message>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
+        <translation>Les comissions (en %s/kB) més petites que això es consideren tarifes zero per a la retransmissió, la mineria i la creació de transaccions (per defecte: %s)</translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Si no s'especifica una paytxfee (comissió de transacció de pagament), inclogueu suficient comissió per tal que les transaccions comencin a confirmar-se en una mitja de n blocs (per defecte: %u)</translation>
+    </message>
+    <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
         <translation>Import no vàlid per a -maxtxfee=&lt;amount&gt;: '%s' (cal que sigui com a mínim la comissió de minrelay de %s per evitar que les comissions s'encallin)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Mida màxima de les dades en les transaccions de l'operador en què confiem i en les meves (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
+        <translation>Genera a l'atzar credencials per a cada connexió proxy. Això habilita l'aïllament del flux de Tor (per defecte: %u)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>L'import de la transacció és massa petit per enviar-la després que se'n dedueixi la comissió</translation>
     </message>
     <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>Els iguals en la llista blanca no poden ser bandejats per DoS i es transmetran sempre llurs transaccions, fins i tot si ja són a la mempool. Això és útil, p. ex., per a una passarel·la</translation>
+    </message>
+    <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>Cal que torneu a construir la base de dades fent servir -reindex per tornar al mode no podat. Això tornarà a baixar la cadena de blocs sencera</translation>
+    </message>
+    <message>
+        <source>(default: %u)</source>
+        <translation>(per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Accepta sol·licituds REST públiques (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Automatically create Tor hidden service (default: %d)</source>
+        <translation>Crea automàticament el servei ocult de Tor (per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Connecta a través del proxy SOCKS5</translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can't disable HD on an already existing HD wallet</source>
+        <translation>S'ha produït un error en carregar %s: no es pot desactivar HD en un moneder HD ja existent</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3285,6 +3588,10 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
     <message>
         <source>Error upgrading chainstate database</source>
         <translation>S'ha produït un error en actualitzar la base de dades de chainstate</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file on startup</source>
+        <translation>Importa blocs de fitxers externs blk000?.dat a l'inici de l'apliació</translation>
     </message>
     <message>
         <source>Information</source>
@@ -3307,12 +3614,40 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>S'ha especificat una màscara de xarxa no vàlida a -whitelist: «%s»</translation>
     </message>
     <message>
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+        <translation>Manté com a màxim &lt;n&gt; transaccions no connectables en memòria (per defecte: %u)</translation>
+    </message>
+    <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Cal especificar un port amb -whitebind: «%s»</translation>
     </message>
     <message>
+        <source>Node relay options:</source>
+        <translation>Opcions de transmissió del node:</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>Opcions del servidor RPC:</translation>
+    </message>
+    <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
         <translation>Reducció de -maxconnections de %d a %d, a causa de les limitacions del sistema.</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions on startup</source>
+        <translation>Reescaneja la cadena de blocs per a les operacions del moneder que falten a l'inici</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Envia informació de traça/depuració a la consola en comptes del fitxer debug.log</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Mostra totes les opcions de depuració (ús: --help  --help-debug)</translation>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Redueix el fitxer debug.log durant l'inici del client (per defecte: 1 quan no -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -3325,6 +3660,14 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
     <message>
         <source>This is experimental software.</source>
         <translation>Això és programari experimental.</translation>
+    </message>
+    <message>
+        <source>Tor control port password (default: empty)</source>
+        <translation>Contrasenya del port de control Tor (per defecte: buida)</translation>
+    </message>
+    <message>
+        <source>Tor control port to use if onion listening enabled (default: %s)</source>
+        <translation>Port de control de tor si l'escolta onion està  habilitada (per defecte: %s)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3343,6 +3686,14 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>No s'ha pogut vincular a %s en aquest ordinador (la vinculació ha retornat l'error %s)</translation>
     </message>
     <message>
+        <source>Upgrade wallet to latest format on startup</source>
+        <translation>Actualitza el moneder al format més recent a l'inici de l'aplicació</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Nom d'usuari per a connexions JSON-RPC</translation>
+    </message>
+    <message>
         <source>Verifying wallet(s)...</source>
         <translation>S'està verificant el moneder(s) ...</translation>
     </message>
@@ -3355,12 +3706,96 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>Advertència: regles noves desconegudes activades (versionbit %i)</translation>
     </message>
     <message>
+        <source>Whether to operate in a blocks only mode (default: %u)</source>
+        <translation>Si s'ha d'operar en un mode de blocs només (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Heu de reconstruir la base de dades mitjançant -reindex per canviar -txindex</translation>
+    </message>
+    <message>
         <source>Zapping all transactions from wallet...</source>
         <translation>Se suprimeixen totes les transaccions del moneder...</translation>
     </message>
     <message>
+        <source>ZeroMQ notification options:</source>
+        <translation>Opcions de notificació ZeroMQ:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Contrasenya per a connexions JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Executa l'ordre quan el millor bloc canviï (%s en cmd es reemplaça per un resum de bloc)</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permet consultes DNS per a -addnode, -seednode i -connect</translation>
+    </message>
+    <message>
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation>(1 = manté les metadades de les tx, p. ex., propietari del compte i informació de sol·licitud del pagament, 2 = prescindeix de les metadades de les tx)</translation>
+    </message>
+    <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
         <translation>-maxtxfee especificat molt alt! Comissions tan grans podrien pagar-se en una única transacció.</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
+        <translation>Enllaçar a una adreça determinada per escoltar les connexions JSON-RPC. Aquesta opció s'ignora a menys que -rpcallowip també s'especifiqui. El port és opcional i sobreescriu -rpcport. Utilitzeu la notació [host]:port per a IPv6. Aquesta opció es pot especificar diverses vegades (per defecte: 127.0.0.1 i :: 1, és a dir, localhost, o si s'ha especificat -rpcallowip, 0.0.0.0 i :: és a dir, totes les adreces)</translation>
+    </message>
+    <message>
+        <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
+        <translation>No mantingueu les transaccions en el mempool més de &lt;n&gt; hora (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
+        <translation>Bytes equivalents per sigop en transaccions de relé i mineria (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can't enable HD on an already existing non-HD wallet</source>
+        <translation>S'ha produït un error en carregar %s: no es pot activar HD en un moneder existent que no sigui HD</translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
+        <translation>S'ha produït un error en carregar el moneder %s. El paràmetre -wallet només ha d'especificar un nom de fitxer (no una ruta d'accés).</translation>
+    </message>
+    <message>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Les comissions (en %s/kB) més petites que això es consideren comissions zero per a la creació de transaccions (per defecte: %s)</translation>
+    </message>
+    <message>
+        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
+        <translation>Forçar la retranmissió de les transaccions de nodes de llista blanca encara que infringeixin la política de retransmissió local (per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Com d'exhaustiva és la verificació de blocs del -checkblocks (0-4, per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
+        <translation>Manté un índex complet de transaccions, utilitzat per la crida rpc getrawtransaction (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
+        <translation>Nombre de segons necessaris perquè els iguals de comportament qüestionable puguin tornar a connectar-se (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
+        <translation>Informació de sortida de la depuració (per defecte: %u, proporcionar &lt;category&gt; és opcional)</translation>
+    </message>
+    <message>
+        <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
+        <translation>Estableix la serialització de transaccions crues o bloc hexadecimal retornat en mode no verbose, no-segwit (0) o segwit(1) (per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
+        <translation>Suport de filtrat de blocs i transaccions amb filtres bloom (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>The fee rate (in %s/kB) that indicates your tolerance for discarding change by adding it to the fee (default: %s). Note: An output is discarded if it is dust at this rate, but we will always discard up to the dust relay fee and a discard fee above that is limited by the fee estimate for the longest target</source>
+        <translation>El tipus de tarifa (en %s/kB) que indica la vostra tolerància per descartar el canvi afegint-lo a la tarifa (per defecte: %s). Nota: Es descarta una sortida si és polsim a aquesta tarifa, però sempre anem a descartar la quota de relleu de polsim i una tarifa de descartat per sobre d'això està limitada per l'estimació de tarifes per al destí més llarg</translation>
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
@@ -3375,20 +3810,132 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>La longitud total de la cadena de la versió de xarxa (%i) supera la longitud màxima (%i). Redueix el nombre o la mida de uacomments.</translation>
     </message>
     <message>
+        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
+        <translation>Intenta mantenir el trànsit sortint sota l'objectiu indicat (a MiB per 24 hores), 0 = sense límit (per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>S'ha trobat l'argument -socks no compatible. L'establiment de la versió SOCKS ja no és possible, només es permeten els servidors proxy SOCKS5.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
+        <translation>S'ha ignorat l'argument no acceptat -whitelistalways, utilitza -whitelistrelay i/o -whitelistforcerelay.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation>Utilitza un proxy SOCKS4 apart per a arribar als iguals a través de serveis ocults de Tor (per defecte: %s)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <translation>Advertència: s'està minant versions de blocs desconegudes. És possible que s'estiguin aplicant regles desconegudes</translation>
+    </message>
+    <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Advertència: el moender està malmès, les dades es recuperen! Original %s guardat com a %s en %s; si el vostre saldo o transaccions són incorrectes, haureu de restaurar des d'una còpia de seguretat.</translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
+        <translation>Nodes de llista blanca s'estan connectant des de l'adreça IP indicada (p. Ex. 1.2.3.4) o la xarxa notificada per CIDR (p. Ex. 1.2.3.0/24). Es pot especificar diverses vegades.</translation>
     </message>
     <message>
         <source>%s is set very high!</source>
         <translation>%s està especificat molt alt!</translation>
     </message>
     <message>
+        <source>(default: %s)</source>
+        <translation>(per defecte: %s)</translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation>Demana sempre les adreces dels iguals a través de consultes DNS (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
+        <translation>S'ha produït un error en carregar el moneder %s. El nom del fitxer -wallet ha de ser un fitxer normal.</translation>
+    </message>
+    <message>
         <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
         <translation>S'ha produït un error en carregar el moneder %s. S'ha especificat un nom de fitxer duplicat -wallet.</translation>
     </message>
     <message>
+        <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
+        <translation>S'ha produït un error en carregar el moneder %s. Caràcters no vàlids al nom del fitxer -wallet.</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Quants blocs per comprovar a l'inici (per defecte: %u, 0 = tots)</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>Inclou l'adreça IP a la sortida de depuració (per defecte: %u)</translation>
+    </message>
+    <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
         <translation>S'ha acabat el Keypool, si us plau, crideu a keypoolrefill primer</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Escolta les connexions JSON-RPC en &lt;port&gt; (per defecte: %u o testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Escolta les connexions en &lt;port&gt; (per defecte: %u o testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Manté com a màxim &lt;n&gt; connexions a iguals (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Make the wallet broadcast transactions</source>
+        <translation>Fes que el moneder faci difusió de les transaccions</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Memòria intermèdia màxima de recepció per connexió, &lt;n&gt;*1000 bytes (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Memòria intermèdia màxima d'enviament per connexió, &lt;n&gt;*1000 bytes (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>Posa davant de la sortida de depuració una marca horària (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation>Retransmet i mina les transaccions de l'operador (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Retransmet multisig no P2SH (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Defineix la mida clau disponible a &lt;n&gt; (per defecte: %u)</translation>
+    </message>
+    <message>
+        <source>Set maximum BIP141 block weight (default: %d)</source>
+        <translation>Estableix el pes màxim del bloc BIP141 (per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Defineix el nombre de fils a crides de servei RPC (per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Especifica el fitxer de configuració (per defecte: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Especifica el temps d'espera de la connexió en milisegons (mínim: 1, per defecte: %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Especifica el fitxer pid (per defecte: %s)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Gasta el canvi no confirmat en enviar les transaccions (per defecte: %u)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
@@ -3405,6 +3952,10 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Aquesta és la comissió de transacció que pagareu si envieu una transacció.</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>Llindar per a desconnectar els iguals de comportament qüestionable (per defecte: %u)</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
