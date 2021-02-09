@@ -72,6 +72,14 @@ extern double NSAppKitVersionNumber;
 #if !defined(NSAppKitVersionNumber10_9)
 #define NSAppKitVersionNumber10_9 1265
 #endif
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
+#include <CoreServices/CoreServices.h>
+#include <QProcess>
+
+void ForceActivation();
 #endif
 
 namespace GUIUtil {
@@ -406,6 +414,24 @@ bool isObscured(QWidget *w)
         && checkPoint(QPoint(w->width() / 2, w->height() / 2), w));
 }
 
+void bringToFront(QWidget* w)
+{
+#ifdef Q_OS_MAC
+    ForceActivation();
+#endif
+
+    if (w) {
+        // activateWindow() (sometimes) helps with keyboard focus on Windows
+        if (w->isMinimized()) {
+            w->showNormal();
+        } else {
+            w->show();
+        }
+        w->activateWindow();
+        w->raise();
+    }
+}
+
 void openDebugLogfile()
 {
     fs::path pathDebug = GetDataDir() / "debug.log";
@@ -421,12 +447,12 @@ bool openBitcoinConf()
 
     /* Create the file */
     boost::filesystem::ofstream configFile(pathConfig, std::ios_base::app);
-    
+
     if (!configFile.good())
         return false;
-    
+
     configFile.close();
-    
+
     /* Open bitcoin.conf with the associated application */
     return QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 }
@@ -771,12 +797,8 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 
 
 #elif defined(Q_OS_MAC)
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-// based on: https://github.com/Mozketo/LaunchAtLoginController/blob/master/LaunchAtLoginController.m
 
-#include <CoreFoundation/CoreFoundation.h>
-#include <CoreServices/CoreServices.h>
+// based on: https://github.com/Mozketo/LaunchAtLoginController/blob/master/LaunchAtLoginController.m
 
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
@@ -785,7 +807,7 @@ LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef
     if (listSnapshot == nullptr) {
         return nullptr;
     }
-    
+
     // loop through the list of startup items and try to find the bitcoin app
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -813,7 +835,7 @@ LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef
             CFRelease(currentItemURL);
         }
     }
-    
+
     CFRelease(listSnapshot);
     return nullptr;
 }
@@ -824,7 +846,7 @@ bool GetStartOnSystemStartup()
     if (bitcoinAppUrl == nullptr) {
         return false;
     }
-    
+
     LSSharedFileListRef loginItems = LSSharedFileListCreate(nullptr, kLSSharedFileListSessionLoginItems, nullptr);
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
@@ -838,7 +860,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     if (bitcoinAppUrl == nullptr) {
         return false;
     }
-    
+
     LSSharedFileListRef loginItems = LSSharedFileListCreate(nullptr, kLSSharedFileListSessionLoginItems, nullptr);
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
@@ -850,7 +872,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // remove item
         LSSharedFileListItemRemove(loginItems, foundItem);
     }
-    
+
     CFRelease(bitcoinAppUrl);
     return true;
 }
@@ -1011,7 +1033,7 @@ void ClickableLabel::mouseReleaseEvent(QMouseEvent *event)
 {
     Q_EMIT clicked(event->pos());
 }
-    
+
 void ClickableProgressBar::mouseReleaseEvent(QMouseEvent *event)
 {
     Q_EMIT clicked(event->pos());

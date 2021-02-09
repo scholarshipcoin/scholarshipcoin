@@ -100,7 +100,7 @@ void WalletView::setBitcoinGUI(BitcoinGUI *gui)
         // Pass through transaction notifications
         connect(this, SIGNAL(incomingTransaction(QString,int,CAmount,QString,QString,QString)), gui, SLOT(incomingTransaction(QString,int,CAmount,QString,QString,QString)));
 
-        // Connect HD enabled state signal 
+        // Connect HD enabled state signal
         connect(this, SIGNAL(hdEnabledStatusChanged(int)), gui, SLOT(setHDStatus(int)));
     }
 }
@@ -286,9 +286,7 @@ void WalletView::usedSendingAddresses()
     if(!walletModel)
         return;
 
-    usedSendingAddressesPage->show();
-    usedSendingAddressesPage->raise();
-    usedSendingAddressesPage->activateWindow();
+    GUIUtil::bringToFront(usedSendingAddressesPage);
 }
 
 void WalletView::usedReceivingAddresses()
@@ -296,9 +294,7 @@ void WalletView::usedReceivingAddresses()
     if(!walletModel)
         return;
 
-    usedReceivingAddressesPage->show();
-    usedReceivingAddressesPage->raise();
-    usedReceivingAddressesPage->activateWindow();
+    GUIUtil::bringToFront(usedReceivingAddressesPage);
 }
 
 void WalletView::showProgress(const QString &title, int nProgress)
