@@ -58,12 +58,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones Scholarshipcoin para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
+        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones Scholarship para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones Scholarshipcoin para recibir pagos. Es recomendable usar una nueva dirección de recibo para cada transacción.</translation>
+        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones Scholarship para recibir pagos. Es recomendable usar una nueva dirección de recibo para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -154,8 +154,8 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarshipcoin address</source>
-        <translation>Enviar monedas a una dirección Scholarshipcoin</translation>
+        <source>Send coins to a Scholarship address</source>
+        <translation>Enviar monedas a una dirección Scholarship</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -170,8 +170,8 @@
         <translation>Abre la consola de depuración y diágnostico</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -198,12 +198,12 @@
         <translation>Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
-        <translation>Firma mensajes con tus direcciones Scholarshipcoin para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your Scholarship addresses to prove you own them</source>
+        <translation>Firma mensajes con tus direcciones Scholarship para probar que eres dueño de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
-        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Scholarshipcoin especificas</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Scholarship especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -449,8 +449,8 @@
         <translation>Usa un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>

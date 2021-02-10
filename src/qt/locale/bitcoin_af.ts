@@ -62,12 +62,12 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Scholarshipcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Scholarship betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u Scholarshipcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u Scholarships sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Bevestig dat die beursie gekodifiseer is</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
-        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U SCHOLARSHIPCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
+        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U SCHOLARSHIPS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -334,8 +334,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarshipcoin address</source>
-        <translation>Stuur munte na 'n Scholarshipcoin adres</translation>
+        <source>Send coins to a Scholarship address</source>
+        <translation>Stuur munte na 'n Scholarship adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -386,12 +386,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Scholarshipcoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Scholarship addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Scholarship adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Scholarshipcoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Scholarship adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -410,8 +410,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en scholarshipcoin: URI's)</translation>
+        <source>Request payments (generates QR codes and scholarship: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en scholarship: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,8 +422,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a scholarshipcoin: URI or payment request</source>
-        <translation>Skep 'n scholarshipcoin: URI of betalingsversoek</translation>
+        <source>Open a scholarship: URI or payment request</source>
+        <translation>Skep 'n scholarship: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -516,8 +516,8 @@
         <translation>Inkomende transaksie</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Scholarshipcoin can no longer continue safely and will quit.</source>
-        <translation>'N fatale fout het voorgekom. Scholarshipcoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
+        <source>A fatal error occurred. Scholarship can no longer continue safely and will quit.</source>
+        <translation>'N fatale fout het voorgekom. Scholarship kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
 </context>
 <context>
@@ -710,8 +710,8 @@
         <translation>Wysig stuur adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Scholarshipcoin address.</source>
-        <translation>Die ingevoerde adres "%1" is nie 'n geldige Scholarshipcoin adres nie.</translation>
+        <source>The entered address "%1" is not a valid Scholarship address.</source>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige Scholarship adres nie.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -823,8 +823,8 @@
         <translation>Gebruik 'n persoonlike data gids:</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1188,8 +1188,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Scholarshipcoin address (e.g. %1)</source>
-        <translation>Voer in 'n Scholarshipcoin adres (bv. %1)</translation>
+        <source>Enter a Scholarship address (e.g. %1)</source>
+        <translation>Voer in 'n Scholarship adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1919,7 +1919,7 @@
     </message>
     <message>
         <source>Scholarship Core</source>
-        <translation>Scholarshipcoin Kern</translation>
+        <translation>Scholarship Kern</translation>
     </message>
     <message>
         <source>Connection options:</source>

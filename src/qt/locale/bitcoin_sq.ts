@@ -54,12 +54,12 @@
         <translation>Duke marr adresen</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Këto janë Scholarshipcoin adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
+        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Këto janë Scholarship adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Këto janë Scholarshipcoin adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
+        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Këto janë Scholarship adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -230,8 +230,8 @@
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -401,8 +401,8 @@
         <translation>Miresevini</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Error</source>
@@ -809,7 +809,7 @@
     </message>
     <message>
         <source>Scholarship Core</source>
-        <translation>Berthama Scholarshipcoin</translation>
+        <translation>Berthama Scholarship</translation>
     </message>
     <message>
         <source>Information</source>

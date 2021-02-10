@@ -33,12 +33,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/scholarshipcoin-project/gitian.sigs.scho.git
+    git clone https://github.com/scholarship-project/gitian.sigs.ltc.git
     git clone https://github.com/scholarshipcoin/scholarshipcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     git clone https://github.com/scholarshipcoin/scholarshipcoin.git
 
-### Scholarshipcoin maintainers/release engineers, suggestion for writing release notes
+### Scholarship maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -61,16 +61,16 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./scholarshipcoin
+    pushd ./scholarship
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
     git checkout v${VERSION}
     popd
 
-Ensure your gitian.sigs.scho are up-to-date if you wish to gverify your builds against other Gitian signatures.
+Ensure your gitian.sigs.ltc are up-to-date if you wish to gverify your builds against other Gitian signatures.
 
-    pushd ./gitian.sigs.scho
+    pushd ./gitian.sigs.ltc
     git pull
     popd
 
@@ -95,7 +95,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../scholarshipcoin/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../scholarship/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -103,7 +103,7 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url scholarshipcoin=/path/to/scholarshipcoin,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url scholarship=/path/to/scholarship,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
@@ -111,54 +111,54 @@ The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 ### Build and sign Scholarship Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --num-make 2 --memory 3000 --commit scholarshipcoin=v${VERSION} ../scholarshipcoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/scholarshipcoin-*.tar.gz build/out/src/scholarshipcoin-*.tar.gz ../
+    ./bin/gbuild --num-make 2 --memory 3000 --commit scholarship=v${VERSION} ../scholarship/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/scholarship-*.tar.gz build/out/src/scholarship-*.tar.gz ../
 
-    ./bin/gbuild --num-make 2 --memory 3000 --commit scholarshipcoin=v${VERSION} ../scholarshipcoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/scholarshipcoin-*-win-unsigned.tar.gz inputs/scholarshipcoin-win-unsigned.tar.gz
-    mv build/out/scholarshipcoin-*.zip build/out/scholarshipcoin-*.exe ../
+    ./bin/gbuild --num-make 2 --memory 3000 --commit scholarship=v${VERSION} ../scholarship/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/scholarship-*-win-unsigned.tar.gz inputs/scholarship-win-unsigned.tar.gz
+    mv build/out/scholarship-*.zip build/out/scholarship-*.exe ../
 
-    ./bin/gbuild --num-make 2 --memory 3000 --commit scholarshipcoin=v${VERSION} ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/scholarshipcoin-*-osx-unsigned.tar.gz inputs/scholarshipcoin-osx-unsigned.tar.gz
-    mv build/out/scholarshipcoin-*.tar.gz build/out/scholarshipcoin-*.dmg ../
+    ./bin/gbuild --num-make 2 --memory 3000 --commit scholarship=v${VERSION} ../scholarship/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/scholarship-*-osx-unsigned.tar.gz inputs/scholarship-osx-unsigned.tar.gz
+    mv build/out/scholarship-*.tar.gz build/out/scholarship-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`scholarshipcoin-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`scholarshipcoin-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`scholarshipcoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `scholarshipcoin-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`scholarshipcoin-${VERSION}-osx-unsigned.dmg`, `scholarshipcoin-${VERSION}-osx64.tar.gz`)
-  5. Gitian signatures (in `gitian.sigs.scho/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
+  1. source tarball (`scholarship-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`scholarship-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`scholarship-${VERSION}-win[32|64]-setup-unsigned.exe`, `scholarship-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`scholarship-${VERSION}-osx-unsigned.dmg`, `scholarship-${VERSION}-osx64.tar.gz`)
+  5. Gitian signatures (in `gitian.sigs.ltc/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import scholarshipcoin/contrib/gitian-keys/*.pgp
+    gpg --import scholarship/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-linux ../scholarshipcoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-win-unsigned ../scholarshipcoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-osx-unsigned ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../scholarship/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../scholarship/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../scholarship/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
 
-Commit your signature to gitian.sigs.scho:
+Commit your signature to gitian.sigs.ltc:
 
-    pushd gitian.sigs.scho
+    pushd gitian.sigs.ltc
     git add ${VERSION}-linux/${SIGNER}
     git add ${VERSION}-win-unsigned/${SIGNER}
     git add ${VERSION}-osx-unsigned/${SIGNER}
     git commit -a
-    git push  # Assuming you can push to the gitian.sigs.scho tree
+    git push  # Assuming you can push to the gitian.sigs.ltc tree
     popd
 
 Codesigner only: Create Windows/OS X detached signatures:
@@ -167,22 +167,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer scholarshipcoin-osx-unsigned.tar.gz to osx for signing
-    tar xf scholarshipcoin-osx-unsigned.tar.gz
+    transfer scholarship-osx-unsigned.tar.gz to osx for signing
+    tar xf scholarship-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf scholarshipcoin-win-unsigned.tar.gz
+    tar xf scholarship-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/scholarshipcoin-detached-sigs
+    cd ~/scholarship-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -195,34 +195,34 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [scholarshipcoin-detached-sigs](https://github.com/scholarshipcoin/scholarshipcoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [scholarship-detached-sigs](https://github.com/scholarshipcoin/scholarshipcoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-osx-signed ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/scholarshipcoin-osx-signed.dmg ../scholarshipcoin-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../scholarship/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../scholarship/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/scholarship-osx-signed.dmg ../scholarship-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../scholarshipcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-win-signed ../scholarshipcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/scholarshipcoin-*win64-setup.exe ../scholarshipcoin-${VERSION}-win64-setup.exe
-    mv build/out/scholarshipcoin-*win32-setup.exe ../scholarshipcoin-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../scholarship/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-signed ../scholarship/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/scholarship-*win64-setup.exe ../scholarship-${VERSION}-win64-setup.exe
+    mv build/out/scholarship-*win32-setup.exe ../scholarship-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
 
-    pushd gitian.sigs.scho
+    pushd gitian.sigs.ltc
     git add ${VERSION}-osx-signed/${SIGNER}
     git add ${VERSION}-win-signed/${SIGNER}
     git commit -a
-    git push  # Assuming you can push to the gitian.sigs.scho tree
+    git push  # Assuming you can push to the gitian.sigs.ltc tree
     popd
 
 ### After 3 or more people have gitian-built and their results match:
@@ -235,17 +235,17 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-scholarshipcoin-${VERSION}-aarch64-linux-gnu.tar.gz
-scholarshipcoin-${VERSION}-arm-linux-gnueabihf.tar.gz
-scholarshipcoin-${VERSION}-i686-pc-linux-gnu.tar.gz
-scholarshipcoin-${VERSION}-x86_64-linux-gnu.tar.gz
-scholarshipcoin-${VERSION}-osx64.tar.gz
-scholarshipcoin-${VERSION}-osx.dmg
-scholarshipcoin-${VERSION}.tar.gz
-scholarshipcoin-${VERSION}-win32-setup.exe
-scholarshipcoin-${VERSION}-win32.zip
-scholarshipcoin-${VERSION}-win64-setup.exe
-scholarshipcoin-${VERSION}-win64.zip
+scholarship-${VERSION}-aarch64-linux-gnu.tar.gz
+scholarship-${VERSION}-arm-linux-gnueabihf.tar.gz
+scholarship-${VERSION}-i686-pc-linux-gnu.tar.gz
+scholarship-${VERSION}-x86_64-linux-gnu.tar.gz
+scholarship-${VERSION}-osx64.tar.gz
+scholarship-${VERSION}-osx.dmg
+scholarship-${VERSION}.tar.gz
+scholarship-${VERSION}-win32-setup.exe
+scholarship-${VERSION}-win32.zip
+scholarship-${VERSION}-win64-setup.exe
+scholarship-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
@@ -269,13 +269,13 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Announce the release:
 
-  - scholarshipcoin-dev and scholarshipcoin-dev mailing list
+  - scholarship-dev and scholarship-dev mailing list
 
   - blog.scholarshipcoin.org blog post
 
-  - Update title of #scholarshipcoin and #scholarshipcoin-dev on Freenode IRC
+  - Update title of #scholarship and #scholarship-dev on Freenode IRC
 
-  - Optionally twitter, reddit /r/Scholarshipcoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Scholarship, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 

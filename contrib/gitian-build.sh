@@ -30,7 +30,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the scholarshipcoin, gitian-builder, gitian.sigs.scho, and scholarshipcoin-detached-sigs.
+Run this script from the directory containing the scholarship, gitian-builder, gitian.sigs.ltc, and scholarship-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -229,7 +229,7 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/scholarshipcoin-project/gitian.sigs.scho.git
+    git clone https://github.com/scholarship-project/gitian.sigs.ltc.git
     git clone https://github.com/scholarshipcoin/scholarshipcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
@@ -244,7 +244,7 @@ then
 fi
 
 # Set up build
-pushd ./scholarshipcoin
+pushd ./scholarship
 git fetch
 git checkout ${COMMIT}
 popd
@@ -253,7 +253,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./scholarshipcoin-binaries/${VERSION}
+	mkdir -p ./scholarship-binaries/${VERSION}
 	
 	# Build Dependencies
 	echo ""
@@ -263,7 +263,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../scholarshipcoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../scholarship/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -271,9 +271,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit scholarshipcoin=${COMMIT} --url scholarshipcoin=${url} ../scholarshipcoin/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/scholarshipcoin-*.tar.gz build/out/src/scholarshipcoin-*.tar.gz ../scholarshipcoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit scholarship=${COMMIT} --url scholarship=${url} ../scholarship/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/scholarship-*.tar.gz build/out/src/scholarship-*.tar.gz ../scholarship-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -281,10 +281,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit scholarshipcoin=${COMMIT} --url scholarshipcoin=${url} ../scholarshipcoin/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/scholarshipcoin-*-win-unsigned.tar.gz inputs/scholarshipcoin-win-unsigned.tar.gz
-	    mv build/out/scholarshipcoin-*.zip build/out/scholarshipcoin-*.exe ../scholarshipcoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit scholarship=${COMMIT} --url scholarship=${url} ../scholarship/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/scholarship-*-win-unsigned.tar.gz inputs/scholarship-win-unsigned.tar.gz
+	    mv build/out/scholarship-*.zip build/out/scholarship-*.exe ../scholarship-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -292,10 +292,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit scholarshipcoin=${COMMIT} --url scholarshipcoin=${url} ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/scholarshipcoin-*-osx-unsigned.tar.gz inputs/scholarshipcoin-osx-unsigned.tar.gz
-	    mv build/out/scholarshipcoin-*.tar.gz build/out/scholarshipcoin-*.dmg ../scholarshipcoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit scholarship=${COMMIT} --url scholarship=${url} ../scholarship/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/scholarship-*-osx-unsigned.tar.gz inputs/scholarship-osx-unsigned.tar.gz
+	    mv build/out/scholarship-*.tar.gz build/out/scholarship-*.dmg ../scholarship-binaries/${VERSION}
 	fi
 	popd
 
@@ -322,27 +322,27 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-linux ../scholarshipcoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../scholarship/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-win-unsigned ../scholarshipcoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../scholarship/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX	
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""	
-	./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-osx-unsigned ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../scholarship/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-osx-signed ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../scholarship/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.scho/ -r ${VERSION}-osx-signed ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml	
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../scholarship/contrib/gitian-descriptors/gitian-osx-signer.yml	
 	popd
 fi
 
@@ -357,10 +357,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../scholarshipcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/scholarshipcoin-*win64-setup.exe ../scholarshipcoin-binaries/${VERSION}
-	    mv build/out/scholarshipcoin-*win32-setup.exe ../scholarshipcoin-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../scholarship/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/scholarship-*win64-setup.exe ../scholarship-binaries/${VERSION}
+	    mv build/out/scholarship-*win32-setup.exe ../scholarship-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -368,9 +368,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.scho/ ../scholarshipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/scholarshipcoin-osx-signed.dmg ../scholarshipcoin-binaries/${VERSION}/scholarshipcoin-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../scholarship/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../scholarship/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/scholarship-osx-signed.dmg ../scholarship-binaries/${VERSION}/scholarship-${VERSION}-osx.dmg
 	fi
 	popd
 

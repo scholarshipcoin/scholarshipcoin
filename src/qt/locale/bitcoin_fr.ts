@@ -62,12 +62,12 @@
         <translation>Adresses de réception</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Voici vos adresses Scholarshipcoin pour envoyer des paiements. Vérifiez toujours le montant et l’adresse du destinataire avant d’envoyer des pièces.</translation>
+        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Voici vos adresses Scholarship pour envoyer des paiements. Vérifiez toujours le montant et l’adresse du destinataire avant d’envoyer des pièces.</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Voici vos adresses Scholarshipcoin pour recevoir des paiements. Il est recommandé d’utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
+        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Voici vos adresses Scholarship pour recevoir des paiements. Il est recommandé d’utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Confirmer le chiffrement du porte-monnaie</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
-        <translation>Avertissement : si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS SCHOLARSHIPCOINS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
+        <translation>Avertissement : si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS SCHOLARSHIPS&lt;/b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,8 +184,8 @@
         <translation>Le porte-monnaie est chiffré</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarshipcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre porte-monnaie ne peut pas protéger entièrement vos scholarshipcoins contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your scholarships from being stolen by malware infecting your computer.</source>
+        <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre porte-monnaie ne peut pas protéger entièrement vos scholarships contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -342,8 +342,8 @@
         <translation>Réindexation des blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarshipcoin address</source>
-        <translation>Envoyer des pièces à une adresse Scholarshipcoin</translation>
+        <source>Send coins to a Scholarship address</source>
+        <translation>Envoyer des pièces à une adresse Scholarship</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +366,8 @@
         <translation>&amp;Vérifier un message...</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -394,12 +394,12 @@
         <translation>Chiffrer les clés privées qui appartiennent à votre porte-monnaie</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
-        <translation>Signer les messages avec vos adresses Scholarshipcoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your Scholarship addresses to prove you own them</source>
+        <translation>Signer les messages avec vos adresses Scholarship pour prouver que vous les détenez</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
-        <translation>Vérifier les messages pour s’assurer qu’ils ont été signés avec les adresses Scholarshipcoin indiquées</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
+        <translation>Vérifier les messages pour s’assurer qu’ils ont été signés avec les adresses Scholarship indiquées</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -418,8 +418,8 @@
         <translation>Barre d’outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
-        <translation>Demander des paiements (génère des codes QR et des URI scholarshipcoin:)</translation>
+        <source>Request payments (generates QR codes and scholarship: URIs)</source>
+        <translation>Demander des paiements (génère des codes QR et des URI scholarship:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,16 +430,16 @@
         <translation>Afficher la liste d’adresses de réception et d’étiquettes utilisées</translation>
     </message>
     <message>
-        <source>Open a scholarshipcoin: URI or payment request</source>
-        <translation>Ouvrir une URI scholarshipcoin: ou une demande de paiement</translation>
+        <source>Open a scholarship: URI or payment request</source>
+        <translation>Ouvrir une URI scholarship: ou une demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Scholarshipcoin network</source>
-        <translation><numerusform>%n connexion active avec le réseau Scholarshipcoin</numerusform><numerusform>%n connexions actives avec le réseau Scholarshipcoin</numerusform></translation>
+        <source>%n active connection(s) to Scholarship network</source>
+        <translation><numerusform>%n connexion active avec le réseau Scholarship</numerusform><numerusform>%n connexions actives avec le réseau Scholarship</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -482,8 +482,8 @@
         <translation>À jour</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Scholarshipcoin command-line options</source>
-        <translation>Afficher le message d’aide de %1 pour obtenir la liste des options de ligne de commande Scholarshipcoin possibles.</translation>
+        <source>Show the %1 help message to get a list with possible Scholarship command-line options</source>
+        <translation>Afficher le message d’aide de %1 pour obtenir la liste des options de ligne de commande Scholarship possibles.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -552,8 +552,8 @@
         <translation>Le porte-monnaie est &lt;b&gt;chiffré&lt;/b&gt; et actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Scholarshipcoin can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale est survenue. Scholarshipcoin ne peut plus continuer en toute sécurité et va s’arrêter.</translation>
+        <source>A fatal error occurred. Scholarship can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale est survenue. Scholarship ne peut plus continuer en toute sécurité et va s’arrêter.</translation>
     </message>
 </context>
 <context>
@@ -746,8 +746,8 @@
         <translation>Modifier l’adresse d’envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Scholarshipcoin address.</source>
-        <translation>L’adresse saisie « %1 » n’est pas une adresse Scholarshipcoin valide.</translation>
+        <source>The entered address "%1" is not a valid Scholarship address.</source>
+        <translation>L’adresse saisie « %1 » n’est pas une adresse Scholarship valide.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -875,8 +875,8 @@
         <translation>Utiliser un répertoire de données personnalisé :</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -887,8 +887,8 @@
         <translation>Approximativement %1 Go de données seront stockés dans ce répertoire.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Scholarshipcoin block chain.</source>
-        <translation>%1 téléchargera et stockera une copie de la chaîne de blocs Scholarshipcoin.</translation>
+        <source>%1 will download and store a copy of the Scholarship block chain.</source>
+        <translation>%1 téléchargera et stockera une copie de la chaîne de blocs Scholarship.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -918,12 +918,12 @@
         <translation>Formulaire</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the scholarshipcoin network, as detailed below.</source>
-        <translation>Les transactions récentes ne sont peut-être pas encore visibles et par conséquent le solde de votre porte-monnaie est peut-être erroné. Cette information sera juste quand votre porte-monnaie aura fini de se synchroniser avec le réseau Scholarshipcoin, comme décrit ci-dessous.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the scholarship network, as detailed below.</source>
+        <translation>Les transactions récentes ne sont peut-être pas encore visibles et par conséquent le solde de votre porte-monnaie est peut-être erroné. Cette information sera juste quand votre porte-monnaie aura fini de se synchroniser avec le réseau Scholarship, comme décrit ci-dessous.</translation>
     </message>
     <message>
-        <source>Attempting to spend scholarshipcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Toute tentative de dépense de scholarshipcoins affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
+        <source>Attempting to spend scholarships that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Toute tentative de dépense de scholarships affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1092,8 +1092,8 @@
         <translation>&amp;Dépenser la monnaie non confirmée</translation>
     </message>
     <message>
-        <source>Automatically open the Scholarshipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client Scholarshipcoin sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l’UPnP et si la fonction est activée.</translation>
+        <source>Automatically open the Scholarship client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client Scholarship sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l’UPnP et si la fonction est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1108,8 +1108,8 @@
         <translation>Permettre les connexions e&amp;ntrantes</translation>
     </message>
     <message>
-        <source>Connect to the Scholarshipcoin network through a SOCKS5 proxy.</source>
-        <translation>Se connecter au réseau Scholarshipcoin par un mandataire SOCKS5.</translation>
+        <source>Connect to the Scholarship network through a SOCKS5 proxy.</source>
+        <translation>Se connecter au réseau Scholarship par un mandataire SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1144,8 +1144,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Scholarshipcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Se connecter au réseau Scholarshipcoin au travers d’un mandataire SOCKS5 séparé pour les services cachés de Tor.</translation>
+        <source>Connect to the Scholarship network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Se connecter au réseau Scholarship au travers d’un mandataire SOCKS5 séparé pour les services cachés de Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1251,8 +1251,8 @@
         <translation>Formulaire</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarshipcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau Scholarshipcoin lorsque la connexion s’établit, or ce processus n’est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarship network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau Scholarship lorsque la connexion s’établit, or ce processus n’est pas encore terminé.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1326,8 +1326,8 @@
         <translation>Erreur de demande de paiement</translation>
     </message>
     <message>
-        <source>Cannot start scholarshipcoin: click-to-pay handler</source>
-        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer scholarshipcoin:</translation>
+        <source>Cannot start scholarship: click-to-pay handler</source>
+        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer scholarship:</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1342,8 +1342,8 @@
         <translation>Adresse de paiement invalide %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Scholarshipcoin address or malformed URI parameters.</source>
-        <translation>L’URI ne peut pas être analysée ! Cela peut être causé par une adresse Scholarshipcoin invalide ou par des paramètres d’URI mal formés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Scholarship address or malformed URI parameters.</source>
+        <translation>L’URI ne peut pas être analysée ! Cela peut être causé par une adresse Scholarship invalide ou par des paramètres d’URI mal formés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1444,8 +1444,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Scholarshipcoin address (e.g. %1)</source>
-        <translation>Saisir une adresse Scholarshipcoin (p. ex. %1)</translation>
+        <source>Enter a Scholarship address (e.g. %1)</source>
+        <translation>Saisir une adresse Scholarship (p. ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1868,8 +1868,8 @@
         <translation>M&amp;essage :</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Scholarshipcoin network.</source>
-        <translation>Un message facultatif à joindre à la demande de paiement et qui sera affiché à l’ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau Scholarshipcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Scholarship network.</source>
+        <translation>Un message facultatif à joindre à la demande de paiement et qui sera affiché à l’ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau Scholarship.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2113,7 +2113,7 @@
         <translation>Cacher</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for scholarshipcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for scholarship transactions than the network can process.</source>
         <translation>Il est correct de payer les frais minimum tant que le volume transactionnel est inférieur à l’espace dans les blocs. Mais soyez conscient que cela pourrait résulter en une transaction n’étant jamais confirmée une fois qu’il y aura plus de transactions que le réseau ne pourra en traiter.</translation>
     </message>
     <message>
@@ -2285,8 +2285,8 @@
         <translation><numerusform>Il est estimé que la confirmation commencera dans %n bloc.</numerusform><numerusform>Il est estimé que la confirmation commencera dans %n blocs.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Scholarshipcoin address</source>
-        <translation>Avertissement : adresse Scholarshipcoin invalide</translation>
+        <source>Warning: Invalid Scholarship address</source>
+        <translation>Avertissement : adresse Scholarship invalide</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2328,8 +2328,8 @@
         <translation>Ceci est un paiement normal.</translation>
     </message>
     <message>
-        <source>The Scholarshipcoin address to send the payment to</source>
-        <translation>L’adresse Scholarshipcoin à laquelle envoyer le paiement</translation>
+        <source>The Scholarship address to send the payment to</source>
+        <translation>L’adresse Scholarship à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2348,8 +2348,8 @@
         <translation>Retirer cette entrée</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less scholarshipcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de scholarshipcoins que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less scholarships than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de scholarships que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2376,8 +2376,8 @@
         <translation>Saisir une étiquette pour cette adresse afin de l’ajouter à la liste d’adresses utilisées</translation>
     </message>
     <message>
-        <source>A message that was attached to the scholarshipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Scholarshipcoin network.</source>
-        <translation>Un message qui était joint à l’URI scholarshipcoin: et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Scholarshipcoin.</translation>
+        <source>A message that was attached to the scholarship: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Scholarship network.</source>
+        <translation>Un message qui était joint à l’URI scholarship: et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Scholarship.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2421,12 +2421,12 @@
         <translation>&amp;Signer un message</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive scholarshipcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des scholarshipcoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d’hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l’usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d’accord.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive scholarships sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des scholarships à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d’hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l’usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d’accord.</translation>
     </message>
     <message>
-        <source>The Scholarshipcoin address to sign the message with</source>
-        <translation>L’adresse Scholarshipcoin avec laquelle signer le message</translation>
+        <source>The Scholarship address to sign the message with</source>
+        <translation>L’adresse Scholarship avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2457,8 +2457,8 @@
         <translation>Copier la signature actuelle dans le presse-papiers</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Scholarshipcoin address</source>
-        <translation>Signer le message afin de prouver que vous détenez cette adresse Scholarshipcoin</translation>
+        <source>Sign the message to prove you own this Scholarship address</source>
+        <translation>Signer le message afin de prouver que vous détenez cette adresse Scholarship</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2481,12 +2481,12 @@
         <translation>Saisir ci-dessous l’adresse du destinataire, le message (s’assurer de copier fidèlement les retours à la ligne, les espaces, les tabulations, etc.) et la signature pour vérifier le message. Faire attention à ne pas déduire davantage de la signature que ce qui est contenu dans le message signé même, pour éviter d’être trompé par une attaque d’homme du milieu. Prendre en compte que cela ne fait que prouver que le signataire reçoit l’adresse et ne peut pas prouver la provenance d’une transaction !</translation>
     </message>
     <message>
-        <source>The Scholarshipcoin address the message was signed with</source>
-        <translation>L’adresse Scholarshipcoin avec laquelle le message a été signé</translation>
+        <source>The Scholarship address the message was signed with</source>
+        <translation>L’adresse Scholarship avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Scholarshipcoin address</source>
-        <translation>Vérifier le message pour s’assurer qu’il a été signé avec l’adresse Scholarshipcoin indiquée</translation>
+        <source>Verify the message to ensure it was signed with the specified Scholarship address</source>
+        <translation>Vérifier le message pour s’assurer qu’il a été signé avec l’adresse Scholarship indiquée</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind Ihre Scholarshipcoin-Adressen zum Senden von Zahlungen. Überprüfen Sie immer die Menge und die Empfangsadresse, bevor Sie Scholarshipcoins senden.</translation>
+        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind Ihre Scholarship-Adressen zum Senden von Zahlungen. Überprüfen Sie immer die Menge und die Empfangsadresse, bevor Sie Scholarships senden.</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind Ihre Scholarshipcoin-Adressen für den Empfang von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind Ihre Scholarship-Adressen für den Empfang von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Brieftaschenverschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
-        <translation>Achtung: Wenn Sie Ihre Wallet verschlüsseln und das Passwort verlieren, gehen &lt;b&gt;alle Ihre Scholarshipcoins verloren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
+        <translation>Achtung: Wenn Sie Ihre Wallet verschlüsseln und das Passwort verlieren, gehen &lt;b&gt;alle Ihre Scholarships verloren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -330,8 +330,8 @@
         <translation>Reindexiere Blöcke auf dem Datenträger...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarshipcoin address</source>
-        <translation>Coins an eine Scholarshipcoin-Adresse senden</translation>
+        <source>Send coins to a Scholarship address</source>
+        <translation>Coins an eine Scholarship-Adresse senden</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -354,8 +354,8 @@
         <translation>Nachricht &amp;bestätigen</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -382,12 +382,12 @@
         <translation>Verschlüssele die Private Keys, die zu deiner Brieftasche gehören</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
-        <translation>Nachrichten mit Ihrer Scholarshipcoin-Adresse signieren, um zu beweisen, dass sie Ihnen gehören</translation>
+        <source>Sign messages with your Scholarship addresses to prove you own them</source>
+        <translation>Nachrichten mit Ihrer Scholarship-Adresse signieren, um zu beweisen, dass sie Ihnen gehören</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
-        <translation>Überprüfen Sie Nachrichten, um sicherzustellen, dass sie mit den angegebenen Scholarshipcoin-Adressen signiert wurden</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
+        <translation>Überprüfen Sie Nachrichten, um sicherzustellen, dass sie mit den angegebenen Scholarship-Adressen signiert wurden</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -468,8 +468,8 @@
         <translation>Überweisung empfangen</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Scholarshipcoin can no longer continue safely and will quit.</source>
-        <translation>Ein schwerwiegender Fehler ist aufgetreten. Scholarshipcoin kann nicht mehr sicher fortfahren und beendet sich.</translation>
+        <source>A fatal error occurred. Scholarship can no longer continue safely and will quit.</source>
+        <translation>Ein schwerwiegender Fehler ist aufgetreten. Scholarship kann nicht mehr sicher fortfahren und beendet sich.</translation>
     </message>
 </context>
 <context>
@@ -599,8 +599,8 @@
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Error</source>
@@ -652,8 +652,8 @@
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a Scholarshipcoin address (e.g. %1)</source>
-        <translation>Scholarshipcoin Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a Scholarship address (e.g. %1)</source>
+        <translation>Scholarship Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>N/A</source>

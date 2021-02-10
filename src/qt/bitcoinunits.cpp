@@ -41,8 +41,8 @@ QString BitcoinUnits::longName(int unit)
     switch(unit)
     {
     case BTC: return QString("SCHO");
-    case mBTC: return QString("mSCHO");
-    case uBTC: return QString("µSCHO");
+    case mBTC: return QString("lites");
+    case uBTC: return QString("photons");
     default: return QString("???");
     }
 }
@@ -60,9 +60,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Scholarshipcoins");
-    case mBTC: return QString("Milli-Scholarshipcoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Scholarshipcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case BTC: return QString("Scholarships");
+    case mBTC: return QString("Lites (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Photons (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

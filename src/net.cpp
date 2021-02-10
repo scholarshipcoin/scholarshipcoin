@@ -1,6 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2017 The Bitcoin Core developers
-// Copyright (c) 2021 The Scholarship Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1509,7 +1508,7 @@ void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Scholarshipcoin " + FormatFullVersion();
+        std::string strDesc = "Scholarship " + FormatFullVersion();
 
         try {
             while (true) {

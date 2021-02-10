@@ -98,8 +98,8 @@
         <translation>Vhura &amp;URI</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -165,8 +165,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     </context>
 <context>
@@ -194,8 +194,8 @@
         <translation>Marii </translation>
     </message>
     <message>
-        <source>Enter a Scholarshipcoin address (e.g. %1)</source>
-        <translation>Nyora kero ye Scholarshipcoin (sekuti %1)</translation>
+        <source>Enter a Scholarship address (e.g. %1)</source>
+        <translation>Nyora kero ye Scholarship (sekuti %1)</translation>
     </message>
     <message>
         <source>%1 d</source>

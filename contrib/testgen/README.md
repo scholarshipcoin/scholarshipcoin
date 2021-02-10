@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Scholarshipcoin tests.
+Utilities to generate test vectors for the data-driven Scholarship tests.
 
 Usage: 
 

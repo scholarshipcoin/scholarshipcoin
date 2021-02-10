@@ -47,14 +47,14 @@ from the root of the repository.
 Build Scholarship Core
 ------------------------
 
-1. Clone the scholarshipcoin source code and cd into `scholarshipcoin`
+1. Clone the scholarship source code and cd into `scholarship`
 
         git clone https://github.com/scholarshipcoin/scholarshipcoin
-        cd scholarshipcoin
+        cd scholarship
 
-2.  Build scholarshipcoin-core:
+2.  Build scholarship-core:
 
-    Configure and build the headless scholarshipcoin binaries as well as the GUI (if Qt is found).
+    Configure and build the headless scholarship binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -76,44 +76,44 @@ Build Scholarship Core
 
     or
 
-        cd ~/scholarshipcoin/src
-        cp scholarshipcoind /usr/local/bin/
-        cp scholarshipcoin-cli /usr/local/bin/
+        cd ~/scholarship/src
+        cp scholarshipd /usr/local/bin/
+        cp scholarship-cli /usr/local/bin/
 
 Running
 -------
 
-Scholarship Core is now available at `./src/scholarshipcoind`
+Scholarship Core is now available at `./src/scholarshipd`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=scholarshipcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Scholarshipcoin/scholarshipcoin.conf"
+    echo -e "rpcuser=scholarshiprpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Scholarship/scholarship.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Scholarshipcoin/scholarshipcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Scholarship/scholarship.conf"
 
-The first time you run scholarshipcoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run scholarshipd, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Scholarshipcoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Scholarship/debug.log
 
 Other commands:
 -------
 
-    ./src/scholarshipcoind -daemon # Starts the scholarshipcoin daemon.
-    ./src/scholarshipcoin-cli --help # Outputs a list of command-line options.
-    ./src/scholarshipcoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/scholarshipd -daemon # Starts the scholarship daemon.
+    ./src/scholarship-cli --help # Outputs a list of command-line options.
+    ./src/scholarship-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
-You can use Qt Creator as an IDE, for scholarshipcoin development.
+You can use Qt Creator as an IDE, for scholarship development.
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "scholarshipcoin-qt" as project name, enter src/qt as location
+4. Enter "scholarship-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."

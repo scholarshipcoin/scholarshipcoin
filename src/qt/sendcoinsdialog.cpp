@@ -173,7 +173,7 @@ void SendCoinsDialog::setModel(WalletModel *_model)
         connect(ui->checkBoxMinimumFee, SIGNAL(stateChanged(int)), this, SLOT(setMinimumFee()));
         connect(ui->checkBoxMinimumFee, SIGNAL(stateChanged(int)), this, SLOT(updateFeeSectionControls()));
         connect(ui->checkBoxMinimumFee, SIGNAL(stateChanged(int)), this, SLOT(coinControlUpdateLabels()));
-        // Scholarshipcoin: Disable RBF
+        // Scholarship: Disable RBF
         // connect(ui->optInRBF, SIGNAL(stateChanged(int)), this, SLOT(updateSmartFeeLabel()));
         // connect(ui->optInRBF, SIGNAL(stateChanged(int)), this, SLOT(coinControlUpdateLabels()));
         ui->customFee->setSingleStep(GetRequiredFee(1000));
@@ -182,7 +182,7 @@ void SendCoinsDialog::setModel(WalletModel *_model)
         updateSmartFeeLabel();
 
         // set default rbf checkbox state
-        // Scholarshipcoin: Disable RBF
+        // Scholarship: Disable RBF
         // ui->optInRBF->setCheckState(Qt::Checked);
 
         // set the smartfee-sliders default value (wallets default conf.target or last stored value)
@@ -341,7 +341,7 @@ void SendCoinsDialog::on_sendButton_clicked()
     questionString.append(QString("<span style='font-size:10pt;font-weight:normal;'><br />(=%1)</span>")
         .arg(alternativeUnits.join(" " + tr("or") + "<br />")));
 
-    /* Scholarshipcoin: Disable RBF
+    /* Scholarship: Disable RBF
     questionString.append("<hr /><span>");
     if (ui->optInRBF->isChecked()) {
         questionString.append(tr("You can increase the fee later (signals Replace-By-Fee, BIP-125)."));
@@ -682,7 +682,7 @@ void SendCoinsDialog::updateCoinControlState(CCoinControl& ctrl)
     // Avoid using global defaults when sending money from the GUI
     // Either custom fee will be used or if not selected, the confirmation target from dropdown box
     ctrl.m_confirm_target = getConfTargetForIndex(ui->confTargetSelector->currentIndex());
-    // Scholarshipcoin: Disabled RBF UI
+    // Scholarship: Disabled RBF UI
     //ctrl.signalRbf = ui->optInRBF->isChecked();
 }
 
@@ -811,7 +811,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!IsValidDestination(dest)) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Scholarshipcoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Scholarship address"));
         }
         else // Valid address
         {

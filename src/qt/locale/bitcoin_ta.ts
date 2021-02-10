@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -225,8 +225,8 @@
         <translation>நல்வரவு</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Error</source>
@@ -709,7 +709,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Scholarship Core</source>
-        <translation>Scholarshipcoin மையம்</translation>
+        <translation>Scholarship மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>

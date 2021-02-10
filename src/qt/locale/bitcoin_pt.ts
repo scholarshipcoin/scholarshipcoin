@@ -42,12 +42,12 @@
         <translation>Recebendo informações</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas são suas informações para o envio de pagamentos por Scholarshipcoins. Sempre cheque a quantia enviada e as informações do destinatário, antes de enviar os Scholarshipcoins.</translation>
+        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas são suas informações para o envio de pagamentos por Scholarships. Sempre cheque a quantia enviada e as informações do destinatário, antes de enviar os Scholarships.</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas são suas informações para o recebimento de pagamentos por Scholarshipcoins. É recomendado que seja feito o uso de um novo conjunto de informações para cada transação.</translation>
+        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas são suas informações para o recebimento de pagamentos por Scholarships. É recomendado que seja feito o uso de um novo conjunto de informações para cada transação.</translation>
     </message>
     <message>
         <source>Export Address List</source>

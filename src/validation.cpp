@@ -1,6 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2017 The Bitcoin Core developers
-// Copyright (c) 2021 The Scholarship Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -49,7 +48,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "Scholarshipcoin cannot be compiled without assertions."
+# error "Scholarship cannot be compiled without assertions."
 #endif
 
 #define MICRO 0.000001
@@ -239,7 +238,7 @@ CTxMemPool mempool(&feeEstimator);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const std::string strMessageMagic = "Scholarshipcoin Signed Message:\n";
+const std::string strMessageMagic = "Scholarship Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -1150,7 +1149,17 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
     if (halvings >= 64)
         return 0;
 
-    CAmount nSubsidy = 50 * COIN;
+    CAmount nSubsidyBase;
+
+      if (nHeight == 1) {
+           nSubsidyBase = 444444444;
+      }
+      else {
+      	   nSubsidyBase = 100;
+      }
+
+      CAmount nSubsidy = nSubsidyBase * COIN;
+    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
     nSubsidy >>= halvings;
     return nSubsidy;
 }
@@ -1683,7 +1692,7 @@ static bool WriteTxIndexDataForBlock(const CBlock& block, CValidationState& stat
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("scholarshipcoin-scriptch");
+    RenameThread("scholarship-scriptch");
     scriptcheckqueue.Thread();
 }
 

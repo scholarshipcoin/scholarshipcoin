@@ -153,7 +153,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play scholarshipcoins" on the test network, if you
+Run with the -testnet option to run with "play scholarships" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.
@@ -176,10 +176,10 @@ which includes known Valgrind warnings in our dependencies that cannot be fixed
 in-tree. Example use:
 
 ```shell
-$ valgrind --suppressions=contrib/valgrind.supp src/test/test_scholarshipcoin
+$ valgrind --suppressions=contrib/valgrind.supp src/test/test_scholarship
 $ valgrind --suppressions=contrib/valgrind.supp --leak-check=full \
-      --show-leak-kinds=all src/test/test_scholarshipcoin --log_level=test_suite
-$ valgrind -v --leak-check=full src/scholarshipcoind -printtoconsole
+      --show-leak-kinds=all src/test/test_scholarship --log_level=test_suite
+$ valgrind -v --leak-check=full src/scholarshipd -printtoconsole
 ```
 
 **compiling for test coverage**
@@ -195,7 +195,7 @@ To enable LCOV report generation during test runs:
 make
 make cov
 
-# A coverage report will now be accessible at `./test_scholarshipcoin.coverage/index.html`.
+# A coverage report will now be accessible at `./test_scholarship.coverage/index.html`.
 ```
 
 Locking/mutex usage notes
@@ -228,7 +228,7 @@ Threads
 
 - ThreadMapPort : Universal plug-and-play startup/shutdown
 
-- ThreadSocketHandler : Sends/Receives data from peers on port 29052.
+- ThreadSocketHandler : Sends/Receives data from peers on port 9333.
 
 - ThreadOpenAddedConnections : Opens network connections to added nodes.
 
@@ -240,9 +240,9 @@ Threads
 
 - ThreadFlushWalletDB : Close the wallet.dat file if it hasn't been used in 500ms.
 
-- ThreadRPCServer : Remote procedure call handler, listens on port 29051 for connections and services them.
+- ThreadRPCServer : Remote procedure call handler, listens on port 9332 for connections and services them.
 
-- BitcoinMiner : Generates scholarshipcoins (if wallet is enabled).
+- BitcoinMiner : Generates scholarships (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.
 
@@ -582,7 +582,7 @@ Git and GitHub tips
 
         [remote "upstream-pull"]
                 fetch = +refs/pull/*:refs/remotes/upstream-pull/*
-                url = git@github.com:scholarshipcoin/scholarshipcoin.git
+                url = git@github.com:scholarship-project/scholarship.git
 
   This will add an `upstream-pull` remote to your git repository, which can be fetched using `git fetch --all`
   or `git fetch upstream-pull`. Afterwards, you can use `upstream-pull/NUMBER/head` in arguments to `git show`,
@@ -648,7 +648,7 @@ A few guidelines for introducing and reviewing new RPC interfaces:
 - Try not to overload methods on argument type. E.g. don't make `getblock(true)` and `getblock("hash")`
   do different things.
 
-  - *Rationale*: This is impossible to use with `scholarshipcoin-cli`, and can be surprising to users.
+  - *Rationale*: This is impossible to use with `scholarship-cli`, and can be surprising to users.
 
   - *Exception*: Some RPC calls can take both an `int` and `bool`, most notably when a bool was switched
     to a multi-value, or due to other historical reasons. **Always** have false map to 0 and
@@ -667,7 +667,7 @@ A few guidelines for introducing and reviewing new RPC interfaces:
 
 - Add every non-string RPC argument `(method, idx, name)` to the table `vRPCConvertParams` in `rpc/client.cpp`.
 
-  - *Rationale*: `scholarshipcoin-cli` and the GUI debug console use this table to determine how to
+  - *Rationale*: `scholarship-cli` and the GUI debug console use this table to determine how to
     convert a plaintext command line to JSON. If the types don't match, the method can be unusable
     from there.
 

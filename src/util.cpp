@@ -1,6 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2017 The Bitcoin Core developers
-// Copyright (c) 2021 The Scholarship Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -83,8 +82,8 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "scholarshipcoin.conf";
-const char * const BITCOIN_PID_FILENAME = "scholarshipcoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "scholarship.conf";
+const char * const BITCOIN_PID_FILENAME = "scholarshipd.pid";
 const char * const DEFAULT_DEBUGLOGFILE = "debug.log";
 
 ArgsManager gArgs;
@@ -559,7 +558,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "scholarshipcoin";
+    const char* pszModule = "scholarship";
 #endif
     if (pex)
         return strprintf(
@@ -584,7 +583,7 @@ fs::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Scholarshipcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Scholarship";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -594,10 +593,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Scholarshipcoin";
+    return pathRet / "Library/Application Support/Scholarship";
 #else
     // Unix
-    return pathRet / ".scholarshipcoin";
+    return pathRet / ".scholarship";
 #endif
 #endif
 }
@@ -951,9 +950,7 @@ std::string CopyrightHolders(const std::string& strPrefix)
     // Check for untranslated substitution to make sure Bitcoin Core copyright is not removed by accident
     if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Bitcoin Core") == std::string::npos) {
         std::string strYear = strPrefix;
-        strYear.replace(strYear.find("2021"), sizeof("2021")-1, "2011-2021");
-        strCopyrightHolders += "\n" + strYear + "The Litecoin Core developers";
-        strYear.replace(strYear.find("2011-2021"), sizeof("2011-2021")-1, "2009-2021");
+        strYear.replace(strYear.find("2011"), sizeof("2011")-1, "2009");
         strCopyrightHolders += "\n" + strYear + "The Bitcoin Core developers";
     }
     return strCopyrightHolders;

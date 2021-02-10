@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Scholarshipcoin"
-            VALUE "FileDescription",    "scholarshipcoind (Scholarshipcoin node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Scholarship"
+            VALUE "FileDescription",    "scholarshipd (Scholarship node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "scholarshipcoind"
+            VALUE "InternalName",       "scholarshipd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "scholarshipcoind.exe"
-            VALUE "ProductName",        "scholarshipcoind"
+            VALUE "OriginalFilename",   "scholarshipd.exe"
+            VALUE "ProductName",        "scholarshipd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

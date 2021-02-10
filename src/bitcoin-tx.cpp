@@ -1,5 +1,4 @@
 // Copyright (c) 2009-2017 The Bitcoin Core developers
-// Copyright (c) 2021 The Scholarship Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -56,10 +55,10 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") || gArgs.IsArgSet("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = strprintf(_("%s scholarshipcoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = strprintf(_("%s scholarship-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  scholarshipcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded scholarshipcoin transaction") + "\n" +
-              "  scholarshipcoin-tx [options] -create [commands]   " + _("Create hex-encoded scholarshipcoin transaction") + "\n" +
+              "  scholarship-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded scholarship transaction") + "\n" +
+              "  scholarship-tx [options] -create [commands]   " + _("Create hex-encoded scholarship transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

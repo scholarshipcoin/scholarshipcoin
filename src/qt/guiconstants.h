@@ -46,9 +46,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Scholarshipcoin"
+#define QAPP_ORG_NAME "Scholarship"
 #define QAPP_ORG_DOMAIN "scholarshipcoin.org"
-#define QAPP_APP_NAME_DEFAULT "Scholarshipcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Scholarshipcoin-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Scholarship-Qt"
+#define QAPP_APP_NAME_TESTNET "Scholarship-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

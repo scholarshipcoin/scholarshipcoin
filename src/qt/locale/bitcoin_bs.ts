@@ -14,8 +14,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     </context>
 <context>
@@ -33,8 +33,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     </context>
 <context>
@@ -161,7 +161,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Scholarship Core</source>
-        <translation>Scholarshipcoin Jezrga</translation>
+        <translation>Scholarship Jezrga</translation>
     </message>
     </context>
 </TS>

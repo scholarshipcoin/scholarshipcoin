@@ -36,6 +36,6 @@ if sys.version_info.major >= 3:
 m = hmac.new(bytearray(salt, 'utf-8'), bytearray(password, 'utf-8'), digestmod)
 result = m.hexdigest()
 
-print("String to be appended to scholarshipcoin.conf:")
+print("String to be appended to scholarship.conf:")
 print("rpcauth="+username+":"+salt+"$"+result)
 print("Your password:\n"+password)

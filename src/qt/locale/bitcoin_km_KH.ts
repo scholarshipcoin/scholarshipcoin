@@ -90,8 +90,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Send coins to a Scholarshipcoin address</source>
-        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Scholarshipcoin មួយ</translation>
+        <source>Send coins to a Scholarship address</source>
+        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Scholarship មួយ</translation>
     </message>
     <message>
         <source>Wallet</source>

@@ -19,7 +19,7 @@ bool dockClickHandler(id self, SEL _cmd, ...) {
 
     Q_EMIT s_instance->dockIconClicked();
 
-    // Return NO (false) to suppress the default OS X actions
+    // Return NO (false) to suppress the default macOS actions
     return false;
 }
 
@@ -28,7 +28,6 @@ void setupDockClickHandler() {
     SEL shouldHandle = sel_registerName("applicationShouldHandleReopen:hasVisibleWindows:");
     class_replaceMethod(delClass, shouldHandle, (IMP)dockClickHandler, "B@:");
 }
-
 
 MacDockIconHandler::MacDockIconHandler() : QObject()
 {

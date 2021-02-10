@@ -62,12 +62,12 @@
         <translation>Получаване на адреси</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Scholarship addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Scholarshipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са Вашите Scholarshipcoin адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
+        <source>These are your Scholarship addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са Вашите Scholarship адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,7 +168,7 @@
         <translation>Потвърдете на шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SCHOLARSHIPS&lt;/b&gt;!</source>
         <translation>ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ БИТКОИНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -330,7 +330,7 @@
         <translation>Повторно индексиране на блоковете на диска...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarshipcoin address</source>
+        <source>Send coins to a Scholarship address</source>
         <translation>Изпращане към Биткоин адрес</translation>
     </message>
     <message>
@@ -354,7 +354,7 @@
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
+        <source>Scholarship</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -382,12 +382,12 @@
         <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
-        <translation>Пишете съобщения със своя Scholarshipcoin адрес за да докажете,че е ваш.</translation>
+        <source>Sign messages with your Scholarship addresses to prove you own them</source>
+        <translation>Пишете съобщения със своя Scholarship адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
-        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Scholarshipcoin адреси.</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Scholarship адреси.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,8 +406,8 @@
         <translation>Раздели</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
-        <translation>Изискване на плащания(генерира QR кодове и Scholarshipcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and scholarship: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и Scholarship: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,8 +418,8 @@
         <translation>Покажи списък с използваните адреси и имена.</translation>
     </message>
     <message>
-        <source>Open a scholarshipcoin: URI or payment request</source>
-        <translation>Отворете Scholarshipcoin: URI  или заявка за плащане</translation>
+        <source>Open a scholarship: URI or payment request</source>
+        <translation>Отворете Scholarship: URI  или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -462,8 +462,8 @@
         <translation>Синхронизиран</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Scholarshipcoin command-line options</source>
-        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Scholarshipcoin команди</translation>
+        <source>Show the %1 help message to get a list with possible Scholarship command-line options</source>
+        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Scholarship команди</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -524,8 +524,8 @@
         <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;заключен&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Scholarshipcoin can no longer continue safely and will quit.</source>
-        <translation>Възникна фатална грешка. Scholarshipcoin не може да продължи безопасно и ще се изключи.</translation>
+        <source>A fatal error occurred. Scholarship can no longer continue safely and will quit.</source>
+        <translation>Възникна фатална грешка. Scholarship не може да продължи безопасно и ще се изключи.</translation>
     </message>
 </context>
 <context>
@@ -710,7 +710,7 @@
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Scholarshipcoin address.</source>
+        <source>The entered address "%1" is not a valid Scholarship address.</source>
         <translation>"%1" не е валиден Биткоин адрес.</translation>
     </message>
     <message>
@@ -827,7 +827,7 @@
         <translation>Използване на директория ръчно</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
+        <source>Scholarship</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -932,16 +932,16 @@
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
     <message>
-        <source>Automatically open the Scholarshipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Scholarshipcoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <source>Automatically open the Scholarship client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия Scholarship порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Scholarshipcoin network through a SOCKS5 proxy.</source>
-        <translation>Свързване с Scholarshipcoin мрежата чрез SOCKS5  прокси.</translation>
+        <source>Connect to the Scholarship network through a SOCKS5 proxy.</source>
+        <translation>Свързване с Scholarship мрежата чрез SOCKS5  прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1039,7 +1039,7 @@
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarshipcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarship network after a connection is established, but this process has not completed yet.</source>
         <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
@@ -1094,8 +1094,8 @@
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start scholarshipcoin: click-to-pay handler</source>
-        <translation>Scholarshipcoin не можe да се стартира: click-to-pay handler</translation>
+        <source>Cannot start scholarship: click-to-pay handler</source>
+        <translation>Scholarship не можe да се стартира: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1176,8 +1176,8 @@
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Scholarshipcoin address (e.g. %1)</source>
-        <translation>Въведете Scholarshipcoin адрес (например: %1)</translation>
+        <source>Enter a Scholarship address (e.g. %1)</source>
+        <translation>Въведете Scholarship адрес (например: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1713,8 +1713,8 @@
         <translation>Заявката за плащане е изтекла.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Scholarshipcoin address</source>
-        <translation>Внимание: Невалиден Scholarshipcoin адрес</translation>
+        <source>Warning: Invalid Scholarship address</source>
+        <translation>Внимание: Невалиден Scholarship адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1833,7 +1833,7 @@
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Scholarshipcoin address</source>
+        <source>Sign the message to prove you own this Scholarship address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1849,7 +1849,7 @@
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Scholarshipcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Scholarship address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
     </message>
     <message>
@@ -2367,7 +2367,7 @@
     </message>
     <message>
         <source>Scholarship Core</source>
-        <translation>Scholarshipcoin ядро</translation>
+        <translation>Scholarship ядро</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

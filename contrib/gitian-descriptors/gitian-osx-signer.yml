@@ -1,5 +1,5 @@
 ---
-name: "scholarshipcoin-dmg-signer"
+name: "scholarship-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -10,7 +10,7 @@ remotes:
 - "url": "https://github.com/scholarshipcoin/scholarshipcoin-detached-sigs.git"
   "dir": "signature"
 files:
-- "scholarshipcoin-osx-unsigned.tar.gz"
+- "scholarship-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,8 +27,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=scholarshipcoin-osx-unsigned.tar.gz
-  SIGNED=scholarshipcoin-osx-signed.dmg
+  UNSIGNED=scholarship-osx-unsigned.tar.gz
+  SIGNED=scholarship-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

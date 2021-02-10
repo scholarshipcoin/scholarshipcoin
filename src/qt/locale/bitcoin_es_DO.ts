@@ -142,8 +142,8 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Scholarshipcoin address</source>
-        <translation>Enviar monedas a una dirección Scholarshipcoin</translation>
+        <source>Send coins to a Scholarship address</source>
+        <translation>Enviar monedas a una dirección Scholarship</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your Scholarshipcoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Scholarshipcoin para demostrar la propiedad</translation>
+        <source>Sign messages with your Scholarship addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Scholarship para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Scholarshipcoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Scholarshipcoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Scholarship addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Scholarship concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -218,8 +218,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and scholarshipcoin: URIs)</source>
-        <translation>Solicitar pagos (genera codigo QR y URL's de Scholarshipcoin)</translation>
+        <source>Request payments (generates QR codes and scholarship: URIs)</source>
+        <translation>Solicitar pagos (genera codigo QR y URL's de Scholarship)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -230,8 +230,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a scholarshipcoin: URI or payment request</source>
-        <translation>Abrir un scholarshipcoin: URI o petición de pago</translation>
+        <source>Open a scholarship: URI or payment request</source>
+        <translation>Abrir un scholarship: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -421,8 +421,8 @@
         <translation>Utilice un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Scholarshipcoin</source>
-        <translation>Scholarshipcoin</translation>
+        <source>Scholarship</source>
+        <translation>Scholarship</translation>
     </message>
     <message>
         <source>Error</source>
@@ -498,8 +498,8 @@
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically open the Scholarshipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Scholarshipcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Scholarship client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Scholarship en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -597,8 +597,8 @@
         <translation>Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarshipcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Scholarshipcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scholarship network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Scholarship después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1011,8 +1011,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Scholarshipcoin address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Scholarshipcoin</translation>
+        <source>Sign the message to prove you own this Scholarship address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Scholarship</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1031,8 +1031,8 @@
         <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Scholarshipcoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Scholarshipcoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Scholarship address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Scholarship indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1116,7 +1116,7 @@
     </message>
     <message>
         <source>Scholarship Core</source>
-        <translation>Núcleo de Scholarshipcoin</translation>
+        <translation>Núcleo de Scholarship</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

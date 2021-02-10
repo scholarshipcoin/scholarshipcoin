@@ -65,11 +65,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += scholarshipcoind
+  bin_PROGRAMS += scholarshipd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += scholarshipcoin-cli scholarshipcoin-tx
+  bin_PROGRAMS += scholarship-cli scholarship-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -381,16 +381,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-scholarshipcoind_SOURCES = bitcoind.cpp
-scholarshipcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-scholarshipcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-scholarshipcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+scholarshipd_SOURCES = bitcoind.cpp
+scholarshipd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+scholarshipd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+scholarshipd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-scholarshipcoind_SOURCES += bitcoind-res.rc
+scholarshipd_SOURCES += bitcoind-res.rc
 endif
 
-scholarshipcoind_LDADD = \
+scholarshipd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -404,38 +404,38 @@ scholarshipcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-scholarshipcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+scholarshipd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-scholarshipcoin_cli_SOURCES = bitcoin-cli.cpp
-scholarshipcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-scholarshipcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-scholarshipcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+scholarship_cli_SOURCES = bitcoin-cli.cpp
+scholarship_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+scholarship_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+scholarship_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-scholarshipcoin_cli_SOURCES += bitcoin-cli-res.rc
+scholarship_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-scholarshipcoin_cli_LDADD = \
+scholarship_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-scholarshipcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+scholarship_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-scholarshipcoin_tx_SOURCES = bitcoin-tx.cpp
-scholarshipcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-scholarshipcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-scholarshipcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+scholarship_tx_SOURCES = bitcoin-tx.cpp
+scholarship_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+scholarship_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+scholarship_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-scholarshipcoin_tx_SOURCES += bitcoin-tx-res.rc
+scholarship_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-scholarshipcoin_tx_LDADD = \
+scholarship_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -443,7 +443,7 @@ scholarshipcoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-scholarshipcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+scholarship_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
