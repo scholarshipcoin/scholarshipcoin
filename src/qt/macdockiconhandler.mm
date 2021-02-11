@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2013 The Bitcoin Core developers
+// Copyright (c) 2011-2019 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,10 +6,6 @@
 
 #include <AppKit/AppKit.h>
 #include <objc/runtime.h>
-
-#if QT_VERSION < 0x050000
-extern void qt_mac_set_dock_menu(QMenu *);
-#endif
 
 static MacDockIconHandler *s_instance = nullptr;
 
@@ -31,9 +27,7 @@ void setupDockClickHandler() {
 
 MacDockIconHandler::MacDockIconHandler() : QObject()
 {
-
     setupDockClickHandler();
-
 }
 
 MacDockIconHandler *MacDockIconHandler::instance()

@@ -1,0 +1,1 @@
+crypto/libbitcoinconsensus_la-scrypt-sse2.lo: crypto/scrypt-sse2.cpp
