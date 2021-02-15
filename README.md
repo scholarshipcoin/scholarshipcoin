@@ -1,10 +1,13 @@
-Scholarship Core integration/staging tree
+Scholarship Core integration/staging tree ![](share/pixmaps/bitcoin64.png)
 =====================================
+
 
 https://scholarshipcoin.org
 
+
 What is Scholarship?
 ----------------
+
 
 Scholarship is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world. Scholarship uses peer-to-peer technology to operate
@@ -76,3 +79,5 @@ Translations are periodically pulled from Transifex and merged into the git repo
 
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
+
+![](share/pixmaps/nsis-header.bmp)
