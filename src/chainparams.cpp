@@ -136,6 +136,7 @@ public:
         // release ASAP to avoid it where possible.
         vSeeds.emplace_back("149.248.56.238");
         vSeeds.emplace_back("155.138.159.214");
+        vSeeds.emplace_back("137.220.53.131");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,125); // s
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,126); // s or t
