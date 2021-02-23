@@ -42,6 +42,8 @@ And
 
 Replace RPCUSER and RPCPASSWORD by your desired rpcuser and rpcpassword.
 
+---------------------
+
 Your node is now started and connected to the Scholarship Coin network
 
 
