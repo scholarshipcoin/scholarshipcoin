@@ -30,13 +30,17 @@ Extract it
 
 Copy the ".scholarship" folder at your desired location.
 
-Replace RPCUSER and RPCPASSWORD by your desired rpcuser and rpcpassword.
+At the ".scholarship/scholarship.conf" file, replace RPCUSER and RPCPASSWORD by your desired rpcuser and rpcpassword. Then save the file
 
 Start the daemon
 ---------------------
 	scholarshipd -rpcuser=RPCUSER -rpcpassword=RPCPASSWORD -datadir=/LOCATION/.scholarship -conf=scholarship.conf -daemon -txindex
 
 Replace "LOCATION" by your desired location of the ".scholarship" folder
+
+And
+
+Replace RPCUSER and RPCPASSWORD by your desired rpcuser and rpcpassword.
 
 Your node is now started and connected to the Scholarship Coin network
 
