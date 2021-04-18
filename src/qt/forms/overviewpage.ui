@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>OverviewPage</class>
  <widget class="QWidget" name="OverviewPage">
@@ -418,6 +418,25 @@
           </size>
          </property>
         </spacer>
+        </item>
+       <item>
+        <widget class="QLabel" name="label_wallet_bgcoin">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../bitcoin.qrc">:/icons/overview_background</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="margin">
+          <number>-2</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
