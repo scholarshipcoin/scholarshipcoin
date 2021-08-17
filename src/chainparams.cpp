@@ -105,10 +105,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000330e60404f93b86");
+        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000039341fe1ceb2650");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x6848a6ce5c11aa58b03da1aefde3cc810c689595a110e6403f814824e0e961ad");
+        consensus.defaultAssumeValid = uint256S("0x548c7adbb83449144e53533068d1e4bfd6c0616cb8230e140a532458fbdfc764");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -134,9 +134,13 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("155.138.154.160");
-        vSeeds.emplace_back("155.138.154.108");
+
+        vSeeds.emplace_back("45.77.158.8");
+        vSeeds.emplace_back("64.154.38.15");
+        vSeeds.emplace_back("45.77.149.158");
         vSeeds.emplace_back("155.138.158.220");
+        vSeeds.emplace_back("155.138.154.108");
+        vSeeds.emplace_back("155.138.154.160");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,125); // s
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,126); // s or t
@@ -163,14 +167,15 @@ public:
                 {  28900, uint256S("0x3f7f9026d5bbe2aaa858d0bf5e3a998aa787c62c92bcc652d0c2fe2fd2789884")},
                 {  36000, uint256S("0x56a84ab6225eb23157a8fd97f8f5b15c12ebbd72b53cde98aa2335f2b77b8f5b")},
                 {  58000, uint256S("0x6848a6ce5c11aa58b03da1aefde3cc810c689595a110e6403f814824e0e961ad")},
+                {  66600, uint256S("0x548c7adbb83449144e53533068d1e4bfd6c0616cb8230e140a532458fbdfc764")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats
-            /* nTime    */ 1626704188,
-            /* nTxCount */ 80192,
-            /* dTxRate  */ 0.006170192106013552
+            /* nTime    */ 1629207634,
+            /* nTxCount */ 91956,
+            /* dTxRate  */ 0.005964050697933246
         };
 
         /* disable fallback fee on mainnet */
