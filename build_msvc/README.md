@@ -1,9 +1,9 @@
-Building Scholarship Core with Visual Studio
+Building Scholarshipcoin with Visual Studio
 ========================================
 
 Introduction
 ---------------------
-Solution and project files to build the Scholarship Core applications (except Qt dependent ones) with Visual Studio 2017 can be found in the build_msvc directory.
+Solution and project files to build the Scholarshipcoin applications (except Qt dependent ones) with Visual Studio 2017 can be found in the build_msvc directory.
 
 Building with Visual Studio is an alternative to the Linux based [cross-compiler build](https://github.com/scholarshipcoin/scholarshipcoin/blob/master/doc/build-windows.md).
 

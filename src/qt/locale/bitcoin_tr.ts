@@ -3079,7 +3079,7 @@
         <translation>HTTP sunucusu başlatılamadı. Ayrıntılar için debug.log dosyasına bakınız.</translation>
     </message>
     <message>
-        <source>Scholarship Core</source>
+        <source>Scholarshipcoin</source>
         <translation>Scholarship Çekirdeği</translation>
     </message>
     <message>

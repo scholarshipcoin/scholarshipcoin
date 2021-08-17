@@ -3135,7 +3135,7 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-        <source>Scholarship Core</source>
+        <source>Scholarshipcoin</source>
         <translation>Scholarship-ydin</translation>
     </message>
     <message>

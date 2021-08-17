@@ -1,7 +1,7 @@
-Contributing to Scholarship Core
+Contributing to Scholarshipcoin
 ============================
 
-The Scholarship Core project operates an open contributor model where anyone is
+The Scholarshipcoin project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -17,7 +17,7 @@ release cycle, overall merging, moderation and appointment of maintainers.
 Communication Channels
 ----------------------
 
-Most communication about Scholarship Core development happens on IRC, in the
+Most communication about Scholarshipcoin development happens on IRC, in the
 #scholarship-dev channel on Freenode. The easiest way to participate on IRC is
 with the web client, [webchat.freenode.net](https://webchat.freenode.net/).
 
@@ -192,11 +192,11 @@ workload on reviewing.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the Scholarship Core project (and related
+The following applies to code changes to the Scholarshipcoin project (and related
 projects such as libsecp256k1), and is not to be confused with overall Scholarship
 Network Protocol consensus changes.
 
-Whether a pull request is merged into Scholarship Core rests with the project merge
+Whether a pull request is merged into Scholarshipcoin rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -295,7 +295,7 @@ about:
 Release Policy
 --------------
 
-The project leader is the release manager for each Scholarship Core release.
+The project leader is the release manager for each Scholarshipcoin release.
 
 Copyright
 ---------

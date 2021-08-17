@@ -391,7 +391,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Scholarship Core</source>
+        <source>Scholarshipcoin</source>
         <translation>బిట్కోయిన్ కోర్</translation>
     </message>
     <message>

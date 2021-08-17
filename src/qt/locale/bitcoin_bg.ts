@@ -2329,7 +2329,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Scholarship Core</source>
+        <source>Scholarshipcoin</source>
         <translation>Scholarship ядро</translation>
     </message>
     <message>

@@ -18,7 +18,7 @@ request is opened. All sets of tests can also be run locally.
 
 # Running tests locally
 
-Before tests can be run locally, Scholarship Core must be built.  See the [building instructions](/doc#building) for help.
+Before tests can be run locally, Scholarshipcoin must be built.  See the [building instructions](/doc#building) for help.
 
 
 ### Functional tests

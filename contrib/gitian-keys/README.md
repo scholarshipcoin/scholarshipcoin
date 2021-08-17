@@ -26,7 +26,7 @@ while read fingerprint keyholder_name; do gpg --keyserver hkp://subset.pool.sks-
 ```
 
 Add your key to the list if you provided Gitian signatures for two major or
-minor releases of Scholarship Core.
+minor releases of Scholarshipcoin.
 
 ## Bitcoin
 

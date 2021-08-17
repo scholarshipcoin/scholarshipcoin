@@ -38,17 +38,17 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-Build Scholarship Core
+Build Scholarshipcoin
 ------------------------
 
-1. Clone the Scholarship Core source code:
+1. Clone the Scholarshipcoin source code:
 
         git clone https://github.com/scholarshipcoin/scholarshipcoin
         cd scholarship
 
-2.  Build Scholarship Core:
+2.  Build Scholarshipcoin:
 
-    Configure and build the headless Scholarship Core binaries as well as the GUI (if Qt is found).
+    Configure and build the headless Scholarshipcoin binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -76,7 +76,7 @@ Build Scholarship Core
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, Scholarship Core may be compiled in
+When the intention is to run only a P2P node without a wallet, Scholarshipcoin may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -88,7 +88,7 @@ Mining is also possible in disable-wallet mode using the `getblocktemplate` RPC 
 Running
 -------
 
-Scholarship Core is now available at `./src/scholarshipd`
+Scholarshipcoin is now available at `./src/scholarshipd`
 
 Before running, you may create an empty configuration file:
 

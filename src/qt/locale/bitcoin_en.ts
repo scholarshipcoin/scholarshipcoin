@@ -4195,8 +4195,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="-170"/>
-        <source>Scholarship Core</source>
-        <translation type="unfinished">Scholarship Core</translation>
+        <source>Scholarshipcoin</source>
+        <translation type="unfinished">Scholarshipcoin</translation>
     </message>
     <message>
         <location line="+1"/>

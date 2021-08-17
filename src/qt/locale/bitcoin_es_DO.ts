@@ -1211,7 +1211,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Scholarship Core</source>
+        <source>Scholarshipcoin</source>
         <translation>Núcleo de Scholarship</translation>
     </message>
     <message>

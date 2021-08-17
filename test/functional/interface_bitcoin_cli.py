@@ -16,7 +16,7 @@ class TestBitcoinCli(BitcoinTestFramework):
         """Main test logic"""
 
         cli_response = self.nodes[0].cli("-version").send_cli()
-        assert("Scholarship Core RPC client version" in cli_response)
+        assert("Scholarshipcoin RPC client version" in cli_response)
 
         self.log.info("Compare responses from getwalletinfo RPC and `scholarship-cli getwalletinfo`")
         if self.is_wallet_compiled():

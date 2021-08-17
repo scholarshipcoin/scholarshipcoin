@@ -1865,7 +1865,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Scholarship Core</source>
+        <source>Scholarshipcoin</source>
         <translation>Kerno de Scholarship</translation>
     </message>
     <message>
