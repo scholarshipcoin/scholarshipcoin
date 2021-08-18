@@ -135,12 +135,12 @@ public:
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
 
-        vSeeds.emplace_back("45.77.158.8");
-        vSeeds.emplace_back("64.154.38.15");
-        vSeeds.emplace_back("45.77.149.158");
-        vSeeds.emplace_back("155.138.158.220");
-        vSeeds.emplace_back("155.138.154.108");
-        vSeeds.emplace_back("155.138.154.160");
+        vSeeds.emplace_back("103.249.70.25:20020");
+        vSeeds.emplace_back("103.249.70.25:20022");
+        vSeeds.emplace_back("103.249.70.25:20023");
+        vSeeds.emplace_back("103.249.70.25:20024");
+        vSeeds.emplace_back("103.249.70.25:20025");
+        vSeeds.emplace_back("103.249.70.25:20026");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,125); // s
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,126); // s or t

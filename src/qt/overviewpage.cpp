@@ -19,7 +19,7 @@
 #include <QPainter>
 
 #define DECORATION_SIZE 54
-#define NUM_ITEMS 8
+#define NUM_ITEMS 5
 
 Q_DECLARE_METATYPE(interfaces::WalletBalances)
 
@@ -110,8 +110,8 @@ public:
 };
 #include <qt/overviewpage.moc>
 
-OverviewPage::OverviewPage(const PlatformStyle *platformStyle, QWidget *parent) :
-    QWidget(parent),
+OverviewPage::OverviewPage(const PlatformStyle *platformStyle, QLabel *parent) :
+    QLabel(parent),
     ui(new Ui::OverviewPage),
     clientModel(nullptr),
     walletModel(nullptr),

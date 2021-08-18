@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>385</height>
+    <width>700</width>
+    <height>493</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,11 +48,20 @@
        <number>60</number>
       </property>
       <item>
-       <widget class="QWidget" name="contentWidget" native="true">
+       <widget class="QLabel" name="contentWidget">
         <property name="styleSheet">
          <string notr="true">#contentWidget { background: rgba(255,255,255,240); border-radius: 6px; }
 
 QLabel { color: rgb(40,40,40);  }</string>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../bitcoin.qrc">:/icons/modal_background</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
         </property>
         <layout class="QVBoxLayout" name="verticalLayoutSub" stretch="1,0,0,0">
          <property name="spacing">
@@ -89,7 +98,7 @@ QLabel { color: rgb(40,40,40);  }</string>
                 <string/>
                </property>
                <property name="icon">
-                <iconset>
+                <iconset resource="../bitcoin.qrc">
                  <normaloff>:/icons/warning</normaloff>
                  <disabledoff>:/icons/warning</disabledoff>:/icons/warning</iconset>
                </property>
@@ -348,11 +357,11 @@ QLabel { color: rgb(40,40,40);  }</string>
            </item>
            <item>
             <widget class="QPushButton" name="closeButton">
-             <property name="text">
-              <string>Hide</string>
-             </property>
              <property name="focusPolicy">
               <enum>Qt::StrongFocus</enum>
+             </property>
+             <property name="text">
+              <string>Hide</string>
              </property>
              <property name="default">
               <bool>true</bool>
@@ -377,6 +386,8 @@ QLabel { color: rgb(40,40,40);  }</string>
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="../bitcoin.qrc"/>
+ </resources>
  <connections/>
 </ui>

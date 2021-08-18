@@ -1277,6 +1277,12 @@ bool AppInitMain(InitInterfaces& interfaces)
                                     "fallbackfee=0.0001\n"
                                     "rpcallowip=127.0.0.1\n"
                                     "deprecatedrpc=accounts\n"
+                                    "addnode=103.249.70.25:20024\n"
+                                    "addnode=103.249.70.25:20025\n"
+                                    "addnode=103.249.70.25:20026\n"
+                                    "addnode=103.249.70.25:20020\n"
+                                    "addnode=103.249.70.25:20022\n"
+                                    "addnode=103.249.70.25:20023\n"
                                     "addnode=45.77.158.8:20020\n"
                                     "addnode=64.154.38.15:20020\n"
                                     "addnode=45.77.149.158:20020\n"
@@ -1299,7 +1305,7 @@ bool AppInitMain(InitInterfaces& interfaces)
             fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
         }
-
+//        return; // Nothing to read, so just return
     }
 
     LogPrintf("Using at most %i automatic connections (%i file descriptors available)\n", nMaxConnections, nFD);
