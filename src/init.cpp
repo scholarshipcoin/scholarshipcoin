@@ -1277,13 +1277,19 @@ bool AppInitMain(InitInterfaces& interfaces)
                                     "fallbackfee=0.0001\n"
                                     "rpcallowip=127.0.0.1\n"
                                     "deprecatedrpc=accounts\n"
+                                    "addnode=155.138.154.160:20020\n"
                                     "addnode=45.77.158.8:20020\n"
                                     "addnode=64.154.38.15:20020\n"
                                     "addnode=45.77.149.158:20020\n"
-                                    "addnode=155.138.154.160:20020\n"
                                     "addnode=155.138.154.108:20020\n"
                                     "addnode=155.138.158.220:20020\n"
                                     "addnode=95.111.228.167:20020\n"
+                                    "addnode=103.249.70.25:20020\n"
+                                    "addnode=103.249.70.25:20022\n"
+                                    "addnode=103.249.70.25:20023\n"
+                                    "addnode=103.249.70.25:20024\n"
+                                    "addnode=103.249.70.25:20025\n"
+                                    "addnode=103.249.70.25:20026\n"
                                     "addnode=178.142.104.61:20020\n"
                                     "addnode=159.69.123.165:20020\n"
                                     "addnode=209.250.247.138:20020\n"
@@ -1295,13 +1301,7 @@ bool AppInitMain(InitInterfaces& interfaces)
                                     "addnode=178.18.252.200:20020\n"
                                     "addnode=67.219.137.213:20020\n"
                                     "addnode=209.182.239.169:20020\n"
-                                    "addnode=45.138.72.107:20020\n"
-                                    "addnode=103.249.70.25:20024\n"
-                                    "addnode=103.249.70.25:20025\n"
-                                    "addnode=103.249.70.25:20026\n"
-                                    "addnode=103.249.70.25:20020\n"
-                                    "addnode=103.249.70.25:20022\n"
-                                    "addnode=103.249.70.25:20023\n";
+                                    "addnode=45.138.72.107:20020\n";
             fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
         }

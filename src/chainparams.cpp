@@ -135,6 +135,13 @@ public:
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
 
+        vSeeds.emplace_back("45.77.158.8");
+        vSeeds.emplace_back("64.154.38.15");
+        vSeeds.emplace_back("45.77.149.158");
+        vSeeds.emplace_back("155.138.154.160");
+        vSeeds.emplace_back("155.138.154.108");
+        vSeeds.emplace_back("155.138.158.220");
+
         vSeeds.emplace_back("103.249.70.25:20020");
         vSeeds.emplace_back("103.249.70.25:20022");
         vSeeds.emplace_back("103.249.70.25:20023");
