@@ -105,10 +105,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000039341fe1ceb2650");
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000003df0266d23b7223");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x548c7adbb83449144e53533068d1e4bfd6c0616cb8230e140a532458fbdfc764");
+        consensus.defaultAssumeValid = uint256S("0xc6d16b3200c64f4e7021021e4ebb9831055806562ef23d2e46d2abc33855ab94");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -121,7 +121,7 @@ public:
         pchMessageStart[3] = 0x8e;
         nDefaultPort = 20020;
         nPruneAfterHeight = 100000;
-        m_assumed_blockchain_size = 72;
+        m_assumed_blockchain_size = 80;
         m_assumed_chain_state_size = 10;
 
         genesis = CreateGenesisBlock(1613631000, 209717, 0x1e0ffff0, 1, 50 * COIN);
@@ -168,14 +168,15 @@ public:
                 {  36000, uint256S("0x56a84ab6225eb23157a8fd97f8f5b15c12ebbd72b53cde98aa2335f2b77b8f5b")},
                 {  58000, uint256S("0x6848a6ce5c11aa58b03da1aefde3cc810c689595a110e6403f814824e0e961ad")},
                 {  66600, uint256S("0x548c7adbb83449144e53533068d1e4bfd6c0616cb8230e140a532458fbdfc764")},
+                {  74000, uint256S("0xc6d16b3200c64f4e7021021e4ebb9831055806562ef23d2e46d2abc33855ab94")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats
-            /* nTime    */ 1629207634,
-            /* nTxCount */ 91956,
-            /* dTxRate  */ 0.005964050697933246
+            /* nTime    */ 1630923614,
+            /* nTxCount */ 101956,
+            /* dTxRate  */ 0.005944423869675579
         };
 
         /* disable fallback fee on mainnet */
