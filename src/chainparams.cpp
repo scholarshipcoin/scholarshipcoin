@@ -105,10 +105,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000004f53831286ef101");
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000005196a23bd7b2ade");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xcf5a6c5f290c55378b2462973aba8ed0a6dc6985506bd0bfb9ac7b7242b4bc0d");
+        consensus.defaultAssumeValid = uint256S("0xc7398ea91c100fbd41834ac7c17e205bb9e8bb0b1d730a080e0e7fe3218f30dd");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -121,8 +121,8 @@ public:
         pchMessageStart[3] = 0x8e;
         nDefaultPort = 20020;
         nPruneAfterHeight = 100000;
-        m_assumed_blockchain_size = 80;
-        m_assumed_chain_state_size = 10;
+        m_assumed_blockchain_size = 113;
+        m_assumed_chain_state_size = 14;
 
         genesis = CreateGenesisBlock(1613631000, 209717, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
@@ -178,14 +178,15 @@ public:
                 {  74000, uint256S("0xc6d16b3200c64f4e7021021e4ebb9831055806562ef23d2e46d2abc33855ab94")},
                 {  91000, uint256S("0xa32676dea5ed5a346edf10d9f4613ba725fda547df7f3f956cfa860f425204c0")},
                 {  105390, uint256S("0xcf5a6c5f290c55378b2462973aba8ed0a6dc6985506bd0bfb9ac7b7242b4bc0d")},
+                {  110140, uint256S("0xc7398ea91c100fbd41834ac7c17e205bb9e8bb0b1d730a080e0e7fe3218f30dd")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats
-            /* nTime    */ 1637250064,
-            /* nTxCount */ 142481,
-            /* dTxRate  */ 0.006072782434506324
+            /* nTime    */ 1638287806,
+            /* nTxCount */ 148385,
+            /* dTxRate  */ 0.006056590436525944
         };
 
         /* disable fallback fee on mainnet */
