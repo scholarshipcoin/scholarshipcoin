@@ -1258,11 +1258,11 @@ bool AppInitMain(InitInterfaces& interfaces)
         InitWarning(strprintf(_("The specified config file %s does not exist\n"), config_file_path.string()));
     } else {
         // Not categorizing as "Warning" because it's the default behavior
-//        LogPrintf("Config file: %s (not found, skipping)\n", config_file_path.string());
 
         FILE* configFile = fopen(GetConfigFile(gArgs.GetArg("-conf", BITCOIN_CONF_FILENAME)).string().c_str(), "a");
         if (configFile != NULL) {
-            std::string strHeader = "rpcuser=username\n"
+            std::string strHeader = "# SCHOLARSHIPCOIN CONFIGURATION FILE:\n"
+                                    "rpcuser=username\n"
                                     "rpcpassword=password\n"
                                     "server=1\n"
                                     "listen=1\n"
@@ -1271,12 +1271,13 @@ bool AppInitMain(InitInterfaces& interfaces)
                                     "gen=0\n"
                                     "port=20020\n"
                                     "rpcport=20021\n"
-                                    "onlynet=ipv4\n"
                                     "rpcbind=127.0.0.1\n"
                                     "maxconnections=80\n"
                                     "fallbackfee=0.0001\n"
                                     "rpcallowip=127.0.0.1\n"
                                     "deprecatedrpc=accounts\n"
+                                    "\n"
+                                    "# ADDNODES:\n"
                                     "addnode=155.138.154.160:20020\n"
                                     "addnode=45.77.158.8:20020\n"
                                     "addnode=64.154.38.15:20020\n"
@@ -1305,7 +1306,6 @@ bool AppInitMain(InitInterfaces& interfaces)
             fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
         }
-//        return; // Nothing to read, so just return
     }
 
     LogPrintf("Using at most %i automatic connections (%i file descriptors available)\n", nMaxConnections, nFD);
