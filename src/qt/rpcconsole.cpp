@@ -795,8 +795,8 @@ void RPCConsole::clear(bool clearHistory)
                 "td.time { color: #808080; font-size: %2; padding-top: 3px; } "
                 "td.message { font-family: %1; font-size: %2; white-space:pre-wrap; } "
                 "td.cmd-request { color: #006060; } "
-                "td.cmd-error { color: red; } "
-                ".secwarning { color: red; }"
+                "td.cmd-error { color: #512FBD; } "
+                ".secwarning { color: #512FBD; }"
                 "b { color: #006060; } "
             ).arg(fixedFontInfo.family(), QString("%1pt").arg(consoleFontSize))
         );
@@ -808,11 +808,10 @@ void RPCConsole::clear(bool clearHistory)
 #endif
 
     message(CMD_REPLY, (tr("Welcome to the %1 RPC console.").arg(PACKAGE_NAME) + "<br>" +
-                        tr("Use up and down arrows to navigate history, and %1 to clear screen.").arg("<b>"+clsKey+"</b>") + "<br>" +
-                        tr("Type %1 for an overview of available commands.").arg("<b>help</b>") + "<br>" +
-                        tr("For more information on using this console type %1.").arg("<b>help-console</b>") +
+                        tr(" %1 to clear screen.").arg("<b>"+clsKey+"</b>") + "<br>" +
+                        tr(" %1 for available commands.").arg("<b>help</b>") + "<br>" +
                         "<br><span class=\"secwarning\"><br>" +
-                        tr("<b>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</b>") +
+                        tr("") +
                         "</span>"),
                         true);
 }
