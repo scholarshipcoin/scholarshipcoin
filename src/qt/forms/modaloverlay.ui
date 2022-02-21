@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>700</width>
-    <height>493</height>
+    <width>830</width>
+    <height>620</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -49,6 +49,27 @@
       </property>
       <item>
        <widget class="QLabel" name="contentWidget">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>710</width>
+          <height>500</height>
+         </size>
+        </property>
         <property name="styleSheet">
          <string notr="true">#contentWidget { background: rgba(255,255,255,240); border-radius: 6px; }
 
@@ -139,7 +160,7 @@ QLabel { color: rgb(40,40,40);  }</string>
              <item>
               <widget class="QLabel" name="infoText">
                <property name="text">
-                <string>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the scholarship network, as detailed below.</string>
+                <string/>
                </property>
                <property name="textFormat">
                 <enum>Qt::RichText</enum>
@@ -153,15 +174,21 @@ QLabel { color: rgb(40,40,40);  }</string>
               <widget class="QLabel" name="infoTextStrong">
                <property name="font">
                 <font>
-                 <weight>75</weight>
-                 <bold>true</bold>
+                 <family>Roboto</family>
+                 <pointsize>10</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                 <underline>true</underline>
                 </font>
                </property>
                <property name="text">
-                <string>Attempting to spend scholarships that are affected by not-yet-displayed transactions will not be accepted by the network.</string>
+                <string>Please wait for your wallet has finished synchronizing with the network.</string>
                </property>
                <property name="textFormat">
                 <enum>Qt::RichText</enum>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
                </property>
                <property name="wordWrap">
                 <bool>true</bool>
@@ -216,8 +243,10 @@ QLabel { color: rgb(40,40,40);  }</string>
             <widget class="QLabel" name="labelNumberOfBlocksLeft">
              <property name="font">
               <font>
-               <weight>75</weight>
-               <bold>true</bold>
+               <family>Roboto Lt</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
               </font>
              </property>
              <property name="text">
@@ -227,6 +256,14 @@ QLabel { color: rgb(40,40,40);  }</string>
            </item>
            <item row="0" column="1">
             <widget class="QLabel" name="numberOfBlocksLeft">
+             <property name="font">
+              <font>
+               <family>Roboto</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
              <property name="text">
               <string>Unknown...</string>
              </property>
@@ -236,8 +273,10 @@ QLabel { color: rgb(40,40,40);  }</string>
             <widget class="QLabel" name="labelLastBlockTime">
              <property name="font">
               <font>
-               <weight>75</weight>
-               <bold>true</bold>
+               <family>Roboto Lt</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
               </font>
              </property>
              <property name="text">
@@ -253,6 +292,14 @@ QLabel { color: rgb(40,40,40);  }</string>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
+             <property name="font">
+              <font>
+               <family>Roboto</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
              <property name="text">
               <string>Unknown...</string>
              </property>
@@ -262,8 +309,10 @@ QLabel { color: rgb(40,40,40);  }</string>
             <widget class="QLabel" name="labelSyncDone">
              <property name="font">
               <font>
-               <weight>75</weight>
-               <bold>true</bold>
+               <family>Roboto Lt</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
               </font>
              </property>
              <property name="text">
@@ -275,6 +324,14 @@ QLabel { color: rgb(40,40,40);  }</string>
             <layout class="QHBoxLayout" name="horizontalLayoutSync" stretch="0,1">
              <item>
               <widget class="QLabel" name="percentageProgress">
+               <property name="font">
+                <font>
+                 <family>Roboto</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
                <property name="text">
                 <string notr="true">~</string>
                </property>
@@ -296,8 +353,10 @@ QLabel { color: rgb(40,40,40);  }</string>
             <widget class="QLabel" name="labelProgressIncrease">
              <property name="font">
               <font>
-               <weight>75</weight>
-               <bold>true</bold>
+               <family>Roboto Lt</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
               </font>
              </property>
              <property name="text">
@@ -307,6 +366,14 @@ QLabel { color: rgb(40,40,40);  }</string>
            </item>
            <item row="4" column="1">
             <widget class="QLabel" name="progressIncreasePerH">
+             <property name="font">
+              <font>
+               <family>Roboto</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
              <property name="text">
               <string>calculating...</string>
              </property>
@@ -316,8 +383,10 @@ QLabel { color: rgb(40,40,40);  }</string>
             <widget class="QLabel" name="labelEstimatedTimeLeft">
              <property name="font">
               <font>
-               <weight>75</weight>
-               <bold>true</bold>
+               <family>Roboto Lt</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
               </font>
              </property>
              <property name="text">
@@ -327,6 +396,14 @@ QLabel { color: rgb(40,40,40);  }</string>
            </item>
            <item row="5" column="1">
             <widget class="QLabel" name="expectedTimeLeft">
+             <property name="font">
+              <font>
+               <family>Roboto</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
              <property name="text">
               <string>calculating...</string>
              </property>
@@ -357,6 +434,14 @@ QLabel { color: rgb(40,40,40);  }</string>
            </item>
            <item>
             <widget class="QPushButton" name="closeButton">
+             <property name="font">
+              <font>
+               <family>Roboto</family>
+               <pointsize>12</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
              <property name="focusPolicy">
               <enum>Qt::StrongFocus</enum>
              </property>
